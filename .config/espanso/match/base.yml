@@ -1,5 +1,6 @@
 # espanso configuration file
-# Author: Patrick Weygoldt
+
+# Welcome to my espanso config file. This file is geared mostly towards working with obsidian.md markdown files and mathjax / latex math notations.
 
 matches:
 # Espanso default matches
@@ -21,23 +22,6 @@ matches:
         type: date
         params:
           format: "%Y/%m/%d, %H:%M"
-  
-  # Youtube dl
-  - trigger: ":dlmp3"
-    replace: 'torsocks -i youtube-dl -f bestaudio -x --audio-format "mp3" --embed-thumbnail --add-metadata'
-
-  # My name
-  - trigger: ":name"
-    replace: "Patrick Weygoldt"
-
-# Email utilities
-  # Cheers
-  - trigger: ":cheers"
-    replace: "Cheers,\nPatrick"
-
-  # Arbitrary email 
-  - trigger: ":mail"
-    replace: "Hello $|$,\nVery best,\nPatrick Weygoldt"
 
 # Arrows
   # Right
@@ -56,52 +40,36 @@ matches:
   - trigger: ":downa"
     replace: "↓"
 
-# Git
-  # Git stage and commit only changed and deleted files, this does not add new files!
-  - trigger: ":gitc"
-    replace: 'git commit -am "$|$"'
+# General auto-pairing
+  # Auto pair parentheses
+  - trigger: "("
+    replace: "($|$)"
 
-  # Beautiful git log
-  - trigger: ":gitl"
-    replace: "git log --graph --oneline --decorate"
+  - trigger: "{"
+    replace: "{$|$}"
 
-# Stuff that needs to be rewritten as bash aliases
-  # msc
-  - trigger: ":luni"
-    replace: "cd /mnt/data/uni"
+  - trigger: "["
+    replace: "[$|$]"
 
-  # msc
-  - trigger: ":lobs"
-    replace: "cd /mnt/data/obsidian-master"
+  # Auto pair quotes
+  - trigger: '"'
+    replace: '"$|$"'
 
-  # espanso
-  - trigger: ":lesp"
-    replace: "cd ~/.config/espanso"
+  - trigger: "'"
+    replace: "'$|$'"
 
-# Conda helper
-  - trigger: ":crun"
-    replace: "conda run python "
+  # Auto pair markdown syntax
+  - trigger: "**"
+    replace: "**$|$**"
 
-# Often used paths in Windows
-  # msc
-  - trigger: ":wuni"
-    replace: "cd /d E:\\uni"
+  - trigger: "__"
+    replace: "_$|$_"
 
-  # obsdidian
-  - trigger: ":wobs"
-    replace: "cd /d E:\\obsidian-master"
-
-  # espanso
-  - trigger: ":wesp"
-    replace: "cd /d C:\\Users\\weygoldt\\AppData\\Roaming\\espanso"  
-
-# Inline html to color text in obsidian
-# ALIGNMENT
+# Inline html to modify obsidian markdown
   # centered
   - trigger: ":cent"
     replace: '<p style="text-align:center">$|$</p>'
 
-# COLORS
   # red
   - trigger: ":red"
     replace: '<span style="color:#ff5555">$|$</span>'
@@ -120,11 +88,11 @@ matches:
 
   # bold green
   - trigger: ":bgreen"
-    replace: '<span style="color:3ebc5d"><b>$|$</b></span>'
+    replace: '<span style="color:#3ebc5d"><b>$|$</b></span>'
 
   # italic green
   - trigger: ":igreen"
-    replace: '<span style="color:3ebc5d"><i>$|$</i></span>'
+    replace: '<span style="color:#3ebc5d"><i>$|$</i></span>'
 
   # purple
   - trigger: ":purp"
@@ -139,7 +107,6 @@ matches:
     replace: '<span style="color:#8250c9"><i>$|$</i></span>'
 
 # Mathjax & Latex for Stackoverflow, Obsidian, Latex etc.
-
   # Centered equation
   - trigger: ":#"
     replace: "$$$|$$$"
@@ -159,10 +126,6 @@ matches:
   # Delta notation
   - trigger: ":delta"
     replace: "\\Delta{$|$}"
-  
-  # Superscript star
-  - trigger: ":star"
-    replace: "^*"
 
   # Subarrays: Used to note multiple partial derivatives
   - trigger: ":subarray"
@@ -196,10 +159,6 @@ matches:
   - trigger: ":int"
     replace: "\\int_{$|$}^{}"
 
-  # Membrane equation
-  - trigger: ":membrane"
-    replace: "\\tau \\dot V = -V + E(t)"
-
   # Fourier transform
   - trigger: ":fourier"
     replace: "\\mathcal{F}\\left\\{$|$\\right\\}"
@@ -228,30 +187,6 @@ matches:
   - trigger: ":text"
     replace: "\\text{$|$}"
       
-  # Auto pair parentheses
-  - trigger: "(("
-    replace: "($|$)"
-
-  - trigger: "{{"
-    replace: "{$|$}"
-
-  - trigger: "[["
-    replace: "[$|$]"
-
-  # Auto pair quotes
-  - trigger: '""'
-    replace: '"$|$"'
-
-  - trigger: "''"
-    replace: "'$|$'"
-
-  # Auto pair markdown syntax
-  - trigger: "**"
-    replace: "**$|$**"
-
-  - trigger: "__"
-    replace: "_$|$_"
-
   # Font styles
   - trigger: ":mbb"
     replace: "\\mathbb{$|$}"
@@ -272,7 +207,7 @@ matches:
   - trigger: ":mblue"
     replace: "{\\color{CornflowerBlue}$|$}"
 
-# Names that i always type in smallcaps
+# Words that I mistype
   - trigger: "euler"
     replace: "Euler"
 
