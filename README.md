@@ -1,18 +1,18 @@
 Clone dotfiles into current system
 
 ```bash
-dotfiles checkout
+dfs checkout
 ```
 
 Clone dotfiles into new system (adjust shell if nessecary)
 
-```bash
-echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"' >> $HOME/.bashrc
-source ~/.bashrc
-echo ".dotfiles.git" >> .gitignore
-git clone --bare https://www.github.com/weygoldt/repo.git $HOME/.dotfiles.git
-dotfiles checkout
-dotfiles config --local status.showUntrackedFiles no
+```sh
+echo 'alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"' >> $HOME/.zshrc
+source ~/.zshrc
+echo ".dotfiles" >> .gitignore
+git clone --bare https://www.github.com/weygoldt/dotfiles $HOME/.dotfiles
+dfs checkout
+dfs config --local status.showUntrackedFiles no
 ```
 
 To run conky on startup, create a symlink in `/etc/profile.d` by running
