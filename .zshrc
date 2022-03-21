@@ -60,3 +60,7 @@ fpath=(/usr/share/zsh/site-functions/ $fpath)
 
 # Turn off all beeps
 unsetopt BEEP
+
+# Set default editor
+export EDITOR='/usr/bin/nano'
+export VISUAL='/usr/bin/nano'
