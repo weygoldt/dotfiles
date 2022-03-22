@@ -21,10 +21,10 @@ alias videodl='youtube-dl -f best'
 ## Most used paths
 alias uni='cd $unipath'
 alias data='cd $datapath'
-alias obsidian='cd $obsidianpath'
-alias projects='cd $projectspath'
-alias espans='cd $espansopath'
-alias scrpts='cd /home/weygoldt/Scripts'
+alias obsd='cd $obsidianpath'
+alias prjx='cd $projectspath'
+alias xpns='cd $espansopath'
+alias scrps='cd /home/weygoldt/Scripts'
 
 ## Use conda to run python script 
 alias crun='conda activate && conda run python' # run a python script with conda base env

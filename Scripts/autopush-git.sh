@@ -33,7 +33,7 @@ pushobsidian () {
 
 while true
 do
-    read -r -p $'\e[1;32m Commit all tracked and push dotfiles (y/n)?\e[0m' choice
+    read -r -p $'\e[1;32mCommit all tracked and push dotfiles (y/n)?\e[0m' choice
     case "$choice" in
       [nN][oO]|[nN]) 
         echo "No"
@@ -47,7 +47,7 @@ done
 
 while true
 do
-    read -r -p $'\e[1;32m Commit all and push arch-install (y/n)?\e[0m' choice
+    read -r -p $'\e[1;32mCommit all and push arch-install (y/n)?\e[0m' choice
     case "$choice" in
       [nN][oO]|[nN]) 
         echo "No"
@@ -61,7 +61,7 @@ done
 
 while true
 do
-    read -r -p $'\e[1;32m Commit all and push arch-maintenance (y/n)?\e[0m' choice
+    read -r -p $'\e[1;32mCommit all and push arch-maintenance (y/n)?\e[0m' choice
     case "$choice" in
       [nN][oO]|[nN]) 
         echo "No"
@@ -75,7 +75,7 @@ done
 
 while true
 do
-    read -r -p $'\e[1;32m Commit all and push obsidian (y/n)?\e[0m' choice
+    read -r -p $'\e[1;32mCommit all and push obsidian (y/n)?\e[0m' choice
     case "$choice" in
       [nN][oO]|[nN]) 
         echo "No"
