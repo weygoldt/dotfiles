@@ -15,20 +15,26 @@
 # Then promts to unmount the destination harddrive.
 
 # Directories for synchronization.
-sourcedir='/home/weygoldt/Data/'                    # Source of the files to back up
-sinkdir='/run/media/weygoldt/Extreme SSD/patrick/'  # Destination of backup
-sinkdevice='UUID="167E-D62E"'                       # UUID of backup harddrive
+SOURCEDIR='/home/weygoldt/Data/'      # Source of the files to back up
+DESTDIR='/patrick/'                   # Destination of backup on drive
+UUID="167E-D62E"                      # UUID of backup harddrive
 
 echo # to make a new line
 echo "Checking if devices are mounted ..." 
 echo # to make a new line
 
-if [[ $(findmnt "$sinkdevice") ]]; then             # looks for sinkdev in mounted filesystems
+if [[ $(findmnt "UUID=$UUID") ]]; then                                # looks for sinkdev in mounted filesystems
     echo $'\e[1;32mDevice mounted. Proceeding ...\e[0m'               # if mounted prints message
 else
     echo $'\e[1;31mDevice NOT mounted. Please mount the drive.\e[0m'  # if not mounted prints warning
     exit 1                                                            # and exits
 fi
+
+# Get mountpoint from UUID
+MNTPNT=$(df | grep "^$(readlink -f /dev/disk/by-uuid/$UUID) " |sed 's/^[^%]*% \+//')
+
+# Create full sink directory by appending the folder in drive to the mountpoint that was obtained from the UUID
+SINKDIR="$MNTPNT$DESTDIR"
 
 sleep 3s
 
@@ -41,12 +47,12 @@ sleep 3s
 # not using -a to prevent permissions, groups and owners to be transferred between case-sensitive 
 # and case-insensitive filesystems. This would prevent rsync from allawys synchronizing all. 
 # All other switches included in -a are active.
-rsync -rltzviPn --delete "$sourcedir" "$sinkdir"
+rsync -rltzviPn --delete "$SOURCEDIR" "$SINKDIR"
 
 echo # to make a new line
 # print source and sink to confirm the operation
-echo "The source directory is   $sourcedir"
-echo "The sink directory is     $sinkdir"
+echo "The source directory is   $SOURCEDIR"
+echo "The sink directory is     $SINKDIR"
 echo # to make a new line
 
 # Loop prompts for confirmation and then executes rsync command or exits the script.
@@ -59,7 +65,7 @@ do
         echo "Aborting ..."
         exit 1;;
       [yY][eE][sS]|[yY]) 
-        rsync -rltzviP --delete "$sourcedir" "$sinkdir"
+        rsync -rltzviP --delete "$SOURCEDIR" "$SINKDIR"
         break;;
       *) echo 'Response not valid';;
     esac
@@ -73,7 +79,7 @@ echo # to make a new line
 sleep 3s
 
 # print new differences after synchronization. This should be empty.
-rsync -rltzviPn --delete "$sourcedir" "$sinkdir"
+rsync -rltzviPn --delete "$SOURCEDIR" "$SINKDIR"
 
 echo # to make a new line
 
@@ -86,7 +92,7 @@ do
         echo "No"
         break;;
       [yY][eE][sS]|[yY]) 
-        umount "$sinkdevice"
+        umount "UUID=$UUID"
         break;;
       *) echo 'Response not valid';;
     esac
