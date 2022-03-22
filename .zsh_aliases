@@ -24,6 +24,7 @@ alias data='cd $datapath'
 alias obsidian='cd $obsidianpath'
 alias projects='cd $projectspath'
 alias espans='cd $espansopath'
+alias scrpts='cd /home/weygoldt/Scripts'
 
 ## Use conda to run python script 
 alias crun='conda activate && conda run python' # run a python script with conda base env
