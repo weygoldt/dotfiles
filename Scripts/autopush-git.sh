@@ -14,13 +14,13 @@ pushdotfiles () {
 }
 
 pusharchinstall () {
-    cd /home/weygoldt/Data/projects/arch-install
+    cd /home/weygoldt/Data/projects/install-arch
     git add . && git commit -m "$msg" 
     git push
 }
 
 pusharchmaintenance () {
-    cd /home/weygoldt/Data/projects/arch-maintenance
+    cd /home/weygoldt/Data/projects/maintain-arch
     git add . && git commit -m "$msg" 
     git push
 }
