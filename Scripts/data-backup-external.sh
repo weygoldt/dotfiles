@@ -1,17 +1,36 @@
 #!/bin/sh
-sourcedir='/home/weygoldt/Data/'
-sinkdir='/run/media/weygoldt/Extreme SSD/patrick/'
-sinkdevice='/run/media/weygoldt/Extreme SSD'
+# Description: Synchronizes two directories between two harddrives.
 
-# syncfunction
-syncdirs () { 
-   rsync -avzP --delete --info=progress2 "$sourcedir" "$sinkdir"
-}
+# This script first checks if the specified harddrive is mounted
+# using the UUID of the specified harddrive.
 
-# dismountfunction
-dismountdevice () {
-    umount "$sinkdevice"
-}
+# Then prints the directories that will be updated in the destination using rsync dryrun...
+
+# Then synchronizes the directories without information about permissions,
+# groups and owners of the directories (would cause rsync difficulties 
+# between btrfs and ntfs / exFAT /etc. filesystems) ...
+
+# Then shows the new differences between the directories (which should be none) using a second call of rsync dryrun with the same switches.
+
+# Then promts to unmount the destination harddrive.
+
+# Directories for synchronization.
+sourcedir='/home/weygoldt/Data/'                    # Source of the files to back up
+sinkdir='/run/media/weygoldt/Extreme SSD/patrick/'  # Destination of backup
+sinkdevice='UUID="167E-D62E"'                       # UUID of backup harddrive
+
+echo # to make a new line
+echo "Checking if devices are mounted ..." 
+echo # to make a new line
+
+if [[ $(findmnt "$sinkdevice") ]]; then             # looks for sinkdev in mounted filesystems
+    echo $'\e[1;32mDevice mounted. Proceeding ...\e[0m'               # if mounted prints message
+else
+    echo $'\e[1;31mDevice NOT mounted. Please mount the drive.\e[0m'  # if not mounted prints warning
+    exit 1                                                            # and exits
+fi
+
+sleep 3s
 
 printf "\e[1;32mThe following files will be synchronized:\e[0m"
 echo # to make a new line
@@ -19,36 +38,46 @@ echo # to make a new line
 sleep 3s
 
 # print differences
-rsync -avzPn --delete "$sourcedir" "$sinkdir"
+# not using -a to prevent permissions, groups and owners to be transferred between case-sensitive 
+# and case-insensitive filesystems. This would prevent rsync from allawys synchronizing all. 
+# All other switches included in -a are active.
+rsync -rltzviPn --delete "$sourcedir" "$sinkdir"
 
 echo # to make a new line
+# print source and sink to confirm the operation
+echo "The source directory is   $sourcedir"
+echo "The sink directory is     $sinkdir"
 echo # to make a new line
 
+# Loop prompts for confirmation and then executes rsync command or exits the script.
 while true
 do
     read -r -p $'\e[1;32mReview the differences. Do you want to continue (y/n)?\e[0m' choice
+    echo # to make a new line
     case "$choice" in
       [nN][oO]|[nN]) 
-        echo "No"
-        break;;
+        echo "Aborting ..."
+        exit 1;;
       [yY][eE][sS]|[yY]) 
-        syncdirs
+        rsync -rltzviP --delete "$sourcedir" "$sinkdir"
         break;;
       *) echo 'Response not valid';;
     esac
 done
 
+echo # to make a new line
+# Print confirmation message
 printf "\e[1;32mSynchronization complete. The new differences are:\e[0m"
 echo # to make a new line
 echo # to make a new line
 sleep 3s
 
-# print new differences
-rsync -avzPn --delete "$sourcedir" "$sinkdir"
-echo # to make a new line
+# print new differences after synchronization. This should be empty.
+rsync -rltzviPn --delete "$sourcedir" "$sinkdir"
+
 echo # to make a new line
 
-# dismount drive?
+# Promts for dismounting the drive. 
 while true
 do
     read -r -p $'\e[1;32mDismount the harddrive (y/n)?\e[0m' choice
@@ -57,7 +86,7 @@ do
         echo "No"
         break;;
       [yY][eE][sS]|[yY]) 
-        dismountdevice
+        umount "$sinkdevice"
         break;;
       *) echo 'Response not valid';;
     esac

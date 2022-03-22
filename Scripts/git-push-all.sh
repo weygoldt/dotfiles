@@ -5,7 +5,8 @@
 current="`date +'%Y-%m-%d %H:%M:%S'`"
 msg="Autopush $current"
 
-# push functions
+# Define functions to move to specified direcotires and execute 
+# the respective fit commands.
 pushdotfiles () {
     cd /home/weygoldt/
     /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -am "$msg"
@@ -14,17 +15,20 @@ pushdotfiles () {
 
 pusharchinstall () {
     cd /home/weygoldt/Data/projects/arch-install
-    git add . && git commit -m "$msg" && git push
+    git add . && git commit -m "$msg" 
+    git push
 }
 
 pusharchmaintenance () {
     cd /home/weygoldt/Data/projects/arch-maintenance
-    git add . && git commit -m "$msg" && git push
+    git add . && git commit -m "$msg" 
+    git push
 }
 
 pushobsidian () {
     cd /home/weygoldt/Data/obsidian-master
-    git add . && git commit -m "$msg" && git push
+    git add . && git commit -m "$msg" 
+    git push
 }
 
 while true
