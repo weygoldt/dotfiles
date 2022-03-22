@@ -10,8 +10,8 @@
 # Then shows the new differences between the directories (which should be none) using a second call of rsync dryrun with the same switches.
 
 # Directories for synchronization.
-SOURCEDIR='/home/weygoldt/Data/'                    # Source of the files to back up
-SINKDIR='/mnt/databackup/databackup/'               # Destination of backup
+SOURCEDIR='/home/'                    # Source of the files to back up
+SINKDIR='/mnt/databackup/home-backup/'               # Destination of backup
 
 echo # to make a new line
 printf "\e[1;32mThe following files will be synchronized:\e[0m"
