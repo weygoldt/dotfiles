@@ -10,8 +10,8 @@
 # Then shows the new differences between the directories (which should be none) using a second call of rsync dryrun with the same switches.
 
 # Directories for synchronization.
-SOURCEDIR='/home/'                    # Source of the files to back up
-SINKDIR='/mnt/databackup/home-backup/'               # Destination of backup
+SOURCEDIR='/home/weygoldt/'                    # Source of the files to back up
+SINKDIR='/mnt/databackup/home-backup/'         # Destination of backup
 
 echo # to make a new line
 printf "\e[1;32mThe following files will be synchronized:\e[0m"
@@ -23,7 +23,7 @@ sleep 3s
 # not using -a to prevent permissions, groups and owners to be transferred between case-sensitive 
 # and case-insensitive filesystems. This would prevent rsync from allawys synchronizing all. 
 # All other switches included in -a are active.
-rsync -rltzviPn --delete "$SOURCEDIR" "$SINKDIR"
+rsync -rltzviPn --delete --delete-excluded --exclude='.cache/*' "$SOURCEDIR" "$SINKDIR"
 
 echo # to make a new line
 # print source and sink to confirm the operation
@@ -41,7 +41,7 @@ do
         echo "Aborting ..."
         exit 1;;
       [yY][eE][sS]|[yY]) 
-        rsync -rltzviP --delete "$SOURCEDIR" "$SINKDIR"
+        rsync -rltzviP --delete --delete-excluded --exclude={'.cache/*'} "$SOURCEDIR" "$SINKDIR"
         break;;
       *) echo 'Response not valid';;
     esac
@@ -55,4 +55,4 @@ echo # to make a new line
 sleep 3s
 
 # print new differences after synchronization. This should be empty.
-rsync -rltzviPn --delete "$SOURCEDIR" "$SINKDIR"
+rsync -rltzviPn --delete --delete-excluded --exclude='.cache/*' "$SOURCEDIR" "$SINKDIR"
