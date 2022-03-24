@@ -66,6 +66,9 @@ matches:
     replace: "_$|$_"
 
   # Markdown code blocks
+  - trigger: "`"
+    replace: "`$|$`"
+
   - trigger: ":mdsh"
     replace: "```sh\n$|$\n```"
 

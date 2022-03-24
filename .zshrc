@@ -56,7 +56,7 @@ unset __conda_setup
 # Plugins
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fpath=(/usr/share/zsh/site-functions/ $fpath)
+autoload -U compinit; compinit
 
 # Turn off all beeps
 unsetopt BEEP
