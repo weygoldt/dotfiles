@@ -65,6 +65,16 @@ matches:
   - trigger: "__"
     replace: "_$|$_"
 
+  # Markdown code blocks
+  - trigger: ":mdsh"
+    replace: "```sh\n$|$\n```"
+
+  - trigger: ":mdpy"
+    replace: "```python\n$|$\n```"
+
+  - trigger: ":mdr"
+    replace: "```r\n$|$\n```"
+
 # Inline html to modify obsidian markdown
   # centered
   - trigger: ":cent"
