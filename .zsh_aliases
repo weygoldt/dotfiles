@@ -4,6 +4,7 @@ unipath=~/Data/uni
 obsidianpath=~/Data/obsidian-master
 projectspath=~/Data/projects
 espansopath=/home/weygoldt/.config/espanso/match
+btrbkpath=/home/weygoldt/Data/projects/backup-arch/btrbk.conf
 
 # dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -33,3 +34,4 @@ alias crun='conda activate && conda run python' # run a python script with conda
 alias ll='ls -la' # list all files
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort" # list mounted drives only
 alias cpv='rsync -ah --info=progress2' # copy with progress bar
+alias sudocode='sudo code --no-sandbox --user-data-dir /root' # open code as root (AT YOUR OWN RISK)

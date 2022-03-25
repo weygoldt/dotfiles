@@ -25,6 +25,12 @@ pusharchmaintenance () {
     git push
 }
 
+pusharchbackup () {
+    cd /home/weygoldt/Data/projects/backup-arch
+    git add . && git commit -m "$msg"
+    git push
+}
+
 pushobsidian () {
     cd /home/weygoldt/Data/obsidian-master
     git add . && git commit -m "$msg" 
@@ -68,6 +74,20 @@ do
         break;;
       [yY][eE][sS]|[yY]) 
         pusharchmaintenance
+        break;;
+      *) echo 'Response not valid';;
+    esac
+done
+
+while true
+do
+    read -r -p $'\e[1;32mCommit all and push backup-arch (y/n)?\e[0m' choice
+    case "$choice" in
+      [nN][oO]|[nN]) 
+        echo "No"
+        break;;
+      [yY][eE][sS]|[yY]) 
+        pusharchbackup
         break;;
       *) echo 'Response not valid';;
     esac
