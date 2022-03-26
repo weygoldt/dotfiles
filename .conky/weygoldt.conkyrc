@@ -186,9 +186,9 @@ ${offset 15}${color2}Root SSD:${color} ${alignr}${offset -10}${fs_used /} / ${fs
 ${offset 15}${color2}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/nvme0n1p2}${alignr}${diskiograph_read nvme0n1p2 8,100}
 ${offset 15}${color2}I/O Write:${color} ${alignr}${offset -10}${diskio_write /dev/nvme0n1p2}${alignr}${diskiograph_write nvme0n1p2 8,100}
 
-${offset 15}${color2}Storage HDD:${color} ${alignr}${offset -10}${fs_used /mnt/databackup} / ${fs_size /mnt/databackup}${alignr}${fs_bar}
-${offset 15}${color2}I/O Read:${color} ${alignr}${offset -10}${diskio_read sda3}${alignr}${diskiograph_read sda3 8,100}
-${offset 15}${color2}I/O Write:${color} ${alignr}${offset -10}${diskio_write sda3}${alignr}${diskiograph_write sda3 8,100}
+${offset 15}${color2}Storage HDD:${color} ${alignr}${offset -10}${fs_used /mnt/backups} / ${fs_size /mnt/backups}${alignr}${fs_bar}
+${offset 15}${color2}I/O Read:${color} ${alignr}${offset -10}${diskio_read sda2}${alignr}${diskiograph_read sda2 8,100}
+${offset 15}${color2}I/O Write:${color} ${alignr}${offset -10}${diskio_write sda2}${alignr}${diskiograph_write sda2 8,100}
 
 #${offset 15}${color2}Storage :${color} ${alignr}${offset -10}${fs_used /home/titus/1tb} / ${fs_size /home/titus/1tb}${alignr}${fs_bar /home/titus/1tb}
 #${offset 15}${color2}I/O Read:${color} ${alignr}${offset -10}${diskio_read /dev/sda5}${alignr}${diskiograph_read sda5 8,100}

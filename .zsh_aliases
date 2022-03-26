@@ -4,7 +4,6 @@ unipath=~/Data/uni
 obsidianpath=~/Data/obsidian-master
 projectspath=~/Data/projects
 espansopath=/home/weygoldt/.config/espanso/match
-btrbkpath=/home/weygoldt/Data/projects/backup-arch/btrbk.conf
 
 # dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
