@@ -7,7 +7,7 @@ dfs checkout
 ```
 
 ## Clone dotfiles into new system 
-...  and adjust the default shell if nessecary.
+...  and adjust the default shell if nessecary. Before the `checkout`, all files must be deleted since git cannot overwrite them. Use something like `git ls-tree -r master --name-only` piped into a `rm` command to delete all files that will be checked out.
 ```sh
 echo 'alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"' >> $HOME/.zshrc
 source ~/.zshrc
