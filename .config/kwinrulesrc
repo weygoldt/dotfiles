@@ -1,0 +1,24 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Settings for konsole
+position=480,270
+positionrule=3
+size=960,540
+sizerule=3
+wmclass=konsole
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
+
+[edcc3978-a12b-4dc8-ad28-d8cd69617537]
+Description=Settings for konsole
+position=480,270
+positionrule=3
+size=960,540
+sizerule=3
+wmclass=konsole
+wmclassmatch=1
