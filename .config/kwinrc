@@ -15,7 +15,12 @@ Number=3
 Rows=1
 
 [Plugins]
+diminactiveEnabled=true
+kwin4_effect_fadeEnabled=true
+kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_scaleEnabled=false
 overviewEnabled=true
+slideEnabled=false
 
 [Windows]
 BorderlessMaximizedWindows=true
