@@ -6,6 +6,33 @@ RPS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magen
 # source zsh aliases
 source ~/.zsh_aliases
 
+# History in cache directory:
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.cache/zsh/history
+
+# Basic auto/tab complete:
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files.
+
+# Plugins
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+autoload -U compinit; compinit
+
+# Turn off all beeps
+unsetopt BEEP
+
+# Set default editor
+export EDITOR='/usr/bin/nano'
+export VISUAL='/usr/bin/nano'
+
+# open neofetch on startup
+neofetch
+
 # whatever this means?
 setopt prompt_subst
 autoload -Uz vcs_info
@@ -26,18 +53,6 @@ vcs_info_wrapper() {
 }
 RPROMPT=$'$(vcs_info_wrapper)'
 
-# History in cache directory:
-HISTSIZE=10000
-SAVEHIST=10000
-HISTFILE=~/.cache/zsh/history
-
-# Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)		# Include hidden files.
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/weygoldt/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -52,17 +67,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-# Plugins
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-autoload -U compinit; compinit
-
-# Turn off all beeps
-unsetopt BEEP
-
-# Set default editor
-export EDITOR='/usr/bin/nano'
-export VISUAL='/usr/bin/nano'
-
-neofetch
