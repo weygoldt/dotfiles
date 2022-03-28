@@ -15,7 +15,15 @@ Number=3
 Rows=1
 
 [Effect-DimInactive]
-Strength=20
+Strength=10
+
+[NightColor]
+Active=true
+EveningBeginFixed=2100
+LatitudeAuto=48.5247
+LongitudeAuto=9.1251
+Mode=Times
+NightTemperature=2000
 
 [Plugins]
 diminactiveEnabled=true

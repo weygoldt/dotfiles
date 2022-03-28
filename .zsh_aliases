@@ -4,6 +4,7 @@ unipath=~/Data/uni
 obsidianpath=~/Data/obsidian-master
 projectspath=~/Data/projects
 espansopath=/home/weygoldt/.config/espanso/match
+efishpath=/home/weygoldt/Data/uni/efish
 
 # dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -26,7 +27,7 @@ alias obsd='cd $obsidianpath'
 alias prjx='cd $projectspath'
 alias xpns='cd $espansopath'
 alias scrps='cd /home/weygoldt/Scripts'
-
+alias efish='cd $efishpath'
 ## Use conda to run python script 
 alias crun='conda activate && conda run python' # run a python script with conda base env
 
