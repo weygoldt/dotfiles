@@ -4,7 +4,7 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 RPS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 # source zsh aliases
-source ~/.zsh_aliases
+source /home/weygoldt/.zsh_aliases
 
 # History in cache directory:
 HISTSIZE=10000

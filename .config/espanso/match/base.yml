@@ -78,6 +78,9 @@ matches:
   - trigger: ":mdr"
     replace: "```r\n$|$\n```"
 
+  - trigger: ":mdcode"
+    replace: "```\n$|$\n```"
+
 # Inline html to modify obsidian markdown
   # centered
   - trigger: ":cent"

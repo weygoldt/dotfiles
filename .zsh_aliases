@@ -20,6 +20,9 @@ alias autopush='bash /home/weygoldt/Data/projects/backup-arch/autopush-git.sh'
 alias audiodl='youtube-dl -f bestaudio -x --audio-format "mp3" --embed-thumbnail --add-metadata'
 alias videodl='youtube-dl -f best'
 
+# Latex, markdown, pandoc
+alias md2pdf='zsh /home/weygoldt/Scripts/md2pdf.sh'
+
 ## Most used paths
 alias uni='cd $unipath'
 alias data='cd $datapath'
