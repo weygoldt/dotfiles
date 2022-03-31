@@ -31,7 +31,7 @@ alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias gitlog='git log --graph --oneline --decorate'
 alias gitc='git commit -am' # changes and deletions
 alias gitca='git add . && git commit -m' # stage and commit all files
-alias autopush='bash /home/weygoldt/Data/projects/backup-arch/autopush-git.sh'
+alias autopush='bash /home/weygoldt/Data/system/backup-arch/autopush-git.sh'
 
 # Download helpers
 alias audiodl='youtube-dl -f bestaudio -x --audio-format "mp3" --embed-thumbnail --add-metadata'
