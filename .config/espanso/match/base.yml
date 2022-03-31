@@ -250,3 +250,12 @@ matches:
 
   - trigger: "hopf"
     replace: "Hopf"
+
+# Shell script templates
+  - trigger: ":shellscript"
+    replace: "#!/bin/bash\n#\n# Script name: $|$\n#\n# Author: Patrick Weygoldt\n# Date: {{mytime}}\n#\n# Description: \n#\n# Run information: \n#\n"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%Y/%m/%d, %H:%M"

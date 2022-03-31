@@ -15,7 +15,13 @@ Number=3
 Rows=1
 
 [Effect-DimInactive]
-Strength=10
+DimFullScreen=false
+
+[Effect-Overview]
+BorderActivate=7
+
+[Effect-PresentWindows]
+BorderActivateAll=9
 
 [NightColor]
 Active=true

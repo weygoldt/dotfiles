@@ -106,7 +106,7 @@ menuFont=Segoe UI,10,-1,5,50,0,0,0,0,0
 toolBarFont=Segoe UI,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Tela-circle-blue-dark
+Theme=Nordzy-dark
 
 [KDE]
 LookAndFeelPackage=Nordic-darker

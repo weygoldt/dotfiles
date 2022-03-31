@@ -68,7 +68,7 @@ conky.config = {
 												-- middle_left,middle_middle,middle_right,none
 	--Arch Duoscreen
 	--gap_x = -1910,
-	gap_x = 20,									-- pixels between right or left border
+	gap_x = 50,									-- pixels between right or left border
 	gap_y = 40,									-- pixels between bottom or left border
 	minimum_height = 600,						-- minimum height of window
 	minimum_width = 300,						-- minimum height of window
@@ -123,12 +123,12 @@ conky.config = {
 
 	--Colours
 
-	default_color = '#798491',  				-- default color and border color
+	default_color = '#C5CAD0',  				-- default color and border color
 	color1 = '#FF0000',
-	color2 = '#798491',
+	color2 = '#C5CAD0',
 	color3 = '#E06C75',
 	color4 = '#D9BC83',
-	color5 = '#929EA8',
+	color5 = '#C5CAD0',
 	color6 = '#E06C75',
 
 	--Signal Colours
@@ -203,11 +203,11 @@ ${color2}${offset 15}Ether Down:${color} ${alignr}${offset -10$}${downspeed enp0
 
 ${color5}${font Roboto:size=10}N V I D I A   ${color5}${hr 1}${font}${color}
 #${font Roboto:size=10,weight:bold}${color5}${execp  nvidia-smi --query-supported-clocks=gpu_name --format=csv,noheader}${font}
-${offset 15}${color2}Hardware:${color}${alignr}${execp  nvidia-smi --query-supported-clocks=gpu_name --format=csv,noheader}
-${offset 15}${color2}Driver: ${color}${alignr}${execi 60000 nvidia-smi | grep "Driver Version"| awk {'print $3'}}
-${color2}${offset 15}GPU Temp ${color}${alignr}${offset -10}${execi 60 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader} °C
-#${color2}${offset 15}Fan Speed ${color}${alignr}${offset -10}${execi 60 nvidia-settings -q [fan:0]/GPUCurrentFanSpeed -t} %
-${color2}${offset 15}GPU Clock ${color}${alignr}${offset -10}${execi 60 nvidia-settings -q GPUCurrentClockFreqs | grep -m 1 Attribute | awk '{print $4}' | sed -e 's/\.//' | cut -d, -f1} MHz
-${color2}${offset 15}Mem Clock ${color}${alignr}${offset -10}${execi 86400 nvidia-settings -q all| grep -m 1 GPUCurrentProcessorClockFreqs | awk '{print $4}' | sed 's/.$//'} MHz
-${color2}${offset 15}Mem Used ${color}${alignr}${offset -10}${execi 60 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${exec nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t} MiB0
+${color2}${offset 15}Hardware:${color}${alignr}${execp  nvidia-smi --query-supported-clocks=gpu_name --format=csv,noheader}
+${color2}${offset 15}Driver: ${color}${alignr}${execi 60000 nvidia-smi | grep "Driver Version"| awk {'print $3'}}
+${color2}${offset 15}GPU Temp: ${color}${alignr}${execi 60 nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader} °C
+#${color2}${offset 15}Fan Speed: ${color}${alignr}${execi 60 nvidia-settings -q [fan:0]/GPUCurrentFanSpeed -t} %
+${color2}${offset 15}GPU Clock: ${color}${alignr}${execi 60 nvidia-settings -q GPUCurrentClockFreqs | grep -m 1 Attribute | awk '{print $4}' | sed -e 's/\.//' | cut -d, -f1} MHz
+#${color2}${offset 15}Mem Clock: ${color}${alignr}${execi 86400 nvidia-settings -q all| grep -m 1 GPUCurrentProcessorClockFreqs | awk '{print $4}' | sed 's/.$//'} MHz
+${color2}${offset 15}Mem Used: ${color}${alignr}${execi 60 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${exec nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t} MiB
 ]];

@@ -1,10 +1,28 @@
-# Variables
+#
+# Author: Patrick Weygoldt
+# Date: 2022/03/31, 17:21
+#
+# Description: A collection of custom variables, aliases and functions 
+#              for everyday zsh usage.
+#
+# Run information: Is sourced by .zshrc at zsh startup.
+#
+
+#
+# VARIABLES --------------------------------------------------------------------
+#
+
 datapath=~/Data
 unipath=~/Data/uni
 obsidianpath=~/Data/obsidian-master
 projectspath=~/Data/projects
-espansopath=/home/weygoldt/.config/espanso/match
-efishpath=/home/weygoldt/Data/uni/efish
+espansopath=~/.config/espanso/match
+scriptspath=~/Data/system/scripts
+efishpath=~/Data/uni/efish
+
+#
+# ALIASES ----------------------------------------------------------------------
+#
 
 # dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -15,30 +33,38 @@ alias gitc='git commit -am' # changes and deletions
 alias gitca='git add . && git commit -m' # stage and commit all files
 alias autopush='bash /home/weygoldt/Data/projects/backup-arch/autopush-git.sh'
 
-# Download tool
-# uses packages 'torsocks' and 'youtube-dl' to download audio or video via the tor network.
+# Download helpers
 alias audiodl='youtube-dl -f bestaudio -x --audio-format "mp3" --embed-thumbnail --add-metadata'
 alias videodl='youtube-dl -f best'
+
 
 # Latex, markdown, pandoc
 alias md2pdf='zsh /home/weygoldt/Scripts/md2pdf.sh'
 
-## Most used paths
+# Most used paths
 alias uni='cd $unipath'
 alias data='cd $datapath'
 alias obsd='cd $obsidianpath'
 alias prjx='cd $projectspath'
 alias xpns='cd $espansopath'
-alias scrps='cd /home/weygoldt/Scripts'
+alias scrps='cd $scriptspath'
 alias efish='cd $efishpath'
-## Use conda to run python script 
+
+# Conda helpers
 alias crun='conda activate && conda run python' # run a python script with conda base env
 
-## Shell helpers
+# Shell helpers
 alias ll='ls -la' # list all files
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort" # list mounted drives only
 alias cpv='rsync -ah --info=progress2' # copy with progress bar
 alias sudocode='sudo code --no-sandbox --user-data-dir /root' # open code as root (AT YOUR OWN RISK)
-alias snpsht='sudo btrbk snapshot' # take a snapshot before system upgrades etc.
 alias pdf='okular' # shorter way to open a pdf
 
+#
+# FUNCTIONS --------------------------------------------------------------------
+#
+
+# Activates a python virtual environment created with venv.
+activate () {
+    source "$1"/bin/activate
+}
