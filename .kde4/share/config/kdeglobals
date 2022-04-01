@@ -1,14 +1,9 @@
-[$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
-
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -36,6 +31,48 @@ ForegroundNeutral=208,135,112
 ForegroundNormal=216,222,233
 ForegroundPositive=163,190,140
 ForegroundVisited=82,148,226
+
+[Colors:Complementary]
+BackgroundAlternate=30,87,116
+BackgroundNormal=42,46,50
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header]
+BackgroundAlternate=42,46,50
+BackgroundNormal=49,54,59
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
+
+[Colors:Header][Inactive]
+BackgroundAlternate=49,54,59
+BackgroundNormal=42,46,50
+DecorationFocus=61,174,233
+DecorationHover=61,174,233
+ForegroundActive=61,174,233
+ForegroundInactive=161,169,177
+ForegroundLink=29,153,243
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=252,252,252
+ForegroundPositive=39,174,96
+ForegroundVisited=155,89,182
 
 [Colors:Selection]
 BackgroundAlternate=29,153,243
@@ -93,52 +130,30 @@ ForegroundNormal=216,222,233
 ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
-[DirSelect Dialog]
-DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME,file:$HOME/Data,file:///home,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/.dotfiles,file:///run/timeshift/backup
-
 [General]
-ColorSchemeHash=d05680ca25bbbbf09a8b5f36923ee7f2b1117fbf
-XftHintStyle=hintslight
-XftSubPixel=rgb
+ColorScheme=Nordic-Darker
+Name=Nordic-Darker
 font=Segoe UI,10,-1,5,50,0,0,0,0,0
 menuFont=Segoe UI,10,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
 toolBarFont=Segoe UI,10,-1,5,50,0,0,0,0,0
+widgetStyle=Breeze
 
 [Icons]
 Theme=Nordzy-dark
 
 [KDE]
-LookAndFeelPackage=Nordic-darker
-ShowDeleteCommand=false
-SingleClick=false
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+contrast=4
 
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=true
-Sort by=Name
-Sort directories first=true
-Sort reversed=false
-Speedbar Width=138
-View Style=DetailTree
-
-[PreviewSettings]
-MaximumRemoteSize=0
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Segoe UI,10,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
