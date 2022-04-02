@@ -259,3 +259,10 @@ matches:
         type: date
         params:
           format: "%Y/%m/%d, %H:%M"
+
+  - trigger: ":pyscript"
+    replace: "#!/usr/bin/env python\n\"\"\"\n$|$\n\"\"\""
+
+# New entry for my uni module calculator
+  - trigger: ":module"
+    replace: "- module: \"$|$\"\n  group: \nstatus: \ncredits: \ngrade: \npassed:"

@@ -98,6 +98,7 @@ DirSelectDialog Size=844,598
 History Items[$e]=file:$HOME,file:$HOME/Data,file:///home,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/.dotfiles,file:///run/timeshift/backup
 
 [General]
+ColorScheme=NordicDarker
 ColorSchemeHash=d05680ca25bbbbf09a8b5f36923ee7f2b1117fbf
 XftHintStyle=hintslight
 XftSubPixel=rgb

@@ -30,6 +30,9 @@ unsetopt BEEP
 export EDITOR='/usr/bin/nano'
 export VISUAL='/usr/bin/nano'
 
+# add user to path
+export PATH="$HOME/.local/bin:$PATH"
+
 # open neofetch on startup
 neofetch
 

@@ -3,6 +3,10 @@ Recent Files[$e]=287-2874120_imac-5k-wallpapers-5k.jpg,file:///mnt/archlinux/@ho
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Documents/,file:$HOME/,file:///mnt/archlinux/@home/weygoldt/Data/system/wallpapers/minimal/,file:///mnt/archlinux/@home/weygoldt/Data/system/wallpapers/landscapes/,file:///mnt/archlinux/@home/weygoldt/Data/system/wallpapers/,file:///mnt/archlinux/@home/weygoldt/Data/system/,file:///mnt/archlinux/@home/weygoldt/Data/system/icons/,file:///mnt/archlinux/@home/weygoldt/Data/
 detailViewIconSize=16
 
+[PlasmaViews][Panel 2]
+panelOpacity=2
+panelVisibility=0
+
 [PlasmaViews][Panel 2][Defaults]
 thickness=28
 
@@ -10,8 +14,8 @@ thickness=28
 thickness=28
 
 [ScreenConnectors]
-0=HDMI-1-0
-1=eDP-1
+0=HDMI-0
+1=HDMI-1-0
 2=eDP-1-1
 
 [Updates]

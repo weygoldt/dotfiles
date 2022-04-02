@@ -2,6 +2,8 @@
 FullScreen=false
 
 [MainWindow]
+HDMI-0 eDP-1-1 XPosition 1920x1080=399
+HDMI-0 eDP-1-1 YPosition 1920x1080=101
 HDMI-1-0 eDP-1 Height 1920x1080=1020
 HDMI-1-0 eDP-1 Width 1920x1080=952
 HDMI-1-0 eDP-1 XPosition 1920x1080=964
@@ -13,20 +15,18 @@ eDP-1 Window-Maximized 1920x1080=true
 
 [Recent Files]
 File1[$e]=$HOME/Data/latextemplates/tests/fancy-mma-article/main.pdf
-File2[$e]=$HOME/Downloads/Benda2020-ElectrosensoryWorlds.pdf
-File3[$e]=$HOME/Data/zotero/storage/L64E9A6F/Benda_2020_The Physics of Electrosensory Worlds.pdf
-File4[$e]=$HOME/Data/uni/msc/sensorysystems/report/main.pdf
-File5[$e]=$HOME/Data/uni/msc/sensorysystems/sensys_report/sensys_report.pdf
-File6[$e]=$HOME/Data/uni/msc/eebhiwi/README.pdf
-File7[$e]=$HOME/Data/zotero/storage/8SDSSL8W/Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
-File8[$e]=$HOME/Data/zotero/storage/MZI87GRA/e2102157118.full(1).pdf
-File9[$e]=$HOME/test.pdf
+File2[$e]=$HOME/Data/zotero/storage/L64E9A6F/Benda_2020_The Physics of Electrosensory Worlds.pdf
+File3[$e]=$HOME/Data/uni/msc/sensorysystems/report/main.pdf
+File4[$e]=$HOME/Data/uni/msc/sensorysystems/sensys_report/sensys_report.pdf
+File5[$e]=$HOME/Data/uni/msc/eebhiwi/README.pdf
+File6[$e]=$HOME/Data/zotero/storage/8SDSSL8W/Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
+File7[$e]=$HOME/Data/zotero/storage/MZI87GRA/e2102157118.full(1).pdf
+File8[$e]=/mnt/archlinux/@home/weygoldt/Data/uni/modcal/np
 Name1[$e]=main.pdf
-Name2[$e]=Benda2020-ElectrosensoryWorlds.pdf
-Name3[$e]=Benda_2020_The Physics of Electrosensory Worlds.pdf
-Name4[$e]=main.pdf
-Name5[$e]=sensys_report.pdf
-Name6[$e]=README.pdf
-Name7[$e]=Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
-Name8[$e]=e2102157118.full(1).pdf
-Name9[$e]=test.pdf
+Name2[$e]=Benda_2020_The Physics of Electrosensory Worlds.pdf
+Name3[$e]=main.pdf
+Name4[$e]=sensys_report.pdf
+Name5[$e]=README.pdf
+Name6[$e]=Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
+Name7[$e]=e2102157118.full(1).pdf
+Name8[$e]=np
