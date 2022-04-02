@@ -25,6 +25,7 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
+{3fb6d896-15e2-479d-9b6d-41d564e89cdd}=,none,New Action
 {54948113-84cf-42ea-af99-0249a53b4ebc}=Meta+K,none,xkill
 {786384db-89f2-4a76-bdb3-657e229b1fd0}=Meta+Return,none,konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
@@ -197,11 +198,11 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -255,7 +256,7 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=Ctrl+Alt+C,none,Activate Color Picker Widget
-activate widget 30=Alt+F1,none,Activate Application Menu Widget
+activate widget 4=,none,Activate Pager Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,,Next History Item

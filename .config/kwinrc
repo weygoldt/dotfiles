@@ -9,11 +9,13 @@ Id_1=cb6fc300-c3da-4387-8e39-abdb2c81ac2d
 Id_2=25f8ba7d-0967-45e1-a713-0fa0f2d58df7
 Id_3=c147260a-0fb2-4877-8461-cd423b5d6e15
 Id_4=c20a72c9-2a58-4846-a9eb-af0c0479690d
+Id_5=73c94b33-baa3-4408-989a-43115f2488cc
 Name_1=1
 Name_2=2
 Name_3=3
 Name_4=4
-Number=4
+Name_5=5
+Number=5
 Rows=1
 
 [Effect-DimInactive]
@@ -26,7 +28,6 @@ BorderActivate=7
 BorderActivateAll=9
 
 [NightColor]
-Active=true
 EveningBeginFixed=2100
 LatitudeAuto=48.5247
 LongitudeAuto=9.1251

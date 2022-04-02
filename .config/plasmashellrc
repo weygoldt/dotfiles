@@ -8,10 +8,10 @@ panelOpacity=2
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
-thickness=28
+thickness=22
 
 [PlasmaViews][Panel 2][Horizontal1920]
-thickness=28
+thickness=22
 
 [ScreenConnectors]
 0=HDMI-0

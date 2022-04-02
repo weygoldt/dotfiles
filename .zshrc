@@ -7,9 +7,9 @@ RPS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magen
 source /home/weygoldt/.zsh_aliases
 
 # History in cache directory:
-HISTSIZE=10000
-SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
+HISTSIZE=20000
+SAVEHIST=10000
 
 # Basic auto/tab complete:
 autoload -U compinit
@@ -70,3 +70,23 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# Keybindings
+# autosuggestions
+bindkey '^ ' autosuggest-accept # bind strg+space to accept 
+
+# bindkey
+bindkey "^U"    ackward-kill-line
+bindkey "^u"    backward-kill-line
+bindkey "^[l"   down-case-word
+bindkey "^[L"   down-case-word
+bindkey '^[[H'  beginning-of-line
+bindkey '^[[F'  end-of-line
+
+# alt+<- | alt+->
+bindkey "^[f" forward-word
+bindkey "^[b" backward-word
+
+# ctrl+<- | ctrl+->
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word

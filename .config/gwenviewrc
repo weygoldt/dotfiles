@@ -24,7 +24,9 @@ ToolBarsMovable=Disabled
 [Recent Files]
 File1[$e]=trash:/0-img_248242.png
 File2[$e]=/boot/grub/images/arch-black.png
-File3[$e]=$HOME/grub.png
+File3[$e]=/mnt/archlinux/@home/weygoldt/Data/system/wallpapers/ghibli/studio-ghibli-upscaled-arrietty-2560×1440.jpg
+File4[$e]=/mnt/archlinux/@home/weygoldt/Data/system/wallpapers/ghibli/steamuserimages-a.akamaihd.net.jpg
 Name1[$e]=0-img_248242.png
 Name2[$e]=arch-black.png
-Name3[$e]=grub.png
+Name3[$e]=studio-ghibli-upscaled-arrietty-2560×1440.jpg
+Name4[$e]=steamuserimages-a.akamaihd.net.jpg

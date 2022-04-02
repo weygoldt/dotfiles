@@ -8,7 +8,18 @@ positionrule=3
 size=960,640
 sizerule=3
 wmclass=konsole
-wmclassmatch=1
+wmclassmatch=3
+
+[33457c0d-f853-4946-8e9a-a8084280a612]
+Description=Settings for dolphin
+position=480,220
+positionrule=3
+size=960,640
+sizerule=3
+types=1
+wmclass=dolphin dolphin
+wmclasscomplete=true
+wmclassmatch=3
 
 [General]
 count=1
