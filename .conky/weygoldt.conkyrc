@@ -64,20 +64,20 @@ conky.config = {
 
 	--Placement
 
-	alignment = 'top_right',						-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
+	alignment = 'middle_right',						-- top_left,top_middle,top_right,bottom_left,bottom_middle,bottom_right,
 												-- middle_left,middle_middle,middle_right,none
 	--Arch Duoscreen
 	--gap_x = -1910,
-	gap_x = 50,									-- pixels between right or left border
-	gap_y = 40,									-- pixels between bottom or left border
-	minimum_height = 600,						-- minimum height of window
+	gap_x = 0,									-- pixels between right or left border 60 is also good
+	gap_y = 0,									-- pixels between bottom or left border 60 is also good
+	minimum_height = 1080,						-- minimum height of window
 	minimum_width = 300,						-- minimum height of window
 	maximum_width = 300,						-- maximum height of window
 
 	--Graphical
 
 	border_inner_margin = 10, 					-- margin between border and text
-	border_outer_margin = 5, 					-- margin between border and edge of window
+	border_outer_margin = 10, 					-- margin between border and edge of window
 	border_width = 0, 							-- border width in pixels
 	default_bar_width = 80,					-- default is 0 - full width
 	default_bar_height = 10,					-- default is 6
@@ -112,9 +112,9 @@ conky.config = {
 	--Windows
 
 	own_window = true,							-- create your own window to draw
-	own_window_argb_value = 0,			    -- real transparency - composite manager required 0-255
+	own_window_argb_value = 230,			    -- real transparency - composite manager required 0-255
 	own_window_argb_visual = true,				-- use ARGB - composite manager required
-	own_window_colour = '#000000',				-- set colour if own_window_transparent no
+	own_window_colour = '#222631',				-- set colour if own_window_transparent no
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',  -- if own_window true - just hints - own_window_type sets it
 	own_window_transparent = false,				-- if own_window_argb_visual is true sets background opacity 0%
 	own_window_title = 'system_conky',			-- set the name manually  - default conky "hostname"
@@ -176,8 +176,8 @@ ${offset 15}${color2}Top Processes${goto 222}cpu%${goto 274}mem%${color}
 ${offset 25}${voffset 4}1  -  ${top_mem name 1}${alignr}${goto 170} ${goto 222}${top_mem cpu 1} ${goto 274}${top_mem mem 1}
 ${offset 25}2  -  ${top_mem name 2}${alignr}${goto 170} ${goto 222}${top_mem cpu 2} ${goto 274}${top_mem mem 2}
 ${offset 25}3  -  ${top_mem name 3}${alignr}${goto 170} ${goto 222}${top_mem cpu 3} ${goto 274}${top_mem mem 3}
-#${offset 25}4  -  ${top_mem name 4}${alignr}${goto 170} ${goto 222}${top_mem cpu 4} ${goto 274}${top_mem mem 4}
-#${offset 25}5  -  ${top_mem name 5}${alignr}${goto 170} ${goto 222}${top_mem cpu 5} ${goto 274}${top_mem mem 5}
+${offset 25}4  -  ${top_mem name 4}${alignr}${goto 170} ${goto 222}${top_mem cpu 4} ${goto 274}${top_mem mem 4}
+${offset 25}5  -  ${top_mem name 5}${alignr}${goto 170} ${goto 222}${top_mem cpu 5} ${goto 274}${top_mem mem 5}
 
 ${color5}${font Roboto:size=10}D R I V E S   ${color5}${hr 1}${font}${color}
 ${offset 15}${color2}Root SSD:${color} ${alignr}${offset -10}${fs_used /} / ${fs_size /}${alignr}${fs_bar}

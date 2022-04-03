@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-8867cc31-594a-49f4-9c55-5c47a18700ac=none,none,Switch to activity "default"
+switch-to-activity-0e415369-0911-4a0c-b05c-045a7ad5aaa6=none,none,Switch to activity "play"
+switch-to-activity-8867cc31-594a-49f4-9c55-5c47a18700ac=none,none,Switch to activity "work"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -25,11 +26,9 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
-{3fb6d896-15e2-479d-9b6d-41d564e89cdd}=,none,New Action
+{36582d3f-9bc3-4172-922c-b51d0e0774c1}=Meta+B,none,firefox
 {54948113-84cf-42ea-af99-0249a53b4ebc}=Meta+K,none,xkill
 {786384db-89f2-4a76-bdb3-657e229b1fd0}=Meta+Return,none,konsole
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
-{e2a34406-d595-4405-bef8-4a8997c192fb}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -256,13 +255,13 @@ activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=Ctrl+Alt+C,none,Activate Color Picker Widget
-activate widget 4=,none,Activate Pager Widget
+activate widget 4=none,none,Activate Pager Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
-manage activities=none,Meta+Q,Show Activity Switcher
+manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard

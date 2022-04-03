@@ -94,8 +94,8 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
-DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME,file:$HOME/Data,file:///home,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/.dotfiles,file:///run/timeshift/backup
+DirSelectDialog Size=806,600
+History Items[$e]=file:$HOME/Data/system/wallpapers/ghibli,file:$HOME/Data/system/wallpapers/ghibli,file:$HOME/Data/system/wallpapers/ghibli,file:$HOME,file:$HOME/Data,file:///home,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/Pictures/wallpapers/minimal,file:$HOME/.dotfiles,file:///run/timeshift/backup
 
 [General]
 ColorScheme=NordicDarker

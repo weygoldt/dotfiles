@@ -1,9 +1,6 @@
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
 
-[FullScreen]
-FullScreenModeActive=true
-
 [General]
 LastUsedVersion=210800
 
@@ -13,20 +10,32 @@ Places Icons Static Size=32
 
 [MainWindow]
 HDMI-0 eDP-1-1 Window-Maximized 1920x1080=true
-HDMI-0 eDP-1-1 XPosition 1920x1080=0
-HDMI-0 eDP-1-1 YPosition 1920x1080=0
+HDMI-0 eDP-1-1 XPosition 1920x1080=640
+HDMI-0 eDP-1-1 YPosition 1920x1080=301
 HDMI-1-0 eDP-1 XPosition 1920x1080=640
 HDMI-1-0 eDP-1 YPosition 1920x1080=293
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAGyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAP0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=trash:/0-img_248242.png
-File2[$e]=/boot/grub/images/arch-black.png
-File3[$e]=/mnt/archlinux/@home/weygoldt/Data/system/wallpapers/ghibli/studio-ghibli-upscaled-arrietty-2560×1440.jpg
-File4[$e]=/mnt/archlinux/@home/weygoldt/Data/system/wallpapers/ghibli/steamuserimages-a.akamaihd.net.jpg
-Name1[$e]=0-img_248242.png
-Name2[$e]=arch-black.png
-Name3[$e]=studio-ghibli-upscaled-arrietty-2560×1440.jpg
-Name4[$e]=steamuserimages-a.akamaihd.net.jpg
+File1[$e]=$HOME/Data/system/wallpapers/ghibli/16-upscaled-scale-2_00x.png
+File10[$e]=$HOME/Data/system/wallpapers/ghibli/03-upscaled-scale-2_00x.png
+File2[$e]=$HOME/Data/system/wallpapers/ghibli/18-upscaled-scale-2_00x.png
+File3[$e]=$HOME/Data/system/wallpapers/ghibli/19-upscaled-scale-2_00x.png
+File4[$e]=$HOME/Data/system/wallpapers/ghibli/020-upscaled-scale-2_00x.png
+File5[$e]=$HOME/Data/system/wallpapers/ghibli/20-upscaled-scale-2_00x.png
+File6[$e]=$HOME/Data/system/wallpapers/ghibli/22-upscaled-scale-2_00x.png
+File7[$e]=$HOME/Data/system/wallpapers/ghibli/28-upscaled-scale-2_00x (1).png
+File8[$e]=$HOME/Data/system/wallpapers/ghibli/28-upscaled-scale-2_00x.png
+File9[$e]=$HOME/Data/system/wallpapers/ghibli/02-upscaled-scale-2_00x.png
+Name1[$e]=16-upscaled-scale-2_00x.png
+Name10[$e]=03-upscaled-scale-2_00x.png
+Name2[$e]=18-upscaled-scale-2_00x.png
+Name3[$e]=19-upscaled-scale-2_00x.png
+Name4[$e]=020-upscaled-scale-2_00x.png
+Name5[$e]=20-upscaled-scale-2_00x.png
+Name6[$e]=22-upscaled-scale-2_00x.png
+Name7[$e]=28-upscaled-scale-2_00x (1).png
+Name8[$e]=28-upscaled-scale-2_00x.png
+Name9[$e]=02-upscaled-scale-2_00x.png
