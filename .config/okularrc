@@ -2,31 +2,39 @@
 FullScreen=false
 
 [MainWindow]
-HDMI-0 eDP-1-1 XPosition 1920x1080=399
-HDMI-0 eDP-1-1 YPosition 1920x1080=101
+HDMI-0 eDP-1-1 Window-Maximized 1920x1080=true
+HDMI-0 eDP-1-1 XPosition 1920x1080=461
+HDMI-0 eDP-1-1 YPosition 1920x1080=233
 HDMI-1-0 eDP-1 Height 1920x1080=1020
 HDMI-1-0 eDP-1 Width 1920x1080=952
 HDMI-1-0 eDP-1 XPosition 1920x1080=964
 HDMI-1-0 eDP-1 YPosition 1920x1080=28
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA7gAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAA7gAAAPjAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 eDP-1 Window-Maximized 1920x1080=true
+eDP-1-1 Height 1920x1080=1026
+eDP-1-1 Width 1920x1080=952
+eDP-1-1 XPosition 1920x1080=484
+eDP-1-1 YPosition 1920x1080=28
 
 [Recent Files]
-File1[$e]=$HOME/Data/latextemplates/tests/fancy-mma-article/main.pdf
-File2[$e]=$HOME/Data/zotero/storage/L64E9A6F/Benda_2020_The Physics of Electrosensory Worlds.pdf
-File3[$e]=$HOME/Data/uni/msc/sensorysystems/report/main.pdf
-File4[$e]=$HOME/Data/uni/msc/sensorysystems/sensys_report/sensys_report.pdf
-File5[$e]=$HOME/Data/uni/msc/eebhiwi/README.pdf
-File6[$e]=$HOME/Data/zotero/storage/8SDSSL8W/Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
-File7[$e]=$HOME/Data/zotero/storage/MZI87GRA/e2102157118.full(1).pdf
-File8[$e]=/mnt/archlinux/@home/weygoldt/Data/uni/modcal/np
-Name1[$e]=main.pdf
-Name2[$e]=Benda_2020_The Physics of Electrosensory Worlds.pdf
-Name3[$e]=main.pdf
-Name4[$e]=sensys_report.pdf
-Name5[$e]=README.pdf
-Name6[$e]=Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
-Name7[$e]=e2102157118.full(1).pdf
-Name8[$e]=np
+File1[$e]=$HOME/Data/zotero/storage/8SDSSL8W/Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
+File10[$e]=$HOME/Data/uni/msc/sensorysystems/code/pw_Chorthippus dorsatus_13_pick_mono.pdf
+File2[$e]=$HOME/Data/zotero/storage/MZI87GRA/e2102157118.full(1).pdf
+File3[$e]=$HOME/Documents/Aufnahmeantrag_2022-01-06.pdf
+File4[$e]=$HOME/Data/zotero/storage/WN3XT357/S. and H. - 2002 - Electrocommunication signals in female brown ghost.pdf
+File5[$e]=$HOME/Data/zotero/storage/VC3Y6V3F/Tallarovic and Zakon - 2005 - Electric organ discharge frequency jamming during .pdf
+File6[$e]=$HOME/Data/zotero/storage/U4QEFSLD/Fortune et al. - 2020 - Spooky Interaction at a Distance in Cave and Surfa.pdf
+File7[$e]=$HOME/Data/uni/modcal-sandbox/yaml
+File8[$e]=$HOME/Data/uni/efish/README.md
+File9[$e]=$HOME/Data/uni/msc/sensorysystems/report/main.pdf
+Name1[$e]=Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
+Name10[$e]=pw_Chorthippus dorsatus_13_pick_mono.pdf
+Name2[$e]=e2102157118.full(1).pdf
+Name3[$e]=Aufnahmeantrag_2022-01-06.pdf
+Name4[$e]=S. and H. - 2002 - Electrocommunication signals in female brown ghost.pdf
+Name5[$e]=Tallarovic and Zakon - 2005 - Electric organ discharge frequency jamming during .pdf
+Name6[$e]=Fortune et al. - 2020 - Spooky Interaction at a Distance in Cave and Surfa.pdf
+Name7[$e]=yaml
+Name8[$e]=README.md
+Name9[$e]=main.pdf

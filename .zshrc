@@ -21,6 +21,7 @@ _comp_options+=(globdots)		# Include hidden files.
 # Plugins
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 autoload -U compinit; compinit
 
 # Turn off all beeps
@@ -34,7 +35,6 @@ export VISUAL='/usr/bin/nano'
 export PATH="$HOME/.local/bin:$PATH"
 
 # open neofetch on startup
-neofetch
 
 # whatever this means?
 setopt prompt_subst

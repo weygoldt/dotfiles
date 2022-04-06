@@ -3,6 +3,7 @@ update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBa
 
 [General]
 LastUsedVersion=210800
+SideBarPage=operations
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -15,27 +16,35 @@ HDMI-0 eDP-1-1 YPosition 1920x1080=301
 HDMI-1-0 eDP-1 XPosition 1920x1080=640
 HDMI-1-0 eDP-1 YPosition 1920x1080=293
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAP0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAuIAAAJtAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+eDP-1-1 Height 1920x1080=667
+eDP-1-1 Width 1920x1080=738
+eDP-1-1 XPosition 1920x1080=605
+eDP-1-1 YPosition 1920x1080=301
 
 [Recent Files]
-File1[$e]=$HOME/Data/system/wallpapers/ghibli/16-upscaled-scale-2_00x.png
-File10[$e]=$HOME/Data/system/wallpapers/ghibli/03-upscaled-scale-2_00x.png
-File2[$e]=$HOME/Data/system/wallpapers/ghibli/18-upscaled-scale-2_00x.png
-File3[$e]=$HOME/Data/system/wallpapers/ghibli/19-upscaled-scale-2_00x.png
-File4[$e]=$HOME/Data/system/wallpapers/ghibli/020-upscaled-scale-2_00x.png
-File5[$e]=$HOME/Data/system/wallpapers/ghibli/20-upscaled-scale-2_00x.png
-File6[$e]=$HOME/Data/system/wallpapers/ghibli/22-upscaled-scale-2_00x.png
-File7[$e]=$HOME/Data/system/wallpapers/ghibli/28-upscaled-scale-2_00x (1).png
-File8[$e]=$HOME/Data/system/wallpapers/ghibli/28-upscaled-scale-2_00x.png
-File9[$e]=$HOME/Data/system/wallpapers/ghibli/02-upscaled-scale-2_00x.png
-Name1[$e]=16-upscaled-scale-2_00x.png
-Name10[$e]=03-upscaled-scale-2_00x.png
-Name2[$e]=18-upscaled-scale-2_00x.png
-Name3[$e]=19-upscaled-scale-2_00x.png
-Name4[$e]=020-upscaled-scale-2_00x.png
-Name5[$e]=20-upscaled-scale-2_00x.png
-Name6[$e]=22-upscaled-scale-2_00x.png
-Name7[$e]=28-upscaled-scale-2_00x (1).png
-Name8[$e]=28-upscaled-scale-2_00x.png
-Name9[$e]=02-upscaled-scale-2_00x.png
+File1[$e]=$HOME/efishdata/2016-colombia/caught_fish/wave_fish__19_04_2016/pictures/IMG_9315.JPG
+File10[$e]=$HOME/Data/uni/msc/sensorysystems/img/WEY_1673.jpg
+File2[$e]=$HOME/efishdata/2016-colombia/caught_fish/wave_fish__19_04_2016/pictures/IMG_9323.JPG
+File3[$e]=$HOME/Data/uni/msc/sensorysystems/img/grasshopper.jpg
+File4[$e]=$HOME/Data/uni/msc/sensorysystems/img/IMG_8648.jpg
+File5[$e]=$HOME/Data/uni/msc/sensorysystems/img/WEY_1227.jpg
+File6[$e]=$HOME/Data/uni/msc/sensorysystems/img/WEY_1232.jpg
+File7[$e]=$HOME/Data/uni/msc/sensorysystems/img/WEY_1235.jpg
+File8[$e]=$HOME/Data/uni/msc/sensorysystems/img/WEY_1258.jpg
+File9[$e]=$HOME/Data/uni/msc/sensorysystems/img/WEY_1301.jpg
+Name1[$e]=IMG_9315.JPG
+Name10[$e]=WEY_1673.jpg
+Name2[$e]=IMG_9323.JPG
+Name3[$e]=grasshopper.jpg
+Name4[$e]=IMG_8648.jpg
+Name5[$e]=WEY_1227.jpg
+Name6[$e]=WEY_1232.jpg
+Name7[$e]=WEY_1235.jpg
+Name8[$e]=WEY_1258.jpg
+Name9[$e]=WEY_1301.jpg
+
+[SideBar]
+IsVisible ViewMode=true
+SideBarSplitterSizes=189,548
