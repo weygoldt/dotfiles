@@ -73,7 +73,7 @@ unset __conda_setup
 
 # Keybindings
 # autosuggestions
-bindkey '^ ' autosuggest-accept # bind strg+space to accept 
+#bindkey '^ ' autosuggest-accept # bind strg+space to accept 
 
 # bindkey
 bindkey "^U"    ackward-kill-line

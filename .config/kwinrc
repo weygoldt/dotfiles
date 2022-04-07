@@ -42,7 +42,15 @@ kwin4_effect_scaleEnabled=false
 overviewEnabled=true
 slideEnabled=false
 
+[SubSession: 0e415369-0911-4a0c-b05c-045a7ad5aaa6]
+active=-1
+count=0
+
 [SubSession: 38691433-62ae-4d3d-bc78-d38ed26d17d1]
+active=-1
+count=0
+
+[SubSession: 8867cc31-594a-49f4-9c55-5c47a18700ac]
 active=-1
 count=0
 
