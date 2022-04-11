@@ -21,7 +21,7 @@ _comp_options+=(globdots)		# Include hidden files.
 # Plugins
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+#source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 autoload -U compinit; compinit
 
 # Turn off all beeps
@@ -73,7 +73,7 @@ unset __conda_setup
 
 # Keybindings
 # autosuggestions
-#bindkey '^ ' autosuggest-accept # bind strg+space to accept 
+bindkey '^ ' autosuggest-accept # bind strg+space to accept 
 
 # bindkey
 bindkey "^U"    ackward-kill-line

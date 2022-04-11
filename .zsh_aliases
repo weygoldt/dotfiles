@@ -47,7 +47,7 @@ alias obsd='cd $obsidianpath'
 alias prjx='cd $projectspath'
 alias xpns='cd $espansopath'
 alias scrps='cd $scriptspath'
-alias efish='cd $efishpath'
+alias efish='cd $efishpath && activate env'
 
 # Conda helpers
 alias crun='conda activate && conda run python' # run a python script with conda base env

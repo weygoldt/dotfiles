@@ -10,12 +10,13 @@ Id_2=25f8ba7d-0967-45e1-a713-0fa0f2d58df7
 Id_3=c147260a-0fb2-4877-8461-cd423b5d6e15
 Id_4=c20a72c9-2a58-4846-a9eb-af0c0479690d
 Id_5=73c94b33-baa3-4408-989a-43115f2488cc
+Id_6=d7fa47b0-e329-4e77-ae59-6e7482ec4625
 Name_1=1
 Name_2=2
 Name_3=3
 Name_4=4
 Name_5=5
-Number=5
+Number=6
 Rows=1
 
 [Effect-DimInactive]
@@ -35,7 +36,6 @@ Mode=Times
 NightTemperature=2000
 
 [Plugins]
-diminactiveEnabled=true
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_scaleEnabled=false

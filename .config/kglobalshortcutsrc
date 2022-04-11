@@ -256,6 +256,7 @@ activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
 activate widget 28=Ctrl+Alt+C,none,Activate Color Picker Widget
 activate widget 4=none,none,Activate Pager Widget
+activate widget 54=none,none,Activate Task Manager Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,,Next History Item
