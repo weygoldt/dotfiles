@@ -62,6 +62,8 @@ alias cpv='rsync -ah --info=progress2' # copy with progress bar
 alias sudocode='sudo code --no-sandbox --user-data-dir /root' # open code as root (AT YOUR OWN RISK)
 alias pdf='okular' # shorter way to open a pdf
 alias img='gwenview' # shorter way to open images
+alias vimm='firefox https://vimsheet.com/ </dev/null &>/dev/null &'
+alias notes='cd $obsidianpath && vim notes.md'
 
 #
 # FUNCTIONS --------------------------------------------------------------------
