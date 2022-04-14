@@ -24,6 +24,3 @@ dfs config --local status.showUntrackedFiles no
 cd /etc/profile.d
 sudo ln -s /home/weygoldt/.conky/conky-startup.sh
 ```
-
-## Scripts
-A collection of scripts to automate backups to external drives and autopush all my git repos from time to time.
