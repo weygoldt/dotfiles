@@ -34,8 +34,8 @@ alias gitca='git add . && git commit -m' # stage and commit all files
 alias autopush='bash /home/weygoldt/Data/system/backup-arch/autopush-git.sh'
 
 # Download helpers
-alias audiodl='youtube-dl -f bestaudio -x --audio-format "mp3" --embed-thumbnail --add-metadata'
-alias videodl='youtube-dl -f best'
+alias audiodl='torsocks -i youtube-dl -f bestaudio -x --audio-format "mp3" --embed-thumbnail --add-metadata'
+alias videodl='torsocks -i youtube-dl -f best'
 
 # Latex, markdown, pandoc
 alias md2pdf='zsh /home/weygoldt/Data/system/scripts/md2pdf.sh'
@@ -59,11 +59,19 @@ alias py='python3'
 alias ll='ls -la' # list all files
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort" # list mounted drives only
 alias cpv='rsync -ah --info=progress2' # copy with progress bar
+alias cpwd="pwd | xclip -selection clipboard" # copy pwd to clip
 alias sudocode='sudo code --no-sandbox --user-data-dir /root' # open code as root (AT YOUR OWN RISK)
 alias pdf='okular' # shorter way to open a pdf
 alias img='gwenview' # shorter way to open images
-alias vimm='firefox https://vimsheet.com/ </dev/null &>/dev/null &'
+
 alias notes='cd $obsidianpath && vim notes.md'
+alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /home/weygoldt/Data/uni/efish/efishdata/2016-colombia/'
+alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /home/weygoldt/Data/uni/efish/efishdata/2018-habitat-preference/'
+
+alias vimm='firefox https://vimsheet.com/ </dev/null &>/dev/null &'
+alias github='firefox https://github.com/weygoldt </dev/null &>/dev/null &'
+alias libgen='firefox https://libgen.is/ </dev/null &>/dev/null &'
+alias scihub='firefox https://www.sci-hub.st/ </dev/null &>/dev/null &'
 
 #
 # FUNCTIONS --------------------------------------------------------------------
