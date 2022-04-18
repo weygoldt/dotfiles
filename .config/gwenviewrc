@@ -42,26 +42,26 @@ eDP-1-1 XPosition 1920x1080=0
 eDP-1-1 YPosition 1920x1080=0
 
 [Recent Files]
-File1[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs36439-37140_freqs619-738.png
-File10[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160409222500_secs6994-7671_freqs639-718.png
-File2[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs19454-20052_freqs612-744.png
-File3[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160416184500_secs16343-16749_freqs626-688.png
-File4[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160416184500_secs36907-37552_freqs510-598.png
-File5[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160416184500_secs39073-40586_freqs598-655.png
-File6[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417080600_secs35302-38346_freqs584-771.png
-File7[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs8573-8896_freqs673-862.png
-File8[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs12666-13570_freqs626-730.png
-File9[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160409222500_secs348-2462_freqs535-707.png
-Name1[$e]=rec20160417190400_secs36439-37140_freqs619-738.png
-Name10[$e]=rec20160409222500_secs6994-7671_freqs639-718.png
-Name2[$e]=rec20160417190400_secs19454-20052_freqs612-744.png
-Name3[$e]=rec20160416184500_secs16343-16749_freqs626-688.png
-Name4[$e]=rec20160416184500_secs36907-37552_freqs510-598.png
-Name5[$e]=rec20160416184500_secs39073-40586_freqs598-655.png
-Name6[$e]=rec20160417080600_secs35302-38346_freqs584-771.png
-Name7[$e]=rec20160417190400_secs8573-8896_freqs673-862.png
-Name8[$e]=rec20160417190400_secs12666-13570_freqs626-730.png
-Name9[$e]=rec20160409222500_secs348-2462_freqs535-707.png
+File1[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs19454-20052_freqs612-744.png
+File10[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160409222500_secs7175-9443_freqs521-617.png
+File2[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160416184500_secs16343-16749_freqs626-688.png
+File3[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160416184500_secs36907-37552_freqs510-598.png
+File4[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160416184500_secs39073-40586_freqs598-655.png
+File5[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417080600_secs35302-38346_freqs584-771.png
+File6[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs8573-8896_freqs673-862.png
+File7[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160417190400_secs12666-13570_freqs626-730.png
+File8[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160409222500_secs348-2462_freqs535-707.png
+File9[$e]=$HOME/Data/uni/efish/wavetracker-plots/rec20160409222500_secs6994-7671_freqs639-718.png
+Name1[$e]=rec20160417190400_secs19454-20052_freqs612-744.png
+Name10[$e]=rec20160409222500_secs7175-9443_freqs521-617.png
+Name2[$e]=rec20160416184500_secs16343-16749_freqs626-688.png
+Name3[$e]=rec20160416184500_secs36907-37552_freqs510-598.png
+Name4[$e]=rec20160416184500_secs39073-40586_freqs598-655.png
+Name5[$e]=rec20160417080600_secs35302-38346_freqs584-771.png
+Name6[$e]=rec20160417190400_secs8573-8896_freqs673-862.png
+Name7[$e]=rec20160417190400_secs12666-13570_freqs626-730.png
+Name8[$e]=rec20160409222500_secs348-2462_freqs535-707.png
+Name9[$e]=rec20160409222500_secs6994-7671_freqs639-718.png
 
 [SideBar]
 IsVisible ViewMode=true
