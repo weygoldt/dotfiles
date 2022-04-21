@@ -43,7 +43,7 @@ HDMI-1-0 eDP-1 YPosition 1920x1080=28
 HDMI-1-0 eDP1 Height 1920x1080=1020
 HDMI-1-0 eDP1 Width 1920x1080=952
 HDMI-1-0 eDP1 Window-Maximized 1920x1080=true
-HDMI-1-0 eDP1 XPosition 1920x1080=964
+HDMI-1-0 eDP1 XPosition 1920x1080=1924
 HDMI-1-0 eDP1 YPosition 1920x1080=28
 MenuBar=Disabled
 ToolBarsMovable=Disabled
@@ -55,6 +55,10 @@ eDP-1-1 Width 1920x1080=952
 eDP-1-1 Window-Maximized 1920x1080=true
 eDP-1-1 XPosition 1920x1080=4
 eDP-1-1 YPosition 1920x1080=28
+eDP1 HDMI-1-0 Height 1920x1080=1020
+eDP1 HDMI-1-0 Width 1920x1080=952
+eDP1 Height 1920x1080=1020
+eDP1 Width 1920x1080=952
 
 [Open-with settings]
 CompletionMode=1
