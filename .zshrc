@@ -7,7 +7,7 @@ RPS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magen
 source /home/weygoldt/.zsh_aliases
 
 # History in cache directory:
-HISTFILE=~/.cache/zsh/history
+HISTFILE=~/.zsh_history
 HISTSIZE=20000
 SAVEHIST=10000
 

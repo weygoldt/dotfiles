@@ -26,9 +26,13 @@ efishpath=~/Data/uni/efish
 
 # dotfiles
 alias dfs="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dfsc="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -am"
+alias dfstracked="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME ls-tree --full-tree -r --name-only HEAD" # list tracked dotfiles
+alias dfslog="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log --graph --oneline --decorate" # list tracked dotfiles
 
 #git helpers
-alias gitlog='git log --graph --oneline --decorate'
+alias gitlog='git log --graph --oneline --decorate' # commit log
+alias gittracked='git ls-tree --full-tree -r --name-only HEAD' # list tracked
 alias gitc='git commit -am' # changes and deletions
 alias gitca='git add . && git commit -m' # stage and commit all files
 alias autopush='bash /home/weygoldt/Data/system/backup-arch/autopush-git.sh'
@@ -50,7 +54,7 @@ alias scrps='cd $scriptspath'
 alias efish='cd $efishpath && activate env'
 
 # Conda helpers
-alias crun='conda activate && conda run python' # run a python script with conda base env
+alias cpy='conda activate && conda run python' # run a python script with conda base env
 
 # Faster python
 alias py='python3'
@@ -72,6 +76,9 @@ alias vimm='firefox https://vimsheet.com/ </dev/null &>/dev/null &'
 alias github='firefox https://github.com/weygoldt </dev/null &>/dev/null &'
 alias libgen='firefox https://libgen.is/ </dev/null &>/dev/null &'
 alias scihub='firefox https://www.sci-hub.st/ </dev/null &>/dev/null &'
+
+# System update
+alias sysupdate='/home/weygoldt/Data/system/maintain-arch/update-clean.sh'
 
 #
 # FUNCTIONS --------------------------------------------------------------------

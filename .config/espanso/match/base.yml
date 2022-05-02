@@ -123,6 +123,13 @@ matches:
     replace: '<span style="color:#8250c9"><i>$|$</i></span>'
 
 # Mathjax & Latex for Stackoverflow, Obsidian, Latex etc.
+  # Latex formatting
+  - trigger: ":bb"
+    replace: "\\textbf{$|$}"
+
+  - trigger: ":ii"
+    replace: "\\textit{$|$}"
+
   # Centered equation
   - trigger: ":#"
     replace: "$$$|$$$"
@@ -202,6 +209,13 @@ matches:
   # Text
   - trigger: ":text"
     replace: "\\text{$|$}"
+
+  # Electric organ discharge frequency
+  - trigger: ":eodf"
+    replace: "EOD$f$"
+
+  - trigger: ":df"
+    replace: "$\\Delta{f}$"
       
   # Font styles
   - trigger: ":mbb"
@@ -232,6 +246,21 @@ matches:
 
   - trigger: "taylor"
     replace: "Taylor"
+
+  - trigger: "weber"
+    replace: "Weber"
+
+  - trigger: "webers"
+    replace: "Weber's"
+
+  - trigger: "fechner"
+    replace: "Fechner"
+
+  - trigger: "arabic"
+    replace: "Arabic"
+
+  - trigger: "german"
+    replace: "German"
 
   - trigger: "fourier"
     replace: "Fourier"
