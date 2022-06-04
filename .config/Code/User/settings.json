@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Nord",
+    "editor.wordWrap": "on",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.rulers": [
+        80,
+    ],
+    "python.defaultInterpreterPath": "/bin/python",
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+}
