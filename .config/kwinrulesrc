@@ -10,6 +10,15 @@ sizerule=3
 wmclass=konsole
 wmclassmatch=3
 
+[2]
+Description=Settings for konsole
+position=480,220
+positionrule=3
+size=960,640
+sizerule=3
+wmclass=konsole
+wmclassmatch=3
+
 [33457c0d-f853-4946-8e9a-a8084280a612]
 Description=Settings for dolphin
 position=480,220
@@ -20,6 +29,18 @@ types=1
 wmclass=dolphin dolphin
 wmclasscomplete=true
 wmclassmatch=3
+
+[7fd6ccd8-ec6a-4fe1-941e-a3555e27c1d7]
+Description=Window settings for matplotlib
+clientmachine=localhost
+size=960,1052
+sizerule=2
+title=Figure 1
+titlematch=1
+types=1
+wmclass=matplotlib matplotlib
+wmclasscomplete=true
+wmclassmatch=1
 
 [General]
 count=1

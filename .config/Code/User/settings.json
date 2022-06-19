@@ -18,4 +18,8 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.formatting.provider": "black",
+    "tabnine.experimentalAutoImports": true,
+    "autoDocstring.includeName": true,
+    "autoDocstring.startOnNewLine": true,
+    "terminal.integrated.fontFamily": "monospace",
 }

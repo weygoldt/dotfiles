@@ -68,10 +68,6 @@ alias sudocode='sudo code --no-sandbox --user-data-dir /root' # open code as roo
 alias pdf='okular' # shorter way to open a pdf
 alias img='gwenview' # shorter way to open images
 
-alias notes='cd $obsidianpath && vim notes.md'
-alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /home/weygoldt/Data/uni/efish/efishdata/2016-colombia/'
-alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /home/weygoldt/Data/uni/efish/efishdata/2018-habitat-preference/'
-
 alias vimm='firefox https://vimsheet.com/ </dev/null &>/dev/null &'
 alias github='firefox https://github.com/weygoldt </dev/null &>/dev/null &'
 alias libgen='firefox https://libgen.is/ </dev/null &>/dev/null &'
@@ -80,6 +76,12 @@ alias scihub='firefox https://www.sci-hub.st/ </dev/null &>/dev/null &'
 # System update
 alias sysupdate='/home/weygoldt/Data/system/maintain-arch/update-clean.sh'
 
+# Temporary aliases
+alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /home/weygoldt/Data/uni/efish/efishdata/2016-colombia/'
+alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /home/weygoldt/Data/uni/efish/efishdata/2018-habitat-preference/'
+alias efishcode='cd $efishpath && activate env && cd code && code .'
+alias trialdata='cd $efishpath/wavetracker && py EODsorter.py /home/weygoldt/Data/uni/efish/efishdata-local/2016-04-09-22_25/'
+
 #
 # FUNCTIONS --------------------------------------------------------------------
 #
@@ -87,4 +89,8 @@ alias sysupdate='/home/weygoldt/Data/system/maintain-arch/update-clean.sh'
 # Activates a python virtual environment created with venv.
 activate () {
     source "$1"/bin/activate
+}
+
+pdfappend () {
+    gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile="$3" "$1" "$2"
 }
