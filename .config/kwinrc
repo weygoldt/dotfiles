@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id
 
 [Compositing]
 OpenGLIsUnsafe=false
@@ -14,7 +14,7 @@ Name_1=1
 Name_2=3
 Name_3=4
 Name_4=5
-Name_5=Desktop 6
+Name_5=6
 Number=5
 Rows=1
 
@@ -27,6 +27,20 @@ BorderActivate=7
 [Effect-PresentWindows]
 BorderActivateAll=9
 
+[Effect-diminactive]
+DimFullScreen=false
+
+[Effect-overview]
+BorderActivate=7
+
+[Effect-presentwindows]
+BorderActivateAll=9
+
+[Effect-slide]
+HorizontalGap=0
+SlideBackground=false
+VerticalGap=0
+
 [NightColor]
 EveningBeginFixed=2100
 LatitudeAuto=48.5247
@@ -35,11 +49,11 @@ Mode=Times
 NightTemperature=2000
 
 [Plugins]
-kwin4_effect_fadeEnabled=true
-kwin4_effect_fadedesktopEnabled=true
-kwin4_effect_scaleEnabled=false
 overviewEnabled=true
-slideEnabled=false
+
+[Script-desktopchangeosd]
+PopupHideDelay=500
+TextOnly=true
 
 [SubSession: 0e415369-0911-4a0c-b05c-045a7ad5aaa6]
 active=-1

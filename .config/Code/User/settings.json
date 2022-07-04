@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Nord",
     "editor.wordWrap": "on",
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.rulers": [
@@ -22,4 +21,8 @@
     "autoDocstring.includeName": true,
     "autoDocstring.startOnNewLine": true,
     "terminal.integrated.fontFamily": "monospace",
+    "autoDocstring.docstringFormat": "numpy",
+    "workbench.colorTheme": "Nord",
+    "editor.fontFamily": "'Fira Code', 'Hack', 'Droid Sans Mono', 'monospace', monospace",
+    "jupyter.askForKernelRestart": false,
 }

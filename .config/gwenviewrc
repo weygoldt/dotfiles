@@ -5,7 +5,6 @@ update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBa
 BirdEyeViewEnabled=false
 LastUsedVersion=210800
 SideBarPage=operations
-ThumbnailBarIsVisible=true
 
 [ImageView]
 ThumbnailSplitterSizes=746,212
@@ -16,7 +15,7 @@ Places Icons Static Size=32
 
 [KPropertiesDialog]
 HDMI-1-0 eDP1 Height 1920x1080=467
-HDMI-1-0 eDP1 Width 1920x1080=381
+HDMI-1-0 eDP1 Width 1920x1080=382
 
 [MainWindow]
 HDMI-0 Height 1920x1080=669
@@ -35,7 +34,7 @@ HDMI-1-0 eDP1 Window-Maximized 1920x1080=true
 HDMI-1-0 eDP1 XPosition 1920x1080=4
 HDMI-1-0 eDP1 YPosition 1920x1080=28
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 eDP-1-1 Height 1920x1080=667
 eDP-1-1 Width 1920x1080=738
@@ -49,26 +48,26 @@ eDP1 XPosition 1920x1080=4
 eDP1 YPosition 1920x1080=28
 
 [Recent Files]
-File1[$e]=/mnt/veracrypt1/pictures/jpegs/Best/WEY_8939.jpg
-File10[$e]=/mnt/veracrypt1/porn/images/IMG_5371.PNG
-File2[$e]=/mnt/veracrypt1/pictures/jpegs/Best/IMG (26).jpg
-File3[$e]=$HOME/iPhone/DCIM/119APPLE/IMG_9020.JPG
-File4[$e]=$HOME/iPhone/DCIM/119APPLE/IMG_9021.dng
-File5[$e]=$HOME/iPhone/DCIM/119APPLE/IMG_9019.JPG
-File6[$e]=/run/media/weygoldt/olddata_backup3/storage3/iphone/IMG_8100.JPG
-File7[$e]=/run/media/weygoldt/olddata_backup3/storage3/iphone/IMG_9702.dng
-File8[$e]=$HOME/iPhone/DCIM/118APPLE/IMG_8759.PNG
-File9[$e]=/mnt/veracrypt1/porn/images/IMG_4625.PNG
-Name1[$e]=WEY_8939.jpg
-Name10[$e]=IMG_5371.PNG
-Name2[$e]=IMG (26).jpg
-Name3[$e]=IMG_9020.JPG
-Name4[$e]=IMG_9021.dng
-Name5[$e]=IMG_9019.JPG
-Name6[$e]=IMG_8100.JPG
-Name7[$e]=IMG_9702.dng
-Name8[$e]=IMG_8759.PNG
-Name9[$e]=IMG_4625.PNG
+File1[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Spirited Away/43-upscaled-scale-2_00x.png
+File10[$e]=$HOME/Data/system/wallpapers/minimal/ZE9ZvL4.png
+File2[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Spirited Away/BLACK-upscaled-scale-2_00x.png
+File3[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Spirited Away/BLUE-upscaled-scale-2_00x.png
+File4[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Spirited Away/01-upscaled-scale-2_00x.png
+File5[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/04-upscaled-scale-2_00x.png
+File6[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/06-upscaled-scale-2_00x.png
+File7[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/08-upscaled-scale-2_00x.png
+File8[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/09-upscaled-scale-2_00x.png
+File9[$e]=$HOME/Data/system/wallpapers/landscapes/WEY_8126.jpg
+Name1[$e]=43-upscaled-scale-2_00x.png
+Name10[$e]=ZE9ZvL4.png
+Name2[$e]=BLACK-upscaled-scale-2_00x.png
+Name3[$e]=BLUE-upscaled-scale-2_00x.png
+Name4[$e]=01-upscaled-scale-2_00x.png
+Name5[$e]=04-upscaled-scale-2_00x.png
+Name6[$e]=06-upscaled-scale-2_00x.png
+Name7[$e]=08-upscaled-scale-2_00x.png
+Name8[$e]=09-upscaled-scale-2_00x.png
+Name9[$e]=WEY_8126.jpg
 
 [SideBar]
 IsVisible ViewMode=true

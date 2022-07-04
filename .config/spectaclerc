@@ -5,7 +5,8 @@ update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_remember
 clipboardGroup=PostScreenshotCopyImage
 
 [GuiConfig]
-window-position=288,277
+cropRegion=1076,158,726,533
+window-position=284,249
 
 [Save]
-lastSaveLocation=file:///home/weygoldt/Pictures/Screenshot_20220518_103841.png
+lastSaveLocation=file:///home/weygoldt/Pictures/Screenshot_20220621_215001.png
