@@ -15,7 +15,7 @@ Places Icons Static Size=32
 
 [KPropertiesDialog]
 HDMI-1-0 eDP1 Height 1920x1080=467
-HDMI-1-0 eDP1 Width 1920x1080=382
+HDMI-1-0 eDP1 Width 1920x1080=374
 
 [MainWindow]
 HDMI-0 Height 1920x1080=669
@@ -23,16 +23,18 @@ HDMI-0 Width 1920x1080=952
 HDMI-0 Window-Maximized 1920x1080=true
 HDMI-0 XPosition 1920x1080=0
 HDMI-0 YPosition 1920x1080=0
+HDMI-0 eDP-1-1 Height 1920x1080=716
+HDMI-0 eDP-1-1 Width 1920x1080=1912
 HDMI-0 eDP-1-1 Window-Maximized 1920x1080=true
-HDMI-0 eDP-1-1 XPosition 1920x1080=640
-HDMI-0 eDP-1-1 YPosition 1920x1080=301
+HDMI-0 eDP-1-1 XPosition 1920x1080=1920
+HDMI-0 eDP-1-1 YPosition 1920x1080=0
 HDMI-1-0 eDP-1 XPosition 1920x1080=640
 HDMI-1-0 eDP-1 YPosition 1920x1080=293
-HDMI-1-0 eDP1 Height 1920x1080=1020
-HDMI-1-0 eDP1 Width 1920x1080=952
+HDMI-1-0 eDP1 Height 1920x1080=716
+HDMI-1-0 eDP1 Width 1920x1080=1272
 HDMI-1-0 eDP1 Window-Maximized 1920x1080=true
-HDMI-1-0 eDP1 XPosition 1920x1080=4
-HDMI-1-0 eDP1 YPosition 1920x1080=28
+HDMI-1-0 eDP1 XPosition 1920x1080=1920
+HDMI-1-0 eDP1 YPosition 1920x1080=0
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAB4AAAAP0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -44,30 +46,30 @@ eDP-1-1 YPosition 1920x1080=0
 eDP1 Height 1920x1080=716
 eDP1 Width 1920x1080=653
 eDP1 Window-Maximized 1920x1080=true
-eDP1 XPosition 1920x1080=4
-eDP1 YPosition 1920x1080=28
+eDP1 XPosition 1920x1080=633
+eDP1 YPosition 1920x1080=183
 
 [Recent Files]
-File1[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/04-upscaled-scale-2_00x.png
-File10[$e]=$HOME/Downloads/moneterey-dynamic-3.heic
-File2[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/06-upscaled-scale-2_00x.png
-File3[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/08-upscaled-scale-2_00x.png
-File4[$e]=$HOME/Data/system/wallpapers/ghibli-all/Ghibli/Princess Mononoke/09-upscaled-scale-2_00x.png
-File5[$e]=$HOME/Data/system/wallpapers/landscapes/WEY_8126.jpg
-File6[$e]=$HOME/Data/system/wallpapers/minimal/ZE9ZvL4.png
-File7[$e]=$HOME/Data/system/wallpapers/mgvxniw0h3h61.jpg
-File8[$e]=$HOME/Data/system/wallpapers/wave-dark-nord1.png
-File9[$e]=$HOME/Data/system/wallpapers/yu4ylnw0h3h61.jpg
-Name1[$e]=04-upscaled-scale-2_00x.png
-Name10[$e]=moneterey-dynamic-3.heic
-Name2[$e]=06-upscaled-scale-2_00x.png
-Name3[$e]=08-upscaled-scale-2_00x.png
-Name4[$e]=09-upscaled-scale-2_00x.png
-Name5[$e]=WEY_8126.jpg
-Name6[$e]=ZE9ZvL4.png
-Name7[$e]=mgvxniw0h3h61.jpg
-Name8[$e]=wave-dark-nord1.png
-Name9[$e]=yu4ylnw0h3h61.jpg
+File1[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2022-06-15/IMG_9765.JPG
+File10[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2017-09-03/WEY_0711.CR2
+File2[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2021-06-23/IMG_8482.JPG
+File3[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2019-10-21/IMG_3222.JPG
+File4[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2019-10-21/IMG_3218.JPG
+File5[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2019-10-21/IMG_3217.dng
+File6[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2019-10-17/IMG_3219.JPG
+File7[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2020-09-03/IMG_6789.JPG
+File8[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2020-09-03/IMG_6789.dng
+File9[$e]=/run/media/weygoldt/olddata_backup3/storage3/2022/image/2021-01-14/IMG_7985.JPG
+Name1[$e]=IMG_9765.JPG
+Name10[$e]=WEY_0711.CR2
+Name2[$e]=IMG_8482.JPG
+Name3[$e]=IMG_3222.JPG
+Name4[$e]=IMG_3218.JPG
+Name5[$e]=IMG_3217.dng
+Name6[$e]=IMG_3219.JPG
+Name7[$e]=IMG_6789.JPG
+Name8[$e]=IMG_6789.dng
+Name9[$e]=IMG_7985.JPG
 
 [SideBar]
 IsVisible ViewMode=true

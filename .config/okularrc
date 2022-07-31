@@ -1,5 +1,14 @@
+HDMI-1-0 eDP1 Height 1920x1080=1080
+HDMI-1-0 eDP1 Width 1920x1080=1920
+HDMI-1-0 eDP1 XPosition 1920x1080=1920
+HDMI-1-0 eDP1 YPosition 1920x1080=0
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABzwAAAQ4AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+
 [Desktop Entry]
 FullScreen=false
+shouldShowMenuBarComingFromFullScreen=false
+shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
 HDMI-0 Height 1920x1080=1020
@@ -15,44 +24,46 @@ HDMI-1-0 eDP-1 Height 1920x1080=1020
 HDMI-1-0 eDP-1 Width 1920x1080=952
 HDMI-1-0 eDP-1 XPosition 1920x1080=964
 HDMI-1-0 eDP-1 YPosition 1920x1080=28
-HDMI-1-0 eDP1 Height 1920x1080=904
-HDMI-1-0 eDP1 Width 1920x1080=1313
-HDMI-1-0 eDP1 XPosition 1920x1080=283
-HDMI-1-0 eDP1 YPosition 1920x1080=74
+HDMI-1-0 eDP1 Height 1920x1080=1026
+HDMI-1-0 eDP1 Width 1920x1080=952
+HDMI-1-0 eDP1 Window-Maximized 1920x1080=true
+HDMI-1-0 eDP1 XPosition 1920x1080=4
+HDMI-1-0 eDP1 YPosition 1920x1080=28
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA7gAAAP8AAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAAA6IAAAPUAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 eDP-1 Window-Maximized 1920x1080=true
 eDP-1-1 Height 1920x1080=1026
 eDP-1-1 Width 1920x1080=952
 eDP-1-1 XPosition 1920x1080=484
 eDP-1-1 YPosition 1920x1080=28
-eDP1 HDMI-1-0 Height 1920x1080=1020
-eDP1 HDMI-1-0 Width 1920x1080=952
-eDP1 Height 1920x1080=1020
+eDP1 HDMI-1-0 Height 1920x1080=1080
+eDP1 HDMI-1-0 Width 1920x1080=1920
+eDP1 HDMI-1-0 XPosition 1920x1080=0
+eDP1 HDMI-1-0 YPosition 1920x1080=0
+eDP1 Height 1920x1080=1026
 eDP1 Width 1920x1080=952
-eDP1 Window-Maximized 1920x1080=true
-eDP1 XPosition 1920x1080=484
+eDP1 XPosition 1920x1080=964
 eDP1 YPosition 1920x1080=28
 
 [Recent Files]
-File1[$e]=$HOME/Data/uni/efish/figs/dyad_26788_26789_index_0.pdf
-File10[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_6.pdf
-File2[$e]=/mnt/archlinux/@home/weygoldt/Data/uni/cnc/talk/88-6-1447.pdf
-File3[$e]=/mnt/archlinux/@home/weygoldt/Data/uni/cnc/talk/L10 Okobi et al 2019.pdf
-File4[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_7.pdf
-File5[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_5.pdf
-File6[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_4.pdf
-File7[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_3.pdf
-File8[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_2.pdf
-File9[$e]=$HOME/Data/uni/efish/output/2016-04-20-18_49/dyad_14150_14151_index_1.pdf
-Name1[$e]=dyad_26788_26789_index_0.pdf
-Name10[$e]=dyad_14150_14151_index_6.pdf
-Name2[$e]=88-6-1447.pdf
-Name3[$e]=L10 Okobi et al 2019.pdf
-Name4[$e]=dyad_14150_14151_index_7.pdf
-Name5[$e]=dyad_14150_14151_index_5.pdf
-Name6[$e]=dyad_14150_14151_index_4.pdf
-Name7[$e]=dyad_14150_14151_index_3.pdf
-Name8[$e]=dyad_14150_14151_index_2.pdf
-Name9[$e]=dyad_14150_14151_index_1.pdf
+File1[$e]=$HOME/Documents/ECNs1-Concepts and mental systems.pdf
+File10[$e]=$HOME/Data/uni/efish/scientificcomputing-script.pdf
+File2[$e]=$HOME/Data/uni/efish/poster/figs/eventposition_2.pdf
+File3[$e]=$HOME/Data/uni/efish/teufel-antrag/antrag_weygoldt.pdf
+File4[$e]=$HOME/Data/uni/efish/drucken/evoeco_zwischenzeugnis.pdf
+File5[$e]=$HOME/Data/uni/efish/drucken/neuro_zwischenzeignis.pdf
+File6[$e]=$HOME/Data/uni/efish/code/posterpres.pdf
+File7[$e]=$HOME/Data/zotero/storage/W4D4C8DY/stoddard_2019_predation and crypsis in the evolution of electric signaling in weakly electric fishes.pdf
+File8[$e]=$HOME/Data/zotero/storage/8SDSSL8W/Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
+File9[$e]=$HOME/Data/uni/efish/poster/main.pdf
+Name1[$e]=ECNs1-Concepts and mental systems.pdf
+Name10[$e]=scientificcomputing-script.pdf
+Name2[$e]=eventposition_2.pdf
+Name3[$e]=antrag_weygoldt.pdf
+Name4[$e]=evoeco_zwischenzeugnis.pdf
+Name5[$e]=neuro_zwischenzeignis.pdf
+Name6[$e]=posterpres.pdf
+Name7[$e]=stoddard_2019_predation and crypsis in the evolution of electric signaling in weakly electric fishes.pdf
+Name8[$e]=Raab et al_2021_Electrocommunication signals indicate motivation to compete during dyadic.pdf
+Name9[$e]=main.pdf

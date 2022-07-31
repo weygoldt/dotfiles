@@ -25,4 +25,5 @@
     "workbench.colorTheme": "Nord",
     "editor.fontFamily": "'Fira Code', 'Hack', 'Droid Sans Mono', 'monospace', monospace",
     "jupyter.askForKernelRestart": false,
+    "redhat.telemetry.enabled": true,
 }

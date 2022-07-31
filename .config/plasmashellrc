@@ -3,9 +3,6 @@ Recent Files[$e]=287-2874120_imac-5k-wallpapers-5k.jpg,file:$HOME/Data/system/wa
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Documents/,file:$HOME/,file:///mnt/archlinux/@home/weygoldt/Data/system/wallpapers/minimal/,file:///mnt/archlinux/@home/weygoldt/Data/system/wallpapers/landscapes/,file:///mnt/archlinux/@home/weygoldt/Data/system/wallpapers/,file:///mnt/archlinux/@home/weygoldt/Data/system/,file:///mnt/archlinux/@home/weygoldt/Data/system/icons/,file:///mnt/archlinux/@home/weygoldt/Data/,file:$HOME/Data/system/wallpapers/space/,file:$HOME/Data/system/wallpapers/
 detailViewIconSize=16
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [PlasmaViews][Panel 2]
 alignment=1
 floating=0
@@ -26,8 +23,8 @@ thickness=20
 
 [ScreenConnectors]
 0=HDMI-1-0
-1=eDP-1-1
-2=eDP1
+1=eDP1
+2=eDP-1-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js
