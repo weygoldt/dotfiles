@@ -1,0 +1,257 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "monospace";
+    font-size: 13px;
+    min-height: 0px;
+}
+
+window#waybar {
+	background: rgba(21, 18, 27, 0);
+  color: #191724;
+}
+
+tooltip {
+    background: #000000;
+    opacity: 1;
+    border-radius: 15px 15px 15px 15px;
+    border-width: 0px;
+}
+
+tooltip label{
+    border-radius: 15px;
+    color: #cdd6f4;
+}
+
+#workspaces button {
+  padding: 5px;
+  color: #585b70;
+  margin-right: 5px;
+}
+
+#workspaces button.active {
+  color: #ebbcba;
+  color: #cdd6f4;
+  color: #a6adc8;
+  color: #C6D0F5;
+}
+
+#workspaces button.focused {
+  color: #ebbcba;
+  color: #cdd6f4;
+  color: #a6adc8;
+  color: #C6D0F5;
+  border-radius: 15px;
+}
+
+#workspaces button.urgent {
+  color: #f38ba8;
+  border-radius: 15px;
+}
+
+#workspaces button:hover {
+  color: #f2cdcd;
+  border-radius: 15px;
+}
+
+#battery,
+#cpu,
+#disk,
+#memory,
+#backlight,
+#clock,
+#tray,
+#pulseaudio,
+#custom-menu,
+#custom-power,
+#custom-weather,
+#custom-updater,
+#custom-keybindings,
+#custom-cycle_wall,
+#custom-spotify,
+#workspaces,
+#network {
+  background: #11111b;
+  background: #000000;
+  color: #ebbcba;
+  color: #cdd6f4;
+  color: #a6adc8;
+  color: #C6D0F5;
+	padding: 0px 15px;
+	margin: 0px 0px;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+  border-radius: 15px;
+}
+
+#workspaces {
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#window {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+
+@keyframes blink {
+    to {
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+	background-color: #f38ba8;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+/* LEFT GROUP */
+#cpu {
+	border-radius: 15px 15px 15px 15px;
+	border-right: 0px; 
+  margin-right: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#memory {
+	border-radius: 15px 15px 15px 15px;
+	border-right: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#disk {
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 10px;
+	border-right: 0px;
+  /* margin-left: 10px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#battery {
+	border-radius: 15px 15px 15px 15px;
+	/* padding-left: 15px; */
+	margin-left: 0px;
+	margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#custom-uptime {
+	border-radius: 15px 15px 15px 15px;
+	/* padding-left: 15px; */
+	margin-left: 0px;
+	margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* RIGHT GROUP */
+
+/* #custom-spotify { */
+/* } */
+
+#custom-spotify {
+   border-radius: 15px 15px 15px 15px;
+   margin-right: 10px;
+   margin-left: 0;
+}
+
+#custom-weather {
+	border-radius: 15px 15px 15px 15px;
+  margin-right: 10px;
+  /* margin-left: 0px; */
+}
+
+#pulseaudio {
+	border-radius: 20px 20px 20px 20px;
+  margin-right: 10px;
+  /* margin-left: 0px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#backlight {
+	border-radius: 15px 15px 15px 15px;
+  margin-right: 10px;
+  /* margin-left: 0px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#network {
+  border-radius: 15px 15px 15px 15px;
+  margin-right: 10px;
+  /* margin-left: 0px; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#network.disconnected,#network.disabled {
+}
+
+#clock {
+   /* border-radius: 15px 15px 15px 15px; */
+   margin-right: 10px;
+   /* margin-left: 10; */
+}
+
+#tray {
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 10px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#custom-power {
+   border-radius: 15px 15px 15px 15px;
+   margin-right: 10px;
+   margin-left: 0;
+   font-size: 14px;
+}
+
+/* END */
+
+#custom-menu {
+	background-color: #f5c2e7;
+}
+
+
+#custom-updater {
+	background-color: #e6ed7b;
+}
+
+
+
+#custom-cycle_wall {
+	background-color: #89dceb;
+}
+
+#custom-vpn_check {
+	background-color: #a6e3a1;
+}
+
+
+#custom-keybindings {
+  background-color: #86b4fa;
+  font-size: 24px;
+}
+

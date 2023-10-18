@@ -1,0 +1,129 @@
+# VARIABLES --------------------------------------------------------------------
+
+phonepath=$HOME/phone
+scriptspath=$HOME/scripts
+unipath=$HOME/uni
+
+# ALIASES ----------------------------------------------------------------------
+
+# dotfiles
+alias dfs="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias dfsc="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME commit -am"
+alias dfstracked="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME ls-tree --full-tree -r --name-only HEAD" # list tracked dotfiles
+alias dfslog="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log --graph --oneline --decorate" # list tracked dotfiles
+
+# git helpers
+alias gittracked='git ls-tree --full-tree -r --name-only HEAD' # list tracked
+alias gitc='git commit -am' # changes and deletions
+alias gitca='git add . && git commit -m' # stage and commit all files
+
+# the only git alias I need for my data science workflow
+gt () {
+    git add . && git commit -m "$1" && git pull && git push
+}
+
+# Download helpers
+alias audiodl='youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 5'
+alias videodl='youtube-dl -f best'
+
+# Latex, markdown, pandoc
+alias md2pdf='zsh $scriptspath/markdown_to_pdf.sh'
+
+# Most used paths
+alias uni='cd $unipath'
+
+# Faster python
+alias py='python3'
+alias pipupdate='python $scriptspath/pipupdate.py'
+
+# Open text editors
+alias nv='nvim' # neovim
+alias lv='lvim' # lunarvim
+alias hx='helix'
+alias code='code-insiders'
+
+# Shell helpers
+alias lss='exa -ah --icons --group-directories-first' # list all files
+alias lsa='exa -alh --group-directories-first' # list files with all info
+alias lst='exa --tree --icons' # list a directory tree
+alias cl='clear && lsa'
+alias cat='bat' # use bat as cat
+alias feh='feh --scale-down --auto-zoom'
+alias cnt='find . -type f | wc -l'
+
+alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | rg ^/dev/ | sort" # list mounted drives only
+alias copy='rsync -ah --info=progress2' # copy with progress bar
+alias trs='gio trash' # put something into the trash
+
+alias mtrx='cmatrix -abrks'
+
+# System utilities
+alias update='$scriptspath/updater.sh'
+alias clean='$scriptspath/cleaner.sh'
+alias sync="unison work"
+alias backuphome='$scriptspath/borgbackup_home.sh'
+alias pacman="sudo pacman --color auto"
+
+# Mount IPhone
+alias mountphone='ifuse $phonepath'
+alias dismountphone='sudo umount $phonepath'
+
+# Temporary aliases
+alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /mnt/efishdata/2016-colombia/'
+alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /mnt/efishdata/2018-habitat-preference/'
+
+# FUNCTIONS --------------------------------------------------------------------
+
+# Activates a python virtual environment created with venv.
+aenv () {
+    source "$1"/bin/activate
+}
+alias denv='deactivate'
+
+# Backup a directory with rsync. Syntax is backup <source> <backupdir>.
+backup () {
+    sudo rsync -aAXv --delete --exclude={/dev/*,/proc/*,/sys/*,/tmp/*,/run/*,/mnt/*,/media/*,/home/*,/lost+found} "$1" "$2"
+}
+
+# Restore a directory with rsync. Syntax is restore <backupdir> <restoredir>.
+restore () {
+    sudo rsync -aAXv --delete $1 $2
+}
+
+pdfappend () {
+    gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile="$3" "$1" "$2"
+}
+
+# show the list of packages that need this package - depends mpv as example
+function_depends()  {
+    search=$(echo "$1")
+    sudo pacman -Sii $search | grep "Required" | sed -e "s/Required By     : //g" | sed -e "s/  /\n/g"
+    }
+alias depends='function_depends'
+
+# # ex = EXtractor for all kinds of archives
+# # usage: ex <file>
+ex ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *.tar.zst)   tar xf $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}

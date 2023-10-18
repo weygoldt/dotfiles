@@ -1,0 +1,20 @@
+[user]
+	name = weygoldt
+	email = 88969563+weygoldt@users.noreply.github.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBNiaeCo+2QhsQfCWgLeAzfl2H0m5mdFmO/noJg2tGpa
+[alias]
+	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
+	tracked="ls-tree --full-tree -r --name-only HEAD"
+    log="log --graph --oneline --decorate"
+[core]
+	editor = nvim
+[credential]
+	helper = cache --timeout=3600
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /opt/1Password/op-ssh-sign
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main

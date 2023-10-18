@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.0"
+   width="166.15619"
+   height="166.1875"
+   id="svg2424"
+   sodipodi:docname="archmargins.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.9433333"
+     inkscape:cx="70.118344"
+     inkscape:cy="94.970415"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2426">
+    <linearGradient
+       x1="112.49854"
+       y1="6.1372099"
+       x2="112.49853"
+       y2="129.3468"
+       id="path1082_2_"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(287,-83)">
+      <stop
+         id="stop193"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop195"
+         style="stop-color:#ffffff;stop-opacity:0.27450982"
+         offset="1" />
+      <midPointStop
+         offset="0"
+         style="stop-color:#FFFFFF"
+         id="midPointStop197" />
+      <midPointStop
+         offset="0.5"
+         style="stop-color:#FFFFFF"
+         id="midPointStop199" />
+      <midPointStop
+         offset="1"
+         style="stop-color:#000000"
+         id="midPointStop201" />
+    </linearGradient>
+    <linearGradient
+       x1="541.33502"
+       y1="104.50665"
+       x2="606.91248"
+       y2="303.14029"
+       id="linearGradient2544"
+       xlink:href="#path1082_2_"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.3937741,0,0,0.393752,357.51969,122.00151)" />
+    <linearGradient
+       id="linearGradient3388">
+      <stop
+         id="stop3390"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0" />
+      <stop
+         id="stop3392"
+         style="stop-color:#000000;stop-opacity:0.37113401"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="490.72305"
+       y1="237.72447"
+       x2="490.72305"
+       y2="183.9644"
+       id="linearGradient4416"
+       xlink:href="#linearGradient3388"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.749107,0,0,0.749107,-35.459862,91.44108)" />
+  </defs>
+  <g
+     transform="translate(-35.718034,-130.75245)"
+     id="layer1">
+    <path
+       d="m 118.78253,141.40334 c -6.44875,15.81061 -10.33832,26.1526 -17.51815,41.49322 4.40213,4.66626 9.80555,10.10036 18.58068,16.23766 -9.43412,-3.88209 -15.86935,-7.7796 -20.678503,-11.82407 -9.188818,19.17388 -23.585049,46.48622 -52.799647,98.97891 22.961693,-13.25618 40.761187,-21.42876 57.34946,-24.54721 -0.7123,-3.06362 -1.11728,-6.37752 -1.08977,-9.83522 l 0.0272,-0.7356 c 0.36435,-14.71095 8.01698,-26.02367 17.08224,-25.25556 9.06527,0.76811 16.11161,13.32353 15.74726,28.03449 -0.0685,2.76813 -0.38076,5.43105 -0.92631,7.90087 16.40818,3.20973 34.01734,11.36139 56.66836,24.43823 -4.46634,-8.22284 -8.45293,-15.63513 -12.25998,-22.69459 -5.99673,-4.64786 -12.25161,-10.69706 -25.01036,-17.2457 8.76963,2.27872 15.04858,4.90776 19.9429,7.84639 -38.70735,-72.06632 -41.84181,-81.64244 -55.11543,-112.79182 z"
+       id="path2518"
+       style="fill:#929ea8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.871821" />
+  </g>
+</svg>

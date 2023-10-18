@@ -1,0 +1,345 @@
+# espanso configuration file
+
+## Welcome to my espanso config file. This file is geared mostly towards working with obsidian.md markdown files and mathjax / latex math notations.
+
+matches:
+  # Espanso default matches
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y/%m/%d"
+
+  # Date and time
+  - trigger: ":now"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%Y/%m/%d, %H:%M"
+
+  # Arrows
+  # Right
+  - trigger: ":righta"
+    replace: "→"
+
+  # Left
+  - trigger: ":lefta"
+    replace: "←"
+
+  # Up
+  - trigger: ":upa"
+    replace: "↑"
+
+  # Down
+  - trigger: ":downa"
+    replace: "↓"
+
+  ## General auto-pairing
+  #  # Auto pair parentheses
+  #  - trigger: "("
+  #    replace: "($|$)"
+  #
+  #  - trigger: "{"
+  #    replace: "{$|$}"
+  #
+  #  - trigger: "["
+  #    replace: "[$|$]"
+  #
+  #  # Auto pair quotes
+  #  - trigger: '"'
+  #    replace: '"$|$"'
+  #
+  # - trigger: "'"
+    # replace: "'$|$'"
+
+  # # Auto pair markdown syntax
+  # - trigger: "**"
+  #   replace: "**$|$**"
+
+  # - trigger: "__"
+  #   replace: "_$|$_"
+
+  # # Markdown code blocks
+  # - trigger: "`"
+  #   replace: "`$|$`"
+
+  - trigger: ":mdsh"
+    replace: "```sh\n$|$\n```"
+
+  - trigger: ":mdpy"
+    replace: "```python\n$|$\n```"
+
+  - trigger: ":mdr"
+    replace: "```r\n$|$\n```"
+
+  - trigger: ":mdcode"
+    replace: "```\n$|$\n```"
+
+  # Inline html to modify obsidian markdown
+  # centered
+  - trigger: ":cent"
+    replace: '<p style="text-align:center">$|$</p>'
+
+  # red
+  - trigger: ":red"
+    replace: '<span style="color:#ff5555">$|$</span>'
+
+  # bold red
+  - trigger: ":bred"
+    replace: '<span style="color:#ff5555"><b>$|$</b></span>'
+
+  # italic red
+  - trigger: ":ired"
+    replace: '<span style="color:#ff5555"><i>$|$</i></span>'
+
+  # green
+  - trigger: ":green"
+    replace: '<span style="color:#3ebc5d">$|$</span>'
+
+  # bold green
+  - trigger: ":bgreen"
+    replace: '<span style="color:#3ebc5d"><b>$|$</b></span>'
+
+  # italic green
+  - trigger: ":igreen"
+    replace: '<span style="color:#3ebc5d"><i>$|$</i></span>'
+
+  # purple
+  - trigger: ":purp"
+    replace: '<span style="color:#8250c9">$|$</span>'
+
+  # bold purple
+  - trigger: ":bpurp"
+    replace: '<span style="color:#8250c9"><b>$|$</b></span>'
+
+  # italic purple
+  - trigger: ":ipurp"
+    replace: '<span style="color:#8250c9"><i>$|$</i></span>'
+
+  # Mathjax & Latex for Stackoverflow, Obsidian, Latex etc.
+  # Latex formatting
+  - trigger: ":com"
+    replace: "[\\textbf{PW:} $|$]"
+
+  - trigger: ":bb"
+    replace: "\\textbf{$|$}"
+
+  - trigger: ":ii"
+    replace: "\\textit{$|$}"
+
+  # Centered equation
+  - trigger: ":#"
+    replace: "$$$|$$$"
+
+  # In text equation
+  - trigger: ":$"
+    replace: "$$|$$"
+
+  # Sum
+  - trigger: ":sum"
+    replace: "\\sum_{$|$}^{}"
+
+  # Fraction
+  - trigger: ":frac"
+    replace: "\\frac{$|$}{}"
+
+  # Delta notation
+  - trigger: ":delta"
+    replace: "\\Delta{$|$}"
+
+  # Subarrays: Used to note multiple partial derivatives
+  - trigger: ":subarray"
+    replace: "\\begin{subarray}{l}$|$\\\\\\end{subarray}"
+
+  # Make a matrix
+  - trigger: ":matrix"
+    replace: "\\left(\\begin{matrix}\n&$|$\\\\[1ex]\n\\end{matrix}\\right)"
+
+  # Make an array
+  - trigger: ":array"
+    replace: "\\begin{array}{ll}\n$|$\\\\[1ex]\n\\end{array}"
+
+  # Make an array with parentheses
+  - trigger: ":parray"
+    replace: "\\left(\\begin{array}{ll}\n$|$\\\\[1ex]\n\\end{array}\\right)"
+
+  # Make mathjax right cases
+  - trigger: ":rcases"
+    replace: "f($|$)=\n\\begin{cases}\n,&\\text{}\\\\[2ex]\n,&\\text{}\n\\end{cases}"
+
+  # Make an aligned equation
+  - trigger: ":align"
+    replace: "\\begin{align}\n$|$&=\\\\[1ex]\n&=\\\\[1ex]\n\\end{align}\n"
+
+  # Draw a box around somethign
+  - trigger: ":box"
+    replace: "\\bbox[10pt, border: 1pt solid]{$|$}"
+
+  # Integral with boundaries
+  - trigger: ":int"
+    replace: "\\int_{$|$}^{}"
+
+  # Fourier transform
+  - trigger: ":fourier"
+    replace: "\\mathcal{F}\\left\\{$|$\\right\\}"
+
+  # Inverse fourier transform
+  - trigger: ":ifourier"
+    replace: "\\mathcal{F^{-1}}\\left\\{$|$\\right\\}"
+
+  # Square root
+  - trigger: ":sqrt"
+    replace: "\\sqrt{$|$}"
+
+  # Adaptive parentheses
+  - trigger: ":left("
+    replace: "\\left($|$\\right)"
+
+  # Adaptive curly parentheses
+  - trigger: ":left\\{"
+    replace: "\\left\\{$|$\\right\\}}"
+
+  # Adaptive squared parentheses
+  - trigger: ":left["
+    replace: "\\left[$|$]\\right]"
+
+  # Text
+  - trigger: ":text"
+    replace: "\\text{$|$}"
+
+  # Electric organ discharge frequency
+  - trigger: ":eodf"
+    replace: "EOD$f$"
+
+  - trigger: ":df"
+    replace: "$\\Delta{f}$"
+
+  # Font styles
+  - trigger: ":mbb"
+    replace: "\\mathbb{$|$}"
+
+  - trigger: ":mbold"
+    replace: "\\mathbf{$|$}"
+
+  - trigger: ":mcal"
+    replace: "\\mathcal{$|$}"
+
+  # Colorful mathjax (does this work with latex as well?)
+  - trigger: ":mred"
+    replace: "{\\color{Tomato}$|$}"
+
+  - trigger: ":mgreen"
+    replace: "{\\color{YellowGreen}$|$}"
+
+  - trigger: ":mblue"
+    replace: "{\\color{CornflowerBlue}$|$}"
+
+  # Words that I mistype
+  - trigger: "euler"
+    replace: "Euler"
+
+  - trigger: "eulers"
+    replace: "Euler's"
+
+  - trigger: "taylor"
+    replace: "Taylor"
+
+  - trigger: "weber"
+    replace: "Weber"
+
+  - trigger: "webers"
+    replace: "Weber's"
+
+  - trigger: "fechner"
+    replace: "Fechner"
+
+  - trigger: "gaussian"
+    replace: "Gaussian"
+
+  - trigger: "arabic"
+    replace: "Arabic"
+
+  - trigger: "german"
+    replace: "German"
+
+  - trigger: "fourier"
+    replace: "Fourier"
+
+  - trigger: "jacobian"
+    replace: "Jacobian"
+
+  - trigger: "nullcline"
+    replace: "null cline"
+
+  - trigger: "cartesian"
+    replace: "Cartesian"
+
+  - trigger: "subcritical"
+    replace: "sub-critical"
+
+  - trigger: "hopf"
+    replace: "Hopf"
+
+  - trigger: ":linux"
+    replace: "GNU/Linux"
+
+  - trigger: ":btrfs"
+    replace: "BTRFS"
+
+  - trigger: ":cpp"
+    replace: "C++"
+  
+  - trigger: "bayes"
+    replace: "Bayes"
+
+  # Shell script templates
+  - trigger: ":shellscript"
+    replace: "#!/bin/bash\n#\n# Script name: $|$\n#\n# Author: Patrick Weygoldt\n# Date: {{mytime}}\n#\n# Description: \n#\n# Run information: \n#\n"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%Y/%m/%d, %H:%M"
+
+  - trigger: ":pyscript"
+    replace: "#!/usr/bin/env python\n\"\"\"\n$|$\n\"\"\""
+
+  # New entry for my uni module calculator
+  - trigger: ":module"
+    replace: "- module: \"$|$\"\n  group: \nstatus: \ncredits: \ngrade: \npassed:"
+
+# German Accents
+
+# Lowercase
+  - trigger: ":a\""
+    replace: "ä"
+
+  - trigger: ":o\""
+    replace: "ö"
+
+  - trigger: ":u\""
+    replace: "ü"
+
+  - trigger: ":s\""
+    replace: "ß"
+
+# Uppercase
+
+  - trigger: ":A\""
+    replace: "Ä"
+
+  - trigger: ":O\""
+    replace: "Ö"
+
+  - trigger: ":U\""
+    replace: "Ü"
+
+# Latex letters inline
+  - trigger: ":sigma"
+    replace: "$\\sigma$"

@@ -1,0 +1,7 @@
+﻿# an empty line before the first path is required for some reason!
+
+uni/mbm/fishtest_zoo/
+uni/efish/preprocessing_output/
+personal/vault
+personal/import_me/
+personal/music/

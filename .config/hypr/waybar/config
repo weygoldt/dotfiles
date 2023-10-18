@@ -1,0 +1,19 @@
+{
+  "include": "~/.config/hypr/waybar/modules",
+  "layer": "top",
+  "mod": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "height": 0,
+  "position": "top",
+  "spacing": 0,
+  "fixed-center": true,
+  "ipc": true,
+  "margin-left": 0,
+  "margin-right": 0,
+
+  "modules-left": ["hyprland/workspaces", "cpu", "memory", "disk", "battery"],
+  "modules-center": ["custom/spotify"],
+  "modules-right": ["tray", "pulseaudio", "backlight", "clock", "custom/power"],
+}
