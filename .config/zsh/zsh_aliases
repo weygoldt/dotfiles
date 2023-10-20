@@ -1,10 +1,13 @@
 # VARIABLES --------------------------------------------------------------------
 
-phonepath=$HOME/phone
-scriptspath=$HOME/scripts
-unipath=$HOME/uni
+phonepath=$HOME/Phone
+scriptspath=$HOME/.scripts
+unipath=$HOME/Uni
 
 # ALIASES ----------------------------------------------------------------------
+
+# Good morning
+alias morning="python -m rich.markdown $scriptspath/morning.md"
 
 # dotfiles
 alias dfs="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -38,9 +41,8 @@ alias pipupdate='python $scriptspath/pipupdate.py'
 
 # Open text editors
 alias nv='nvim' # neovim
-alias lv='lvim' # lunarvim
+alias vim='nvim'
 alias hx='helix'
-alias code='code-insiders'
 
 # Shell helpers
 alias lss='exa -ah --icons --group-directories-first' # list all files
@@ -90,6 +92,7 @@ restore () {
     sudo rsync -aAXv --delete $1 $2
 }
 
+# Append pdf to each other
 pdfappend () {
     gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile="$3" "$1" "$2"
 }
@@ -127,3 +130,5 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+# A good morning todo list
