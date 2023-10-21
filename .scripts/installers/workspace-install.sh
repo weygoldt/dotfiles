@@ -3,7 +3,7 @@
 printf "\e[1;32m WARNING Installing miniconda requires user input!\e[0m"
 
 PACKS=(
-    # visual-studio-code-bin
+    visual-studio-code-bin
     # lunarvim-git
     espanso-git
     1password
@@ -14,6 +14,7 @@ PACKS=(
     unison
     timeshift
     timeshift-autosnap
+    grub-btrfs
     # btrbk
     detox
     zotero
@@ -22,7 +23,7 @@ PACKS=(
     spotify
     obsidian
     onlyoffice-bin
-    texlive-most
+    texlive
     biber
     pandoc
     firefox
@@ -35,7 +36,10 @@ PACKS=(
     arduino
     pyenv
     pyenv-virtualenv
-    # python-poetry
+    python-poetry
+    alacritty
+    kitty
+    ufw
     # python-ruff
     # kwin-bismuth
 )
@@ -48,12 +52,12 @@ paru -S --noconfirm --needed ${PACKS[@]}
 # sudo ufw allow 443/tcp
 # sudo ufw default deny incoming
 # sudo ufw default allow outgoing
-# sudo systemctl enable ufw
-# sudo ufw enable
+sudo systemctl enable ufw
+sudo ufw enable
 
 # Enable cronie so that scheduled timeshift snapshots are actually executed
-# systemctl enable cronie.service
-# systemctl start cronie.service
+systemctl enable cronie.service
+systemctl start cronie.service
 
 # download latest miniconda for linux
 # cd ~
