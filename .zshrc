@@ -95,3 +95,6 @@ eval "$(direnv hook zsh)"
 
 fpath+=~/.zfunc
 autoload -Uz compinit && compinit
+
+export TERM="xterm-kitty"
+export RANGER_LOAD_DEFAULT_RC=false
