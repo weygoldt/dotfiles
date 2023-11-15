@@ -5,7 +5,14 @@
 [alias]
 	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
 	tracked="ls-tree --full-tree -r --name-only HEAD"
-    log="log --graph --oneline --decorate"
+    	log="log --graph --oneline --decorate"
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
 [core]
 	editor = nvim
 [credential]
