@@ -38,6 +38,7 @@ alias uni='cd $unipath'
 # Faster python
 alias py='python3'
 alias pipupdate='python $scriptspath/pipupdate.py'
+alias fix='black --line-length 80 . && isort .'
 
 # Open text editors
 alias nv='nvim' # neovim
@@ -55,6 +56,8 @@ alias cnt='find . -type f | wc -l'
 alias ..="cd .."
 alias ...="cd ../.."
 alias md="python -m rich.markdown"
+alias rm='rm -i'
+alias ran='source ranger'
 
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | rg ^/dev/ | sort" # list mounted drives only
 alias copy='rsync -ah --info=progress2' # copy with progress bar
