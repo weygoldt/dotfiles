@@ -80,7 +80,6 @@ alias dismountphone='sudo umount $phonepath'
 alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /mnt/efishdata/2016-colombia/'
 alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /mnt/efishdata/2018-habitat-preference/'
 
-alias cpd="chirpdetector"
 
 # FUNCTIONS --------------------------------------------------------------------
 
