@@ -44,8 +44,7 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- disable netrw at the very start of your init.lua I added this myself following the 
--- install guide for nvim-tree
+-- disable netrw at the very start of your init.lua, required for nvim-tree
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
@@ -77,9 +76,16 @@ require('lazy').setup({
   -- Github copilot
   'github/copilot.vim',
 
-  -- nvim-tree
+  -- Nvim-tree
   'nvim-tree/nvim-tree.lua',
-  'nvim-tree/nvim-web-devicons',
+
+  -- Oil.nvim, a file browser
+  {
+    'stevearc/oil.nvim',
+    opts = {},
+    -- Optional dependencies
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+  },
 
   -- Git related plugins
   'tpope/vim-fugitive',
@@ -247,9 +253,16 @@ require('lazy').setup({
   -- { import = 'custom.plugins' },
 }, {})
 
--- nvim-tree needs this for some reason
-require'nvim-tree'.setup {}
+-- oil.nvim setup
+require("oil").setup()
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
+-- Nvim tree setup 
+require("nvim-tree").setup()
+vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', {
+  noremap = true,
+  desc = 'Toggle [E]xplorer',
+})
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
@@ -305,7 +318,7 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 -- Diagnostic keymaps
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
-vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
+vim.keymap.set('n', '<leader>ee', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
 -- [[ Highlight on yank ]]
