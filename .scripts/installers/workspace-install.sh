@@ -40,6 +40,7 @@ PACKS=(
     alacritty
     kitty
     ufw
+    diff-so-fancy # nicer git diff view
     # python-ruff
     # kwin-bismuth
 )
