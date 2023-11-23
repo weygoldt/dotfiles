@@ -268,6 +268,13 @@ vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', {
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Set colorcolumn to 80 characters
+vim.cmd([[set colorcolumn=80]])
+
+-- Enable colorcolumn only in active window
+vim.cmd([[autocmd WinEnter,BufRead * set colorcolumn=80]])
+vim.cmd([[autocmd WinLeave * set colorcolumn=]])
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
