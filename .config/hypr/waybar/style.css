@@ -34,6 +34,7 @@ tooltip label{
   color: #cdd6f4;
   color: #a6adc8;
   color: #C6D0F5;
+  color: #ffffff;
 }
 
 #workspaces button.focused {
@@ -41,6 +42,7 @@ tooltip label{
   color: #cdd6f4;
   color: #a6adc8;
   color: #C6D0F5;
+  color: #ffffff;
   border-radius: 15px;
 }
 
@@ -80,6 +82,7 @@ tooltip label{
   color: #cdd6f4;
   color: #a6adc8;
   color: #C6D0F5;
+  color: #ffffff;
 	padding: 0px 0px;
 	margin: 0px 0px;
 	margin-top: -3px;
