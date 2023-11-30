@@ -24,7 +24,7 @@ tooltip label{
 }
 
 #workspaces button {
-  padding: 5px;
+  /* padding: 10px; */
   color: #585b70;
   margin-right: 0px;
 }
