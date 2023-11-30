@@ -120,7 +120,7 @@
 
   "cpu": {
     // "interval": 5,
-    "format": "CPU{usage}%",
+    "format": " {usage}%",
     "interval": 1,
     //"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
     //"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
@@ -140,12 +140,12 @@
 
   "disk": {
     "interval": 30,
-    "format": "/{free}",
+    "format": " {free}",
   },
 
   "memory": {
     "interval": 10,
-    "format": "RAM{used:0.1f}G",
+    "format": " {used:0.1f}G",
   },
 
   "network": {
@@ -232,6 +232,12 @@
   "custom/gpu-usage": {
   "exec": "nvidia-smi | rg % | awk '{print $13}'",
   "format": "GPU{}",
+  "return-type": "",
+  "interval": 1
+},
+  "custom/gpu-ram": {
+  "exec": "nvidia-smi | rg % | awk '{usage=int($9*100/$11); print usage}'",
+  "format": "VRAM{}%",
   "return-type": "",
   "interval": 1
 },

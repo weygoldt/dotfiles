@@ -13,7 +13,7 @@
   "margin-left": 0,
   "margin-right": 0,
 
-  "modules-left": ["hyprland/workspaces", "cpu", "custom/gpu-usage", "memory", "disk", "battery"],
+  "modules-left": ["hyprland/workspaces", "cpu", "memory", "disk", "battery", "custom/gpu-usage", "custom/gpu-ram"],
   "modules-center": ["custom/spotify"],
   "modules-right": ["tray", "pulseaudio", "backlight", "clock", "custom/power"],
 }
