@@ -49,8 +49,8 @@ alias hx='helix'
 alias lss='exa -ah --icons --group-directories-first' # list all files
 alias lsa='exa -alh --group-directories-first' # list files with all info
 alias lst='exa --tree --icons' # list a directory tree
-alias cl='clear && lsa'
-alias cat='bat' # use bat as cat
+alias cl='clear'
+alias cat='bat --theme="Catppuccin-mocha"' # use bat as cat
 alias feh='feh --scale-down --auto-zoom'
 alias cnt='find . -type f | wc -l'
 alias ..="cd .."

@@ -76,6 +76,30 @@ require('lazy').setup({
   -- Github copilot
   'github/copilot.vim',
 
+  -- VimTex
+  'lervag/vimtex',
+ 
+  -- Custom Parameters (with defaults)
+  {
+    "David-Kunz/gen.nvim",
+    opts = {
+        model = "codellama:13b-instruct", -- The default model to use.
+        display_mode = "split", -- The display mode. Can be "float" or "split".
+        show_prompt = false, -- Shows the Prompt submitted to Ollama.
+        show_model = false, -- Displays which model you are using at the beginning of your chat session.
+        no_auto_close = false, -- Never closes the window automatically.
+        init = function(options) pcall(io.popen, "ollama serve > /dev/null 2>&1 &") end,
+        -- Function to initialize Ollama
+        command = "curl --silent --no-buffer -X POST http://localhost:11434/api/generate -d $body",
+        -- The command for the Ollama service. You can use placeholders $prompt, $model and $body (shellescaped).
+        -- This can also be a lua function returning a command string, with options as the input parameter.
+        -- The executed command must return a JSON object with { response, context }
+        -- (context property is optional).
+        list_models = '<function>', -- Retrieves a list of model names
+        debug = false -- Prints errors and the command which is run.
+    },
+  }, 
+
   -- Nvim-tree
   'nvim-tree/nvim-tree.lua',
 
@@ -257,12 +281,47 @@ require('lazy').setup({
 require("oil").setup()
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
+vim.keymap.set({ 'n', 'v' }, '<leader>]', ':Gen<CR>')
+
 -- Nvim tree setup 
 require("nvim-tree").setup()
 vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', {
   noremap = true,
   desc = 'Toggle [E]xplorer',
 })
+
+-- VimTex
+-- PDF Viewer:
+-- http://manpages.ubuntu.com/manpages/trusty/man5/zathurarc.5.html
+vim.g['vimtex_view_method'] = 'zathura'
+vim.g['vimtex_quickfix_mode'] =0
+
+-- Ignore mappings
+vim.g['vimtex_mappings_enabled'] = 0
+
+-- Auto Indent
+vim.g['vimtex_indent_enabled'] = 0
+
+-- Syntax highlighting
+vim.g['vimtex_syntax_enabled'] = 1
+
+-- Error suppression:
+-- https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt
+
+vim.g['vimtex_log_ignore'] = ({
+  'Underfull',
+  'Overfull',
+  'specifier changed to',
+  'Token not allowed in a PDF string',
+})
+
+vim.g['vimtex_context_pdf_viewer'] = 'okular'
+
+-- vim.g['vimtex_complete_enabled'] = 1
+-- vim.g['vimtex_compiler_progname'] = 'nvr'
+-- vim.g['vimtex_complete_close_braces'] = 1
+vim.g['vimtex_compiler_method'] = 'pdflatex'
+
 
 -- [[ Setting options ]]
 -- See `:help vim.o`

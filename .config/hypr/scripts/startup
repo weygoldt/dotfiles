@@ -18,6 +18,8 @@ ${SCRIPTSDIR}/notifications &
 # Lauch statusbar (waybar)
 ${SCRIPTSDIR}/statusbar &
 
+export QT_QPA_PLATFORMTHEME=qt5ct
+
 #insync start &
 #nm-applet-indicator
 #variety &
