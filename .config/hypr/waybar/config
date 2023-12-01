@@ -6,7 +6,7 @@
   "passthrough": false,
   "gtk-layer-shell": true,
   "height": 0,
-  "position": "top",
+  "position": "bottom",
   "spacing": 0,
   "fixed-center": true,
   "ipc": true,
@@ -15,9 +15,15 @@
 
   "modules-left": ["hyprland/workspaces", "cpu", "memory", "disk", "battery", "custom/gpu-usage", "custom/gpu-ram"],
   "modules-center": ["custom/padd", "custom/spotify", "custom/padd"],
-  "modules-right": ["tray", "custom/padd", "pulseaudio", "backlight", "clock", "custom/power", "custom/padd"],
+  "modules-right": ["tray", "custom/padd", "pulseaudio", "backlight", "clock", "custom/padd"],
 
 // modules for padding //
+
+	"custom/bar": {
+		"format": "|",
+		"interval": "once",
+		"tooltip": false
+	},
 
     "custom/l_end": {
         "format": " ",

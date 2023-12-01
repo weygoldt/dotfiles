@@ -7,12 +7,12 @@
 }
 
 window#waybar {
-	background: rgba(0, 0, 0, 1);
+	background: rgba(0, 0, 0, 0.6);
 }
 
 tooltip {
 	border-radius: 10px;
-	background: #000000;
+	/* background: #000000; */
 	color: #cdd6f4;
 	border-radius: 7px;
 	border-width: 0px;
@@ -23,7 +23,7 @@ tooltip {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #585b70;
-	background: #000000;
+	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -33,7 +33,7 @@ tooltip {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #ffffff;
-	background: #000000;
+	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -44,7 +44,7 @@ tooltip {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #ffffff;
-	background: #000000;
+	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -74,7 +74,7 @@ tooltip {
 #window,
 #network {
 	color: #ffffff;
-	background: #000000;
+	/* background: #000000; */
 	opacity: 1;
 	margin: 3px 0px 3px 0px;
 	padding-left: 10px;
@@ -82,22 +82,22 @@ tooltip {
 	margin-right: 0px;
 }
 
-#cpu {
-	color: #9ccfd8;
-}
-#memory {
-	color: #c4a7e7;
-}
-#disk {
-	color: #ebbcba;
-}
-#battery {
-	color: #f6c177;
-}
-#custom-gpu-ram,
-#custom-gpu-usage{
-	color: #eb6f92;
-}
+/* #cpu { */
+/* 	color: #9ccfd8; */
+/* } */
+/* #memory { */
+/* 	color: #c4a7e7; */
+/* } */
+/* #disk { */
+/* 	color: #ebbcba; */
+/* } */
+/* #battery { */
+/* 	color: #f6c177; */
+/* } */
+/* #custom-gpu-ram, */
+/* #custom-gpu-usage{ */
+/* 	color: #eb6f92; */
+/* } */
 
 
 #custom-l_end,

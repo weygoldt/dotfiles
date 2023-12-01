@@ -1079,3 +1079,295 @@ Terminated
 (waybar:489940): GLib-GObject-CRITICAL **: 17:23:26.159: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
 
 ** (waybar:489940): WARNING **: 17:23:26.389: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:489940): WARNING **: 17:24:52.667: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:489940): WARNING **: 17:24:55.369: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:5872): WARNING **: 17:55:13.438: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:5872): WARNING **: 17:55:13.516: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+[2023-12-01 17:57:35.090] [error] * Line 23, Column 16
+  Missing ',' or '}' in object declaration
+
+[2023-12-01 17:57:41.002] [error] * Line 23, Column 16
+  Missing ',' or '}' in object declaration
+
+
+** (waybar:9530): WARNING **: 17:59:01.094: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:9530): WARNING **: 17:59:01.179: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:3555): WARNING **: 19:29:57.828: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:3555): WARNING **: 19:29:57.905: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:7062): WARNING **: 19:34:36.716: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:7062): WARNING **: 19:34:36.799: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:7702): WARNING **: 19:35:11.227: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:7702): WARNING **: 19:35:11.296: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:16910): WARNING **: 19:43:50.661: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:16910): WARNING **: 19:43:50.749: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:17416): WARNING **: 19:44:37.854: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:17416): WARNING **: 19:44:37.905: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:19714): WARNING **: 19:48:19.262: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:19714): WARNING **: 19:48:19.345: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:20022): WARNING **: 19:48:34.309: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:20022): WARNING **: 19:48:34.412: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:20521): WARNING **: 19:49:21.527: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:20521): WARNING **: 19:49:21.615: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:20988): WARNING **: 19:49:54.984: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:20988): WARNING **: 19:49:55.047: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:42284): WARNING **: 20:17:29.828: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:42284): WARNING **: 20:17:29.894: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
+Error: execution failed
+
+** (waybar:42284): WARNING **: 20:24:27.639: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
