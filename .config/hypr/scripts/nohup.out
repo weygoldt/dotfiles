@@ -809,3 +809,273 @@ Terminated
 ** (waybar:302446): WARNING **: 12:16:05.095: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
 
 ** (waybar:302446): WARNING **: 12:17:14.606: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:302446): WARNING **: 12:18:11.566: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(waybar:462554): GLib-GObject-CRITICAL **: 17:09:04.993: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:462554): GLib-GObject-CRITICAL **: 17:09:04.994: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:09:05.120] [error] disk: unknown format specifier
+
+** (waybar:462554): WARNING **: 17:09:05.130: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 17:09:05.253] [error] disk: unknown format specifier
+
+** (waybar:462554): WARNING **: 17:09:05.255: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Exception ignored in atexit callback: <function shutdown at 0x7fb483caf560>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/logging/__init__.py", line 2177, in shutdown
+    def shutdown(handlerList=_handlerList):
+    
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Terminated
+
+(waybar:463139): GLib-GObject-CRITICAL **: 17:09:17.426: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:463139): GLib-GObject-CRITICAL **: 17:09:17.426: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:09:17.568] [error] disk: unknown format specifier
+[2023-12-01 17:09:17.680] [error] disk: unknown format specifier
+[2023-12-01 17:09:17.694] [error] Item '': No icon name or pixmap given.
+[2023-12-01 17:09:17.712] [error] Item '': No icon name or pixmap given.
+[2023-12-01 17:09:17.712] [error] Item '': No icon name or pixmap given.
+
+** (waybar:463139): WARNING **: 17:09:17.713: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 73, in signal_handler
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.write('\n')
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+
+(waybar:463779): GLib-GObject-CRITICAL **: 17:09:33.345: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:463779): GLib-GObject-CRITICAL **: 17:09:33.345: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:09:33.505] [error] disk: unknown format specifier
+[2023-12-01 17:09:33.615] [error] disk: unknown format specifier
+
+** (waybar:463779): WARNING **: 17:09:33.619: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:464265): GLib-GObject-CRITICAL **: 17:09:41.643: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:464265): GLib-GObject-CRITICAL **: 17:09:41.643: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:09:41.783] [error] disk: unknown format specifier
+[2023-12-01 17:09:41.892] [error] disk: unknown format specifier
+
+** (waybar:464265): WARNING **: 17:09:41.896: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:464636): GLib-GObject-CRITICAL **: 17:09:46.795: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:464636): GLib-GObject-CRITICAL **: 17:09:46.795: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:09:46.970] [error] disk: unknown format specifier
+
+** (waybar:464636): WARNING **: 17:09:46.977: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 17:09:47.097] [error] disk: unknown format specifier
+
+** (waybar:464636): WARNING **: 17:09:47.099: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:465181): GLib-GObject-CRITICAL **: 17:09:57.278: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:465181): GLib-GObject-CRITICAL **: 17:09:57.278: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:465181): WARNING **: 17:09:57.476: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:465181): WARNING **: 17:09:57.599: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:466202): GLib-GObject-CRITICAL **: 17:10:27.233: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:466202): GLib-GObject-CRITICAL **: 17:10:27.233: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:10:27.407] [error] disk: unknown format specifier
+[2023-12-01 17:10:27.519] [error] disk: unknown format specifier
+
+** (waybar:466202): WARNING **: 17:10:27.521: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 17:10:57.201] [error] disk: unknown format specifier
+[2023-12-01 17:10:57.282] [error] disk: unknown format specifier
+[2023-12-01 17:11:27.201] [error] disk: unknown format specifier
+[2023-12-01 17:11:27.282] [error] disk: unknown format specifier
+[2023-12-01 17:11:57.201] [error] disk: unknown format specifier
+[2023-12-01 17:11:57.282] [error] disk: unknown format specifier
+
+(waybar:466202): Gtk-WARNING **: 17:12:17.077: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+(waybar:466202): Gtk-WARNING **: 17:12:17.077: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+[2023-12-01 17:12:27.201] [error] disk: unknown format specifier
+[2023-12-01 17:12:27.283] [error] disk: unknown format specifier
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Exception ignored in atexit callback: <function shutdown at 0x7f171bcaf560>
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+SystemExit: 0
+Terminated
+
+(waybar:470037): GLib-GObject-CRITICAL **: 17:12:42.692: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:470037): GLib-GObject-CRITICAL **: 17:12:42.692: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+(waybar:470037): Gtk-WARNING **: 17:12:42.872: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+** (waybar:470037): WARNING **: 17:12:42.982: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(waybar:470037): Gtk-WARNING **: 17:12:42.996: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+(waybar:470037): Gtk-WARNING **: 17:12:43.005: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+(waybar:470037): Gtk-WARNING **: 17:12:43.005: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+object address  : 0x7fe7fbea23e0
+object address  : 0x7f040b0f63e0
+object refcount : 2
+object refcount : 2
+object type     : 0x7fe7fda74400
+object type     : 0x7f040cc74400
+object type name: RuntimeError
+object type name: RuntimeError
+object repr     : object repr     : RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")
+
+lost sys.stderr
+lost sys.stderr
+Terminated
+
+(waybar:471478): GLib-GObject-CRITICAL **: 17:13:29.780: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:471478): GLib-GObject-CRITICAL **: 17:13:29.780: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+(waybar:471478): Gtk-WARNING **: 17:13:29.962: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+** (waybar:471478): WARNING **: 17:13:30.071: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(waybar:471478): Gtk-WARNING **: 17:13:30.088: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+(waybar:471478): Gtk-WARNING **: 17:13:30.091: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+(waybar:471478): Gtk-WARNING **: 17:13:30.098: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+Terminated
+
+(waybar:472280): GLib-GObject-CRITICAL **: 17:13:50.914: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:472280): GLib-GObject-CRITICAL **: 17:13:50.914: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 17:13:51.044] [error] memory: argument not found
+
+(waybar:472280): Gtk-WARNING **: 17:13:51.046: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+[2023-12-01 17:13:51.148] [error] memory: argument not found
+
+(waybar:472280): Gtk-WARNING **: 17:13:51.150: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+** (waybar:472280): WARNING **: 17:13:51.153: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(waybar:472280): Gtk-WARNING **: 17:13:51.167: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+
+(waybar:472280): Gtk-WARNING **: 17:13:51.169: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+[2023-12-01 17:14:00.883] [error] memory: argument not found
+[2023-12-01 17:14:00.926] [error] memory: argument not found
+[2023-12-01 17:14:10.883] [error] memory: argument not found
+[2023-12-01 17:14:10.926] [error] memory: argument not found
+[2023-12-01 17:14:20.883] [error] memory: argument not found
+[2023-12-01 17:14:20.926] [error] memory: argument not found
+Terminated
+
+(waybar:473680): GLib-GObject-CRITICAL **: 17:14:31.108: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:473680): GLib-GObject-CRITICAL **: 17:14:31.109: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:473680): WARNING **: 17:14:31.388: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 72, in signal_handler
+  File "/usr/lib/python3.11/logging/__init__.py", line 1467, in debug
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+
+(waybar:474286): GLib-GObject-CRITICAL **: 17:14:44.149: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:474286): GLib-GObject-CRITICAL **: 17:14:44.149: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:474286): WARNING **: 17:14:44.414: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:477401): GLib-GObject-CRITICAL **: 17:16:38.716: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:477401): GLib-GObject-CRITICAL **: 17:16:38.717: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:477401): WARNING **: 17:16:38.950: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:477401): WARNING **: 17:16:38.960: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+    def signal_notify(source, condition):
+
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+
+(waybar:478760): GLib-GObject-CRITICAL **: 17:17:19.868: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:478760): GLib-GObject-CRITICAL **: 17:17:19.868: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:478760): WARNING **: 17:17:20.100: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:478760): WARNING **: 17:17:20.111: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:482818): GLib-GObject-CRITICAL **: 17:19:48.326: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:482818): GLib-GObject-CRITICAL **: 17:19:48.326: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:482818): WARNING **: 17:19:48.552: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:484443): GLib-GObject-CRITICAL **: 17:20:41.972: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:484443): GLib-GObject-CRITICAL **: 17:20:41.972: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:484443): WARNING **: 17:20:42.208: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:484443): WARNING **: 17:20:42.222: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:488521): GLib-GObject-CRITICAL **: 17:22:41.563: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:488521): GLib-GObject-CRITICAL **: 17:22:41.563: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:488521): WARNING **: 17:22:41.791: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:489940): GLib-GObject-CRITICAL **: 17:23:26.159: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:489940): GLib-GObject-CRITICAL **: 17:23:26.159: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:489940): WARNING **: 17:23:26.389: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered

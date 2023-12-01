@@ -82,6 +82,24 @@ tooltip {
 	margin-right: 0px;
 }
 
+#cpu {
+	color: #9ccfd8;
+}
+#memory {
+	color: #c4a7e7;
+}
+#disk {
+	color: #ebbcba;
+}
+#battery {
+	color: #f6c177;
+}
+#custom-gpu-ram,
+#custom-gpu-usage{
+	color: #eb6f92;
+}
+
+
 #custom-l_end,
 #custom-r_end,
 #custom-sl_end,
