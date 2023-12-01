@@ -44,6 +44,7 @@ alias fix='black --line-length 80 . && isort .'
 alias nv='nvim' # neovim
 alias vim='nvim'
 alias hx='helix'
+alias code='code --password-store=kwallet5'
 
 # Shell helpers
 alias lss='exa -ah --icons --group-directories-first' # list all files
