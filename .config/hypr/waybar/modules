@@ -98,8 +98,8 @@
       "critical": 15
     },
     "format": "{icon} {capacity}",
-    "format-charging": " {capacity}%",
-    "format-plugged": " {capacity}%",
+    "format-charging": " {capacity}",
+    "format-plugged": " {capacity}",
     "format-full": "{icon} Full",
     //"format-good": "",
     "format-alt": "{icon} {time}",
@@ -236,7 +236,7 @@
 },
   "custom/gpu-ram": {
   "exec": "nvidia-smi --query-gpu=utilization.memory --format=csv,noheader,nounits",
-  "format": " {}",
+  "format": " {}",
   "return-type": "",
   "interval": 1
 },

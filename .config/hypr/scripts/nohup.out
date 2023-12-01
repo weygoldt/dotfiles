@@ -1371,3 +1371,46 @@ Error: open '/sys/class/backlight/nvidia_0/brightness': Permission denied
 Error: execution failed
 
 ** (waybar:42284): WARNING **: 20:24:27.639: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Gdk-Message: 20:32:28.098: Error reading events from display: Broken pipe
+
+** (waybar:4384): WARNING **: 20:37:05.489: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:4384): WARNING **: 20:37:05.578: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:37.795: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:38.001: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:38.198: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:38.507: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:40.111: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:45.744: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:41:45.827: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:42:07.896: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:42:08.774: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:42:08.889: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:4384): LIBDBUSMENU-GLIB-WARNING **: 20:42:09.889: Unable to replace properties on 0: Error getting properties for ID
+Terminated
+
+** (waybar:9637): WARNING **: 20:43:28.723: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:9637): WARNING **: 20:43:28.781: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:9637): WARNING **: 21:05:59.511: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:9637): WARNING **: 21:06:03.669: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:50092): WARNING **: 21:38:06.801: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:50092): WARNING **: 21:38:06.823: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:50092): WARNING **: 22:11:37.143: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered

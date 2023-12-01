@@ -5,6 +5,7 @@
 
 #window {
 	background-color: --wofi-color0;
+	background-color: rgba(0, 0, 0, 0.7);
 	color: --wofi-color2;
 	border: 2px solid --wofi-color1;
 	border-radius: 0px;
