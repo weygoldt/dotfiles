@@ -359,3 +359,453 @@ Terminated
 ** (waybar:348905): WARNING **: 16:03:17.629: Status Notifier Item with bus name ':1.583' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
 
 ** (waybar:348905): WARNING **: 16:03:57.328: Status Notifier Item with bus name ':1.583' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:348905): WARNING **: 16:25:32.728: Status Notifier Item with bus name ':1.583' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:8901): WARNING **: 21:41:20.560: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:8901): WARNING **: 21:41:20.638: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:9352): WARNING **: 21:41:39.916: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:9352): WARNING **: 21:41:40.013: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:10150): WARNING **: 21:42:18.862: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:10150): WARNING **: 21:42:18.920: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:10765): WARNING **: 21:42:48.469: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:10765): WARNING **: 21:42:48.536: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:11455): WARNING **: 21:43:24.434: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:11455): WARNING **: 21:43:24.505: Status Notifier Item with bus name ':1.128' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Gdk-Message: 21:54:28.948: Error flushing display: Broken pipe
+
+(waybar:148979): GLib-GObject-CRITICAL **: 10:46:35.712: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:148979): GLib-GObject-CRITICAL **: 10:46:35.721: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:148979): WARNING **: 10:46:35.983: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:162672): GLib-GObject-CRITICAL **: 10:53:18.578: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:162672): GLib-GObject-CRITICAL **: 10:53:18.578: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:162672): WARNING **: 10:53:18.805: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 10:53:18.816] [error] Item '': No icon name or pixmap given.
+[2023-12-01 10:53:18.825] [error] Item '': No icon name or pixmap given.
+Terminated
+
+(waybar:164590): GLib-GObject-CRITICAL **: 10:54:25.402: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:164590): GLib-GObject-CRITICAL **: 10:54:25.402: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 10:54:25.633] [error] Item '': No icon name or pixmap given.
+
+** (waybar:164590): WARNING **: 10:54:25.641: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 10:54:25.642] [error] Item '': No icon name or pixmap given.
+Terminated
+
+(waybar:168654): GLib-GObject-CRITICAL **: 10:56:56.011: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:168654): GLib-GObject-CRITICAL **: 10:56:56.011: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:168654): WARNING **: 10:56:56.250: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+[2023-12-01 10:58:36.643] [error] style.css:22:6'/*' in comment block
+[2023-12-01 10:58:49.174] [error] style.css:22:6'/*' in comment block
+[2023-12-01 10:59:14.805] [error] style.css:22:6'/*' in comment block
+
+(waybar:267722): GLib-GObject-CRITICAL **: 11:58:10.430: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:267722): GLib-GObject-CRITICAL **: 11:58:10.430: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:267722): WARNING **: 11:58:10.655: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:267722): WARNING **: 11:58:10.665: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 11:58:10.672] [error] Item '': No icon name or pixmap given.
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1534, in _shutdown
+    def _shutdown():
+    
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Terminated
+
+(waybar:270461): GLib-GObject-CRITICAL **: 11:59:53.103: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:270461): GLib-GObject-CRITICAL **: 11:59:53.103: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:270461): WARNING **: 11:59:53.231: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:270461): WARNING **: 11:59:53.342: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 11:59:53.349] [error] Item '': No icon name or pixmap given.
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+    sys.exit(0)
+SystemExit: 0
+SystemExit: 0
+Terminated
+
+(waybar:272471): GLib-GObject-CRITICAL **: 12:00:57.592: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:272471): GLib-GObject-CRITICAL **: 12:00:57.592: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:272471): WARNING **: 12:00:57.818: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:272471): WARNING **: 12:00:57.827: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1534, in _shutdown
+    def _shutdown():
+    
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Terminated
+
+(waybar:273431): GLib-GObject-CRITICAL **: 12:01:22.698: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:273431): GLib-GObject-CRITICAL **: 12:01:22.698: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:273431): WARNING **: 12:01:22.921: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:273431): WARNING **: 12:01:22.931: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+object address  : 0x7f8e7c7e6320
+object refcount : 2
+object type     : 0x7f8e7e274400
+object type name: RuntimeError
+object repr     : 
+lost sys.stderr
+Terminated
+
+(waybar:274049): GLib-GObject-CRITICAL **: 12:01:34.010: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:274049): GLib-GObject-CRITICAL **: 12:01:34.010: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:274049): WARNING **: 12:01:34.134: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:274049): WARNING **: 12:01:34.245: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:01:34.253] [error] Item '': No icon name or pixmap given.
+object address  : 0x7fa57d9c2320
+object address  : 0x7ff8a38da320
+object refcount : 2
+object refcount : 2
+object type     : 0x7fa57f474400
+object type     : 0x7ff8a5474400
+object type name: RuntimeError
+object type name: RuntimeError
+object repr     : object repr     : RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")
+
+lost sys.stderr
+lost sys.stderr
+Terminated
+
+(waybar:274644): GLib-GObject-CRITICAL **: 12:01:46.156: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:274644): GLib-GObject-CRITICAL **: 12:01:46.156: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:274644): WARNING **: 12:01:46.383: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:275587): GLib-GObject-CRITICAL **: 12:02:14.217: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:275587): GLib-GObject-CRITICAL **: 12:02:14.217: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:275587): WARNING **: 12:02:14.448: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:275587): WARNING **: 12:02:14.457: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:02:14.465] [error] Item '': No icon name or pixmap given.
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+
+(waybar:276671): GLib-GObject-CRITICAL **: 12:02:44.446: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:276671): GLib-GObject-CRITICAL **: 12:02:44.446: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:276671): WARNING **: 12:02:44.677: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:276671): WARNING **: 12:02:44.686: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:02:44.694] [error] Item '': No icon name or pixmap given.
+Terminated
+
+(waybar:277871): GLib-GObject-CRITICAL **: 12:03:17.976: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:277871): GLib-GObject-CRITICAL **: 12:03:17.976: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:277871): WARNING **: 12:03:18.206: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:03:18.213] [error] Item '': No icon name or pixmap given.
+[2023-12-01 12:03:18.221] [error] Item '': No icon name or pixmap given.
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 72, in signal_handler
+    logger.debug('Received signal to stop, exiting')
+  File "/usr/lib/python3.11/logging/__init__.py", line 1467, in debug
+    def debug(self, msg, *args, **kwargs):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+
+(waybar:278607): GLib-GObject-CRITICAL **: 12:03:39.134: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:278607): GLib-GObject-CRITICAL **: 12:03:39.134: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:278607): WARNING **: 12:03:39.362: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:278607): WARNING **: 12:03:39.372: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1552, in _shutdown
+    for atexit_call in reversed(_threading_atexits):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Terminated
+
+(waybar:279751): GLib-GObject-CRITICAL **: 12:04:14.418: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:279751): GLib-GObject-CRITICAL **: 12:04:14.418: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:279751): WARNING **: 12:04:14.647: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+object address  : 0x7fdf2425a320
+object refcount : 2
+object type     : 0x7fdf25c74400
+object type name: RuntimeError
+object repr     : RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")
+lost sys.stderr
+Terminated
+
+(waybar:281054): GLib-GObject-CRITICAL **: 12:04:56.318: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:281054): GLib-GObject-CRITICAL **: 12:04:56.318: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:281054): WARNING **: 12:04:56.546: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:281796): GLib-GObject-CRITICAL **: 12:05:12.121: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:281796): GLib-GObject-CRITICAL **: 12:05:12.121: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:281796): WARNING **: 12:05:12.245: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:281796): WARNING **: 12:05:12.359: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:05:12.370] [error] Item '': No icon name or pixmap given.
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1534, in _shutdown
+    def _shutdown():
+    
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Terminated
+
+(waybar:282791): GLib-GObject-CRITICAL **: 12:05:40.363: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:282791): GLib-GObject-CRITICAL **: 12:05:40.363: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:282791): WARNING **: 12:05:40.494: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:282791): WARNING **: 12:05:40.610: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:05:40.621] [error] Item '': No icon name or pixmap given.
+
+(waybar:282791): LIBDBUSMENU-GLIB-WARNING **: 12:06:54.341: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:282791): LIBDBUSMENU-GLIB-WARNING **: 12:06:54.343: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:282791): LIBDBUSMENU-GLIB-WARNING **: 12:06:57.954: Unable to replace properties on 0: Error getting properties for ID
+
+(waybar:282791): LIBDBUSMENU-GLIB-WARNING **: 12:06:57.955: Unable to replace properties on 0: Error getting properties for ID
+
+** (waybar:282791): WARNING **: 12:07:10.367: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:287693): GLib-GObject-CRITICAL **: 12:08:29.826: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:287693): GLib-GObject-CRITICAL **: 12:08:29.826: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:287693): WARNING **: 12:08:30.051: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+    sys.exit(0)
+SystemExit: 0
+SystemExit: 0
+Terminated
+
+(waybar:289168): GLib-GObject-CRITICAL **: 12:09:15.336: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:289168): GLib-GObject-CRITICAL **: 12:09:15.336: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:289168): WARNING **: 12:09:15.460: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:289168): WARNING **: 12:09:15.581: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:09:15.589] [error] Item '': No icon name or pixmap given.
+Terminated
+
+(waybar:290909): GLib-GObject-CRITICAL **: 12:10:13.561: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:290909): GLib-GObject-CRITICAL **: 12:10:13.561: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:290909): WARNING **: 12:10:13.689: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:290909): WARNING **: 12:10:13.810: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+object address  : 0x7fe637f6e3e0
+object address  : 0x7fc18ab0e3e0
+object refcount : 2
+object type     : 0x7fe639a74400
+object type name: RuntimeError
+object refcount : 2
+object repr     : object type     : 0x7fc18c674400
+object type name: RuntimeError
+object repr     : 
+lost sys.stderr
+
+lost sys.stderr
+Terminated
+
+(waybar:291995): GLib-GObject-CRITICAL **: 12:10:43.834: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:291995): GLib-GObject-CRITICAL **: 12:10:43.835: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:291995): WARNING **: 12:10:43.966: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:291995): WARNING **: 12:10:44.077: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:294841): GLib-GObject-CRITICAL **: 12:12:26.912: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:294841): GLib-GObject-CRITICAL **: 12:12:26.912: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:294841): WARNING **: 12:12:27.041: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:294841): WARNING **: 12:12:27.155: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:296071): GLib-GObject-CRITICAL **: 12:12:57.550: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:296071): GLib-GObject-CRITICAL **: 12:12:57.550: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:296071): WARNING **: 12:12:57.784: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:296071): WARNING **: 12:12:57.793: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+object address  : 0x7f85e25363e0
+object address  : 0x7f7d656863e0
+object refcount : 2
+object refcount : 2
+object type     : 0x7f85e4074400
+object type     : 0x7f7d67274400
+object type name: RuntimeError
+object type name: RuntimeError
+object repr     : object repr     : RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")RuntimeError("reentrant call inside <_io.BufferedWriter name='<stdout>'>")
+
+lost sys.stderr
+lost sys.stderr
+Terminated
+
+(waybar:296727): GLib-GObject-CRITICAL **: 12:13:07.997: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:296727): GLib-GObject-CRITICAL **: 12:13:07.997: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:296727): WARNING **: 12:13:08.229: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:298301): GLib-GObject-CRITICAL **: 12:14:00.485: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:298301): GLib-GObject-CRITICAL **: 12:14:00.485: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:298301): WARNING **: 12:14:00.715: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+
+(waybar:298931): GLib-GObject-CRITICAL **: 12:14:12.108: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:298931): GLib-GObject-CRITICAL **: 12:14:12.108: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:298931): WARNING **: 12:14:12.237: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:298931): WARNING **: 12:14:12.347: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+[2023-12-01 12:14:12.360] [error] Item '': No icon name or pixmap given.
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1534, in _shutdown
+  File "/usr/lib/python3.11/threading.py", line 1534, in _shutdown
+    def _shutdown():
+    
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+    def _shutdown():
+    
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Terminated
+
+(waybar:301037): GLib-GObject-CRITICAL **: 12:15:19.818: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:301037): GLib-GObject-CRITICAL **: 12:15:19.818: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+
+** (waybar:301037): WARNING **: 12:15:20.051: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+(waybar:302446): GLib-GObject-CRITICAL **: 12:16:04.853: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:302446): GLib-GObject-CRITICAL **: 12:16:04.853: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+[2023-12-01 12:16:05.085] [error] Item '': No icon name or pixmap given.
+[2023-12-01 12:16:05.093] [error] Item '': No icon name or pixmap given.
+
+** (waybar:302446): WARNING **: 12:16:05.095: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:302446): WARNING **: 12:17:14.606: Status Notifier Item with bus name ':1.15' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered

@@ -1,59 +1,56 @@
 * {
-    border: none;
-    border-radius: 0px;
-    font-family: "monospace";
-    font-size: 13px;
-    min-height: 0px;
+	border: none;
+	border-radius: 0px;
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 12px;
+	min-height: 10px;
 }
 
 window#waybar {
-	background: rgba(0, 0, 0, 255);
-  color: #191724;
+	background: rgba(0, 0, 0, 1);
 }
 
 tooltip {
-    background: #000000;
-    opacity: 1;
-    border-radius: 15px 15px 15px 15px;
-    border-width: 1px;
-}
-
-tooltip label{
-    border-radius: 15px;
-    color: #cdd6f4;
+	border-radius: 10px;
+	background: #000000;
+	color: #cdd6f4;
+	border-radius: 7px;
+	border-width: 0px;
 }
 
 #workspaces button {
-  /* padding: 10px; */
-  color: #585b70;
-  margin-right: 0px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #585b70;
+	background: #000000;
+	animation: gradient_f 20s ease-in infinite;
+	transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
-  color: #ebbcba;
-  color: #cdd6f4;
-  color: #a6adc8;
-  color: #C6D0F5;
-  color: #ffffff;
-}
-
-#workspaces button.focused {
-  color: #ebbcba;
-  color: #cdd6f4;
-  color: #a6adc8;
-  color: #C6D0F5;
-  color: #ffffff;
-  border-radius: 15px;
-}
-
-#workspaces button.urgent {
-  color: #f38ba8;
-  border-radius: 15px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #ffffff;
+	background: #000000;
+	animation: gradient_f 20s ease-in infinite;
+	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button:hover {
-  color: #f2cdcd;
-  border-radius: 15px;
+	padding: 0px;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #ffffff;
+	background: #000000;
+	animation: gradient_f 20s ease-in infinite;
+	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.urgent {
+	color: #f38ba8;
 }
 
 #battery,
@@ -74,204 +71,201 @@ tooltip label{
 #workspaces,
 #custom-gpu-usage,
 #custom-gpu-ram,
+#window,
 #network {
-  background: #11111b;
-  background: #ebbcba;
-  background: #000000;
-  color: #ebbcba;
-  color: #cdd6f4;
-  color: #a6adc8;
-  color: #C6D0F5;
-  color: #ffffff;
-	padding: 0px 0px;
-	margin: 0px 0px;
-	margin-top: -3px;
+	color: #ffffff;
+	background: #000000;
+	opacity: 1;
+	margin: 3px 0px 3px 0px;
+	padding-left: 10px;
 	padding-right: 10px;
-	padding-left: 0px;
-  border-radius: 15px;
+	margin-right: 0px;
 }
 
-#workspaces {
-  border-radius: 15px;
-  margin-left: 7px;
-  margin-right: 10px;
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-rr_end {
+	color: #ffffff;
+	background: #000000;
+	opacity: 1;
+	margin: 2px 0px 2px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
 }
 
 #window {
-  margin-left: 60px;
-  margin-right: 60px;
-}
+	margin-right: 10px;
+	margin-left: 10px;
 
-
-@keyframes blink {
-    to {
-        color: #000000;
-    }
 }
 
 #battery.critical:not(.charging) {
 	background-color: #f38ba8;
-  animation-name: blink;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
-
-/* LEFT GROUP */
-#cpu {
-	border-radius: 15px 15px 15px 15px;
-	border-right: 0px; 
-  margin-right: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-#custom-gpu-usage {
-	border-radius: 15px 15px 15px 15px;
-	border-right: 0px; 
-  margin-right: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-#custom-gpu-ram {
-	border-radius: 15px 15px 15px 15px;
-	border-right: 0px; 
-  margin-right: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-#memory {
-	border-radius: 15px 15px 15px 15px;
-	border-right: 0px;
-  margin-left: 0px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#disk {
-	border-radius: 15px 15px 15px 15px;
-	margin-right: 10px;
-	border-right: 0px;
-  /* margin-left: 10px; */
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#battery {
-	border-radius: 15px 15px 15px 15px;
-	/* padding-left: 15px; */
-	margin-left: 0px;
-	margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#custom-uptime {
-	border-radius: 15px 15px 15px 15px;
-	/* padding-left: 15px; */
-	margin-left: 0px;
-	margin-right: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* RIGHT GROUP */
-
-/* #custom-spotify { */
-/* } */
 
 #custom-spotify {
-   border-radius: 15px 15px 15px 15px;
-   margin-right: 10px;
-   margin-left: 0;
-}
-
-#custom-weather {
-	border-radius: 15px 15px 15px 15px;
-  margin-right: 10px;
-  /* margin-left: 0px; */
-}
-
-#pulseaudio {
-	border-radius: 20px 20px 20px 20px;
-  margin-right: 10px;
-  /* margin-left: 0px; */
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#backlight {
-	border-radius: 15px 15px 15px 15px;
-  margin-right: 10px;
-  /* margin-left: 0px; */
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#network {
-  border-radius: 15px 15px 15px 15px;
-  margin-right: 10px;
-  /* margin-left: 0px; */
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#network.disconnected,#network.disabled {
-}
-
-#clock {
-   /* border-radius: 15px 15px 15px 15px; */
-   margin-right: 10px;
-   /* margin-left: 10; */
-}
-
-#tray {
-	border-radius: 15px 15px 15px 15px;
-	margin-right: 10px;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-}
-
-#custom-power {
-   border-radius: 15px 15px 15px 15px;
-   margin-right: 10px;
-   margin-left: 0;
-   font-size: 14px;
-}
-
-/* END */
-
-#custom-menu {
-	background-color: #f5c2e7;
+    border-radius: 21px 21px 21px 21px;
 }
 
 
-#custom-updater {
-	background-color: #e6ed7b;
+#custom-r_end {
+    border-radius: 0px 21px 21px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
 }
 
-
-
-#custom-cycle_wall {
-	background-color: #89dceb;
+#custom-l_end {
+    border-radius: 21px 0px 0px 21px;
+    margin-left: 9px;
+    padding-left: 3px;
 }
 
-#custom-vpn_check {
-	background-color: #a6e3a1;
+#custom-sr_end {
+    border-radius: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
 }
 
-
-#custom-keybindings {
-  background-color: #86b4fa;
-  font-size: 24px;
+#custom-sl_end {
+    border-radius: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
 }
 
+#custom-rr_end {
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-rl_end {
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 9px;
+    padding-left: 3px;
+}
+/**/
+/**/
+/* #cpu { */
+/* 	border-radius: 21px 21px 21px 21px; */
+/* 	border-right: 0px;  */
+/* 	margin-right: 10px; */
+/* 	padding-right: 10px; */
+/* 	padding-left: 10px; */
+/* } */
+/* #custom-gpu-usage { */
+/* 	border-radius: 0px 21px 21px 0px; */
+/* 	border-right: 0px;  */
+/* 	margin-right: 10px; */
+/* 	padding-right: 10px; */
+/* 	padding-left: 10px; */
+/* } */
+/**/
+/* #custom-gpu-ram { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/* 	border-right: 0px;  */
+/*   margin-right: 10px; */
+/*   padding-right: 10px; */
+/*   padding-left: 10px; */
+/* } */
+/* #memory { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/* 	border-right: 0px; */
+/*   margin-left: 0px; */
+/*   margin-right: 10px; */
+/*   padding-left: 10px; */
+/*   padding-right: 10px; */
+/* } */
+/**/
+/* #disk { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/* 	margin-right: 10px; */
+/* 	border-right: 0px; */
+/*   padding-left: 10px; */
+/*   padding-right: 10px; */
+/* } */
+/**/
+/* #battery { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/* 	margin-left: 0px; */
+/* 	margin-right: 10px; */
+/*   padding-left: 10px; */
+/*   padding-right: 10px; */
+/* } */
+/**/
+/* #custom-uptime { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/* 	margin-left: 0px; */
+/* 	margin-right: 10px; */
+/*   padding-left: 15px; */
+/*   padding-right: 15px; */
+/* } */
+/**/
+/* #custom-spotify { */
+/*    border-radius: 15px 15px 15px 15px; */
+/*    margin-right: 10px; */
+/*    margin-left: 0; */
+/* } */
+/**/
+/* #custom-weather { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/*   margin-right: 10px; */
+/* } */
+/**/
+/* #pulseaudio { */
+/* 	border-radius: 20px 20px 20px 20px; */
+/*   margin-right: 10px; */
+/*   padding-left: 10px; */
+/*   padding-right: 10px; */
+/* } */
+/**/
+/* #backlight { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/*   margin-right: 10px; */
+/*   padding-left: 10px; */
+/*   padding-right: 10px; */
+/* } */
+/**/
+/* #network { */
+/*   border-radius: 15px 15px 15px 15px; */
+/*   margin-right: 10px; */
+/*   padding-left: 10px; */
+/*   padding-right: 10px; */
+/* } */
+/**/
+/* #network.disconnected,#network.disabled { */
+/* } */
+/**/
+/* #clock { */
+/*    margin-right: 10px; */
+/* } */
+/**/
+/* #tray { */
+/* 	border-radius: 15px 15px 15px 15px; */
+/* 	margin-right: 10px; */
+/* } */
+/**/
+/* #tray > .passive { */
+/*     -gtk-icon-effect: dim; */
+/* } */
+/**/
+/* #tray > .needs-attention { */
+/*     -gtk-icon-effect: highlight; */
+/* } */
+/**/
+/* #custom-power { */
+/*    border-radius: 15px 15px 15px 15px; */
+/*    margin-right: 5px; */
+/*    margin-left: 0; */
+/*    font-size: 14px; */
+/* } */
+/**/

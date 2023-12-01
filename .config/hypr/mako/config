@@ -29,7 +29,7 @@ max-visible=5
 layer=overlay
 anchor=top-right
 
-background-color=#11111b
+background-color=#000000
 text-color=#cdd6f4
 border-color=#11111b
 progress-color=over #89b4fa
