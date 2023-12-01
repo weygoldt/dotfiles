@@ -33,6 +33,7 @@ tooltip {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #ffffff;
+	color: #908caa;
 	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
@@ -44,6 +45,7 @@ tooltip {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #ffffff;
+	color: #908caa;
 	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
@@ -74,6 +76,7 @@ tooltip {
 #window,
 #network {
 	color: #ffffff;
+	color: #908caa;
 	/* background: #000000; */
 	opacity: 1;
 	margin: 3px 0px 3px 0px;

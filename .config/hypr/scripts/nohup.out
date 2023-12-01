@@ -1414,3 +1414,12 @@ Terminated
 ** (waybar:50092): WARNING **: 21:38:06.823: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
 
 ** (waybar:50092): WARNING **: 22:11:37.143: Status Notifier Item with bus name ':1.17' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:27971): WARNING **: 23:19:04.979: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:27971): WARNING **: 23:19:05.008: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+
+** (waybar:30892): WARNING **: 23:21:30.063: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:30892): WARNING **: 23:21:30.082: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
