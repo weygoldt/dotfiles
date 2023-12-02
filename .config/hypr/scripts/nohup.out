@@ -1436,3 +1436,59 @@ Terminated
 Terminated
 Terminated
 Gdk-Message: 10:05:50.237: Error reading events from display: Broken pipe
+Exception ignored in: <module 'threading' from '/usr/lib/python3.11/threading.py'>
+Exception ignored in sys.unraisablehook: <built-in function unraisablehook>
+Traceback (most recent call last):
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 76, in signal_handler
+    sys.exit(0)
+SystemExit: 0
+Gdk-Message: 15:17:34.963: Error reading events from display: Broken pipe
+Error: dprintf: 95
+Error: execution failedError: 
+dprintf: 90
+Error: execution failed
+Error: dprintf: 85
+Error: execution failed
+Error: dprintf: 80
+Error: execution failed
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 90
+Error: execution failed
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 90
+Error: execution failed
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Terminated
+Terminated
+Terminated

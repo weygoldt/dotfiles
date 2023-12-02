@@ -6,30 +6,18 @@ It is designed to be minimal, bleeding edge, but still beautiful. Almost everyth
 - **Distro**: [Arch Linux](https://archlinux.org/)
 - **WM**: [Hyprland](https://hyprland.org/)
 - **Panel**: [Waybar](https://github.com/Alexays/Waybar)
-- **Terminal**: [Alacritty](https://github.com/alacritty/alacritty)
+- **Terminal**: [Kitty](https://sw.kovidgoyal.net/kitty/)
 - **Shell**: [Zsh](https://www.zsh.org/) w/ [starship](https://starship.rs/) promt
 - **Launcher**: [Wofi](https://hg.sr.ht/~scoopta/wofi)
 - **Notifications**: [Mako](https://github.com/emersion/mako)
 - **Wallpapers**: [Swww](https://github.com/Horus645/swww)
-- **Code editor**: [Lunarvim](https://www.lunarvim.org/)
+- **Code editor**: [Neovim](https://www.lunarvim.org/)
 - **Notes**: [Obsidian](https://obsidian.md/) 
 - **Browser**: Firefox w/ [VimiumFF](https://github.com/philc/vimium)
 
 **Screenshots**
 
 ![Screenshots](.assets/showcase.png)
-
-**Keyboard navigation**
-
-![Keyboard](.assets/keyboard_nav_compressed.gif)
-
-**Mouse navigation**
-
-![Mouse](.assets/mouse_nav_compressed.gif)
-
-**Wallpaper switching**
-
-![Wallpaper](.assets/wallpaper_switch_compressed.gif)
 
 ## The why
 I use Arch Linux because of multiple reasons:
@@ -42,7 +30,7 @@ I switched to Wayland because it will slowly replace Xorg. I use a window manage
 
 ## The how
 
-To install the base system, I simpy use the [`archinstall`](https://wiki.archlinux.org/title/archinstall) script with the `minimal` option for the profile. To install the graphical frontend, I just follow the awesome tutorial on the [hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/). Now to initialize my dotfiles on a new system, I clone this repository like this:
+To install the base system, I simpy use the [`archinstall`](https://wiki.archlinux.org/title/archinstall) script with the `hyprland` and `plasma` (for fallback) profiles. To install the graphical frontend, I just follow the awesome tutorial on the [hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/). Now to initialize my dotfiles on a new system, I clone this repository like this:
 
 ```sh
 rm -rf $HOME/.dotfiles

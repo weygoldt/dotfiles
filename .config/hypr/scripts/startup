@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SCRIPTSDIR=$HOME/.config/hypr/scripts
+# SCRIPTSDIR=$HOME/.config/hypr/scripts
 
 # Kill already running process
 _ps=(waybar mako)
