@@ -153,8 +153,8 @@
     // "format-ethernet": "󰈀 {ipaddr}/{cidr}",
     "format-ethernet": "󰈀 ", 
     "format-linked": "󰈀 {ifname} (No IP)",
-    "format-disconnected": "睊 Disconnected",
-    "format-disabled": "睊 Disabled",
+    "format-disconnected": "󰤭 Disconnected",
+    "format-disabled": "󰤭 Disabled",
     "format-alt": " {bandwidthUpBits} |  {bandwidthDownBits}",
     "tooltip-format": " {ifname} via {gwaddr}",
     "on-click-right": "nmtui"

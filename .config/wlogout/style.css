@@ -1,8 +1,8 @@
 window {
     font-family: monospace;
     font-size: 12pt;
-    color: #cdd6f4; /* text */
-    background-color: rgba(30, 30, 46, 0.5);
+    color: #ffffff; /* text */
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 button {
@@ -11,8 +11,8 @@ button {
     background-size: 25%;
     border: none;
     background-color: rgba(30, 30, 46, 0);
-    margin: 5px;
-    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    margin: 30px;
+    /* transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out; */
 }
 
 button:hover {
@@ -20,7 +20,8 @@ button:hover {
 }
 
 button:focus {
-    background-color: #cba6f7;
+
+    background-color: #eb6f92;
     color: #1e1e2e;
 }
 
@@ -36,13 +37,6 @@ button:focus {
 }
 #logout:focus {
     background-image: image(url("./logout-hover.png"));
-}
-
-#suspend {
-    background-image: image(url("./sleep.png"));
-}
-#suspend:focus {
-    background-image: image(url("./sleep-hover.png"));
 }
 
 #shutdown {

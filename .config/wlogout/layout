@@ -21,15 +21,8 @@
 }
 {
     "label" : "logout",
-    "action" : "hyprctl dispatch exit 0",
+    "action" : "hyprctl dispatch exit",
     "text" : "Logout",
     "keybind" : "e"
-    "circular": true
-}
-{
-    "label" : "suspend",
-    "action" : "systemctl suspend",
-    "text" : "Suspend",
-    "keybind" : "u"
     "circular": true
 }

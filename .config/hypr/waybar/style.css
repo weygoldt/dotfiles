@@ -32,8 +32,7 @@ tooltip {
 	padding: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #ffffff;
-	color: #908caa;
+	color: #e0def4;
 	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
@@ -44,8 +43,7 @@ tooltip {
 	border-radius: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #ffffff;
-	color: #908caa;
+	color: #e0def4;
 	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
@@ -75,8 +73,7 @@ tooltip {
 #custom-gpu-ram,
 #window,
 #network {
-	color: #ffffff;
-	color: #908caa;
+	color: #e0def4;
 	/* background: #000000; */
 	opacity: 1;
 	margin: 3px 0px 3px 0px;

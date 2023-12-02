@@ -1423,3 +1423,16 @@ Terminated
 ** (waybar:30892): WARNING **: 23:21:30.063: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
 
 ** (waybar:30892): WARNING **: 23:21:30.082: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:7857): WARNING **: 09:50:40.793: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+
+** (waybar:7857): WARNING **: 09:50:40.857: Status Notifier Item with bus name ':1.18' and object path '/org/ayatana/NotificationItem/nm_applet' is already registered
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Gdk-Message: 10:05:50.237: Error reading events from display: Broken pipe
