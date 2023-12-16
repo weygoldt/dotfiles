@@ -1492,3 +1492,186 @@ Error: execution failed
 Terminated
 Terminated
 Terminated
+[2023-12-03 11:06:42.944] [error] * Line 16, Column 117
+  Syntax error: value, object or array expected.
+
+[2023-12-03 11:06:51.771] [error] * Line 16, Column 117
+  Syntax error: value, object or array expected.
+
+[2023-12-03 11:07:23.167] [error] * Line 16, Column 117
+  Syntax error: value, object or array expected.
+
+[2023-12-04 13:39:26.052] [error] * Line 242, Column 5
+  Missing ',' or '}' in object declaration
+
+
+(waybar:4587): GLib-GObject-CRITICAL **: 13:41:38.855: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '73'
+
+(waybar:4587): GLib-GObject-CRITICAL **: 13:41:38.856: ../glib/gobject/gsignal.c:2088: type 'GtkWindow' is already overridden for signal id '72'
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 90
+Error: execution failed
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 95
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+Error: dprintf: 100
+Error: execution failed
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates
+==> ERROR: Cannot fetch updates

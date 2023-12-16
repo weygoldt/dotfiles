@@ -8,6 +8,7 @@ unipath=$HOME/Uni
 
 # Good morning
 alias morning="python -m rich.markdown $scriptspath/morning.md"
+alias work="cd $HOME/Projects/mscthesis && nvim ."
 
 # dotfiles
 alias dfs="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
@@ -37,8 +38,6 @@ alias uni='cd $unipath'
 
 # Faster python
 alias py='python3'
-alias pipupdate='python $scriptspath/pipupdate.py'
-alias fix='black --line-length 80 . && isort .'
 
 # Open text editors
 alias nv='nvim' # neovim
@@ -57,8 +56,9 @@ alias cnt='find . -type f | wc -l'
 alias ..="cd .."
 alias ...="cd ../.."
 alias md="python -m rich.markdown"
-alias rm='rm -i'
-alias ran='source ranger'
+alias rm="rm -i"
+alias ran="source ranger"
+alias cop="gh copilot suggest"
 
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | rg ^/dev/ | sort" # list mounted drives only
 alias copy='rsync -ah --info=progress2' # copy with progress bar
@@ -92,9 +92,8 @@ alias denv='deactivate'
 
 # Backup a directory with rsync. Syntax is backup <source> <backupdir>.
 backup () {
-    sudo rsync -aAXv --delete --exclude={/dev/*,/proc/*,/sys/*,/tmp/*,/run/*,/mnt/*,/media/*,/home/*,/lost+found} "$1" "$2"
+    sudo rsync -aAXv --delete --exclude='/dev/*' --exclude='/proc/*' --exclude='/sys/*' --exclude='/tmp/*' --exclude='/run/*' --exclude='/mnt/*' --exclude='/media/*' --exclude='/home/*' --exclude='/lost+found' "$1" "$2"
 }
-
 # Restore a directory with rsync. Syntax is restore <backupdir> <restoredir>.
 restore () {
     sudo rsync -aAXv --delete $1 $2

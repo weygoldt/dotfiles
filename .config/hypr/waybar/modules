@@ -137,6 +137,12 @@
     "on-click": "$HOME/.config/hypr/scripts/wlogout",
   },
 
+  "custom/updates": {
+    "format": "",
+    "tooltip": false,
+    "interval": 1800,
+    "on-click": "$HOME/.config/hypr/scripts/wlogout",
+  },
   "disk": {
     "interval": 30,
     "format": " {percentage_used}",
@@ -171,11 +177,11 @@
   },
 
   "custom/updater":{
-    "format": " {}",
-    "exec": "checkupdates | wc -l",
-    "exec-if": "[[ $(checkupdates | wc -l) ]]",
-    "interval": 15,
-    "on-click": "kitty --class update -T update -o font_size=13 -e paru -Syu && notify-send 'The system has been updated' "
+    "format": " {}",
+    "exec": "checkupdates-with-aur | wc -l",
+    "exec-if": "[[ $(checkupdates-with-aur | wc -l) ]]",
+    "interval": 60,
+    // "on-click": "kitty --class update -T update -o font_size=13 -e paru -Syu && notify-send 'The system has been updated' " //
   },
 
   "custom/cycle_wall":{
