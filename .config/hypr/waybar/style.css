@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-	background: rgba(0, 0, 0, 1);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 tooltip {
@@ -33,6 +33,7 @@ tooltip {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #e0def4;
+	color: #f6c177;
 	/* background: #000000; */
 	animation: gradient_f 20s ease-in infinite;
 	transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
@@ -84,22 +85,15 @@ tooltip {
 	/* margin-bottom: 2px; */
 }
 
-/* #cpu { */
-/* 	color: #9ccfd8; */
-/* } */
-/* #memory { */
-/* 	color: #c4a7e7; */
-/* } */
-/* #disk { */
-/* 	color: #ebbcba; */
-/* } */
-/* #battery { */
-/* 	color: #f6c177; */
-/* } */
-/* #custom-gpu-ram, */
-/* #custom-gpu-usage{ */
-/* 	color: #eb6f92; */
-/* } */
+#cpu,
+#disk,
+#memory,
+#battery,
+#custom-gpu-ram,
+#custom-gpu-usage{
+	/* color: #9ccfd8; */
+	background: rgba(0, 0, 0, 0);
+} 
 
 
 #custom-l_end,
@@ -109,7 +103,7 @@ tooltip {
 #custom-rl_end,
 #custom-rr_end {
 	color: #ffffff;
-	background: #000000;
+	/* background: #000000; */
 	opacity: 1;
 	margin: 2px 0px 2px 0px;
 	padding-left: 0px;
@@ -124,7 +118,7 @@ tooltip {
 }
 
 #battery.critical:not(.charging) {
-	background-color: #f38ba8;
+	/* background-color: #f38ba8; */
 	animation-name: blink;
 	animation-duration: 0.5s;
 	animation-timing-function: linear;

@@ -1675,3 +1675,45 @@ Error: execution failed
 ==> ERROR: Cannot fetch updates
 ==> ERROR: Cannot fetch updates
 ==> ERROR: Cannot fetch updates
+Terminated
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+wc: write error
+Terminated
+Terminated
+==> ERROR: Cannot fetch updates
+wc: write error
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+==> ERROR: Cannot fetch updates
+wc: write error
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+
+(waybar:178393): Gtk-WARNING **: 18:10:27.747: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;

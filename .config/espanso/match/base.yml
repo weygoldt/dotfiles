@@ -343,3 +343,7 @@ matches:
 # Latex letters inline
   - trigger: ":sigma"
     replace: "$\\sigma$"
+
+# Emojis
+  - trigger: ":warn:"
+    replace: "⚠️"
