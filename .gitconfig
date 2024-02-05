@@ -22,9 +22,10 @@
 [gpg]
 	format = ssh
 [gpg "ssh"]
-	program = /opt/1Password/op-ssh-sign
+	; program = /opt/1Password/op-ssh-sign
+	program = /usr/bin/ssh
 [commit]
-	gpgsign = true
+	; gpgsign = true
 [init]
 	defaultBranch = main
 [interactive]

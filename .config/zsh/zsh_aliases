@@ -1,3 +1,5 @@
+source $HOME/.config/zsh/custom_aliases
+
 # VARIABLES --------------------------------------------------------------------
 
 phonepath=$HOME/Phone

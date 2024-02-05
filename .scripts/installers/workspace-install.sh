@@ -8,7 +8,7 @@ PACKS=(
     espanso-git
     1password
     1password-cli
-    git-credential-1password
+    # git-credential-1password
     cronie
     borg 
     unison
