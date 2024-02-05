@@ -28,8 +28,8 @@ autoload -U compinit; compinit
 unsetopt BEEP
 
 # Set default editor
-export EDITOR='/usr/bin/vim'
-export VISUAL='/usr/bin/vim'
+export EDITOR='/usr/bin/nvim'
+export VISUAL='/usr/bin/nvim'
 
 # add user to path
 export PATH="$HOME/.local/bin:$PATH"
@@ -63,7 +63,7 @@ bindkey '^ ' autosuggest-accept # bind strg+space to accept
 export PAGER="most"
 
 # for 1password to manage ssh keys
-export SSH_AUTH_SOCK=~/.1password/agent.sock
+# export SSH_AUTH_SOCK=~/.1password/agent.sock
 
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
@@ -71,25 +71,6 @@ eval "$(pyenv virtualenv-init -)"
 
 eval "$(starship init zsh)"
 export VIRTUAL_ENV_DISABLE_PROMPT=tr
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/weygoldt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/weygoldt/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/weygoldt/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/weygoldt/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
-
-#export NIX_PATH=nixpkgs="~/.nix-profile/bin"
 
 eval "$(direnv hook zsh)"
 

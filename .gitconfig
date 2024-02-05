@@ -1,7 +1,8 @@
 [user]
 	name = weygoldt
 	email = 88969563+weygoldt@users.noreply.github.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBNiaeCo+2QhsQfCWgLeAzfl2H0m5mdFmO/noJg2tGpa
+	signingkey = .ssh/id_ed25519.pub
+	; signinkey = 25A8A95B66767821
 [alias]
 	change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $VAR`\\\" = '$OLD' ]]; then export $VAR='$NEW'; fi\" $@; }; f"
 	tracked="ls-tree --full-tree -r --name-only HEAD"
@@ -23,7 +24,7 @@
 	format = ssh
 [gpg "ssh"]
 	; program = /opt/1Password/op-ssh-sign
-	program = /usr/bin/ssh
+	; program = /usr/bin/ssh
 [commit]
 	; gpgsign = true
 [init]
