@@ -79,6 +79,9 @@ require('lazy').setup({
   -- VimTex
   'lervag/vimtex',
 
+  -- Tmux Navigation
+  "christoomey/vim-tmux-navigator",
+
   -- Zen mode
   {
     'folke/zen-mode.nvim',
@@ -125,7 +128,7 @@ require('lazy').setup({
         list_models = '<function>', -- Retrieves a list of model names
         debug = false -- Prints errors and the command which is run.
     },
-  }, 
+  },
 
   -- Nvim-tree
   'nvim-tree/nvim-tree.lua',
