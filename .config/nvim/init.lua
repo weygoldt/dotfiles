@@ -79,6 +79,18 @@ require('lazy').setup({
   -- VimTex
   'lervag/vimtex',
 
+  -- Twilight
+  {
+    'folke/twilight.nvim',
+    opts = {
+      dimming = {
+        alpha = 0.25, -- amount of dimming
+        -- we try to get the foreground from the highlight groups or fallback color
+        color = { 'Normal', '#e5e5e5' },
+      },
+    },
+  },
+
   -- Zen mode
   {
     'folke/zen-mode.nvim',
