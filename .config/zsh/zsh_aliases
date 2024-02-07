@@ -45,7 +45,7 @@ alias py='python3'
 alias nv='nvim' # neovim
 alias vim='nvim'
 alias hx='helix'
-alias code='code --password-store=kwallet5'
+alias code='code --password-store=kwallet5 --enable-features=UseOzonePlatform --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto'
 
 # Shell helpers
 alias lss='exa -ah --icons --group-directories-first' # list all files

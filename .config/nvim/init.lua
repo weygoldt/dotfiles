@@ -41,6 +41,8 @@ P.S. You can delete this when you're done too. It's your config now :)
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
+--
+
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
@@ -425,6 +427,21 @@ vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous dia
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<leader>ee', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
+
+-- Center buffer while navigating in lua
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { silent = true })
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { silent = true })
+vim.keymap.set('n', '{', '{zz', { silent = true })
+vim.keymap.set('n', '}', '}zz', { silent = true })
+vim.keymap.set('n', 'N', 'Nzz', { silent = true })
+vim.keymap.set('n', 'n', 'nzz', { silent = true })
+vim.keymap.set('n', 'G', 'Gzz', { silent = true })
+vim.keymap.set('n', 'gg', 'ggzz', { silent = true })
+vim.keymap.set('n', '<C-i>', '<C-i>zz', { silent = true })
+vim.keymap.set('n', '<C-o>', '<C-o>zz', { silent = true })
+vim.keymap.set('n', '%', '%zz', { silent = true })
+vim.keymap.set('n', '*', '*zz', { silent = true })
+vim.keymap.set('n', '#', '#zz', { silent = true })
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
