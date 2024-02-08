@@ -43,7 +43,7 @@ alias py='python3'
 alias nv='nvim' # neovim
 alias vim='nvim'
 alias hx='helix'
-alias code='code --password-store=kwallet5'
+alias code='code --password-store=kwallet5 --enable-features=UseOzonePlatform --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto'
 
 # Shell helpers
 alias lss='exa -ah --icons --group-directories-first' # list all files
@@ -80,8 +80,8 @@ alias dismountphone='sudo umount $phonepath'
 # Temporary aliases
 alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /mnt/efishdata/2016-colombia/'
 alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /mnt/efishdata/2018-habitat-preference/'
-alias tolab='rsync -avz --progress /home/weygoldt/Projects/mscthesis/ weygoldt@polarbear.am28.uni-tuebingen.de:/home/weygoldt/Projects/mscthesis/'
-alias fromlab='rsync -avz --progress weygoldt@polarbear.am28.uni-tuebingen.de:/home/weygoldt/Projects/mscthesis/ /home/weygoldt/Projects/mscthesis/'
+alias tolab='rsync -avz --delete --progress /home/weygoldt/Projects/mscthesis/ weygoldt@polarbear.am28.uni-tuebingen.de:/home/weygoldt/Projects/mscthesis/'
+alias fromlab='rsync -avz --delete --progress weygoldt@polarbear.am28.uni-tuebingen.de:/home/weygoldt/Projects/mscthesis/ /home/weygoldt/Projects/mscthesis/'
 
 
 # FUNCTIONS --------------------------------------------------------------------

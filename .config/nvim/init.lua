@@ -41,6 +41,8 @@ P.S. You can delete this when you're done too. It's your config now :)
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
+--
+
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
@@ -79,8 +81,20 @@ require('lazy').setup({
   -- VimTex
   'lervag/vimtex',
 
-  -- Tmux Navigation
-  "christoomey/vim-tmux-navigator",
+  -- Nice color previews
+  'NvChad/nvim-colorizer.lua',
+
+  -- Twilight
+  {
+    'folke/twilight.nvim',
+    opts = {
+      dimming = {
+        alpha = 0.25, -- amount of dimming
+        -- we try to get the foreground from the highlight groups or fallback color
+        color = { 'Normal', '#e5e5e5' },
+      },
+    },
+  },
 
   -- Zen mode
   {
@@ -128,7 +142,7 @@ require('lazy').setup({
         list_models = '<function>', -- Retrieves a list of model names
         debug = false -- Prints errors and the command which is run.
     },
-  },
+  }, 
 
   -- Nvim-tree
   'nvim-tree/nvim-tree.lua',
@@ -320,6 +334,14 @@ vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', {
   desc = 'Toggle [E]xplorer',
 })
 
+-- Transparent setup
+require("transparent").setup({
+  enable = true,
+})
+
+-- Colorizer setup
+require('colorizer').setup()
+
 -- VimTex
 -- PDF Viewer:
 -- http://manpages.ubuntu.com/manpages/trusty/man5/zathurarc.5.html
@@ -416,6 +438,21 @@ vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous dia
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<leader>ee', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
+
+-- Center buffer while navigating in lua
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { silent = true })
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { silent = true })
+vim.keymap.set('n', '{', '{zz', { silent = true })
+vim.keymap.set('n', '}', '}zz', { silent = true })
+vim.keymap.set('n', 'N', 'Nzz', { silent = true })
+vim.keymap.set('n', 'n', 'nzz', { silent = true })
+vim.keymap.set('n', 'G', 'Gzz', { silent = true })
+vim.keymap.set('n', 'gg', 'ggzz', { silent = true })
+vim.keymap.set('n', '<C-i>', '<C-i>zz', { silent = true })
+vim.keymap.set('n', '<C-o>', '<C-o>zz', { silent = true })
+vim.keymap.set('n', '%', '%zz', { silent = true })
+vim.keymap.set('n', '*', '*zz', { silent = true })
+vim.keymap.set('n', '#', '#zz', { silent = true })
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
