@@ -21816,3 +21816,558 @@ cd mscthesis
 code .
 echo /usr/bin/zsh
 /home/weygoldt/.pyenv/versions/3.11.5/bin/python /home/weygoldt/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/printEnvVariablesToFile.py /home/weygoldt/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/deactivate/zsh/envVars.txt
+dfs status
+dfs add .config/ranger/*
+dfs add .config/hypr/*
+dfs add .config/nvim/*
+clear
+lsa
+dfs status
+clear
+dfs add .config/zsh/*
+clear
+dfs status
+dfsc "merged some polarbear configs"
+dfsc "merged some polarbear configs"
+dfs push
+clear
+cd Projects/mscthesis/src/gridtools
+lsa
+cd gridtools
+cd utils
+lsa
+nv spectrograms.py
+...
+cd ../chripdetector
+cd chirpdetector
+lsa
+cd d
+cd detection
+lsa
+nv visualization_functions.py
+clear
+cd 
+rsync -avz --progress "weygoldt@polarbear.am28.uni-tuebingen.de:.config/nvim/init.lua" .config/nvim/init.lua
+clera
+clear
+cd Projects/mscthesis/src/chripdetector/chirpdetector/detection
+nv .
+nv visualization_functions.py
+clear
+...
+...
+clear
+cd src
+lsa
+nv assignment_nn_prototype.py
+c;ear
+clear
+nv assignment_nn_prototype.py
+cd ..
+ls
+cd models
+lsa
+mv assignment_nn.pt assignment_mlp.pt
+clear
+..
+ls
+cd src/chripdetector
+lsa
+cd chirpdetector
+lsa
+cd d
+cd detection
+lsa
+nv assignment_models.py
+...
+..
+nv assignment_models.py
+nv assignment_nn_prototype.py
+clear
+exit
+fromlab
+cd Projects/mscthesis/reports/slides/meems1
+...
+..
+cpd detect -p data/raw/local/competition_subsets 
+clear
+cpd detect -p data/raw/local/competition_subsets 
+clear
+mv models/assignment_mlp.pt models/assignment_mlp_stash.pt
+cd src/chripdetector
+cd docs
+lsa
+nv contributing.md
+clear
+..
+cd chirpdetector/detection
+lsa
+nv assignment_models.py
+clear
+...
+nv .
+clear
+git add .
+git commit -m "zero arrays in mlp assigner"
+clear
+git push
+clear
+lsa
+rm 2
+lsa
+rm logfile.log
+rm logfile.log
+clea
+rlsa
+cls
+aclear
+clear
+lsa
+cd chirpdetector
+lsa
+cd d
+cd detection
+lsa
+clea
+rclea
+rclea
+clear
+lsa
+nv detect_chirps.py
+clear
+lsa
+clear
+...
+git status
+clear
+git add .
+git commit -m "changed nms thresh"
+git push
+...
+lsas
+lsa
+git add .
+git statuis
+git status
+clear
+git commit -m "improved assignment mlp training script"
+git push
+clear
+tolab
+tolab
+clear
+cd Projects/mscthesis
+cpd detect -p data/raw/local/competition_subsets 
+cpd detect -p data/raw/local/competition_subsets 
+clear
+cd Projects/mscthesis
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+clear
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+clear
+py src/assignment_nn_prototype.py
+clear
+cpd detect -p data/raw/local/competition_subsets 
+clear
+cpd detect -p data/raw/local/competition_subsets 
+cpd detect -p data/raw/local/competition_subsets 
+cpd detect -p data/raw/local/competition_subsets 
+clear
+py src/assignment_nn_prototype.py
+py src/assignment_nn_prototype.py
+clear
+cpd detect -p data/raw/local/competition_subsets 
+k
+cpd detect -p data/raw/local/competition_subsets 
+cpd detect -p data/raw/local/competition_subsets 
+cpd detect -p data/raw/local/competition_subsets 
+clear
+cd src/chripdetector
+las
+las
+lsa
+cd chirpdetector
+cd d
+cd detection
+lsa
+nv detect
+nv detect_chirps.py
+cpd detect -p data/raw/local/competition_subsets 
+...
+..
+..
+cpd detect -p data/raw/local/competition_subsets 
+cd src/chripdetector/chirpdetector/detection
+lsa
+nv detect_chirps.py
+clear
+git add .
+git commit -m "started mod on det plot":
+git push
+clear
+lsa
+...
+..
+..
+clear
+git status
+tolab
+clear
+rsync -avz --progress "weygoldt@polarbear.am28.uni-tuebingen.de:.config/nvim/init.lua" .config/nvim/init.lua
+rsync -avz --progress "weygoldt@polarbear.am28.uni-tuebingen.de:.config/hypr/hyprland.conf" .config/hypr/hyprland.conf
+cd .config/hypr/
+nv hyprland.conf
+exit
+htop
+htop
+top
+clear
+cd Projects
+mkdir stefan_hackathon
+cd stefan_hackathon
+lsa
+cd ..
+mv stefan_hackathon stefan_pulsedetection
+clera
+cd Projects/stefan_pulsedetection
+clear
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+cd Projects/stefan_pulsedetection
+py load_wav.py
+cd Projects/stefan_pulsedetection
+py load_wav.py
+cd Projects/stefan_pulsedetection
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+cd Projects/stefan_pulsedetection
+lsa
+pyenv local base
+clear
+touch load_wav.py
+nv load_wav.py
+pip install audioio
+clear
+nv load_wav.py
+py load_wav.py
+clear
+nv load_wav.py
+py load_wav.py
+nv load_wav.py
+py load_wav.py
+nv load_wav.py
+py load_wav.py
+clear
+nv load_wav.py
+cd Projects/stefan_pulsedetection
+nv load_wav.py
+exit
+cd Projects/stefan_pulsedetection
+py 
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+py load_wav.py
+cd Projects/mscthesis
+cd src
+ls
+nv cluster_chirps.py
+cd Projects/mscthesis
+lsa
+git status
+clear
+fromlab
+cd .config/hypr/
+nv hyprland.conf
+cd
+nv .config/kitty
+cd Projects/mscthesis/reports/slides/meems1
+firefox slides.html
+nv slides.qmd
+firefox slides.html
+nv slides.qmd
+exit
+cd Projects/mscthesis/reports/slides/meems1
+make watch
+exit
+cd Projects/mscthesis/reports/thesis
+nv Thesis.tex
+cd Projects/mscthesis/reports
+ls
+cd thesis
+lsas
+lsa
+okular Thesis.pdf
+make watch
+clear
+nv Makefile
+make watch
+clear
+cd Projects/mscthesis/reports/thesis
+ls
+nv Thesis.tex
+exut
+exit
+cd Projects/mscthesis/reports
+ls
+cd thesis
+ls
+nv Thesis.
+nv Thesis.tex
+make watch
+cd ../poster
+ls
+cat Makefile
+clear
+cd ../thesis
+nv Makefile
+make watch
+xetex Thesis.tex
+clear
+xetex -f Thesis.tex
+clear
+pdflatex main.tex
+pdflatex thesis.tex
+man pdflatex
+pdflatex -h
+pdflatex -help
+clear
+make watch
+nv Makefile
+make watch
+exit
+cd Projects/mscthesis/reports/thesis
+nv Thesis.tex
+nv .
+exit
+cd Projects/mscthesis/reports/thesis
+make watch
+exit
+cd Projects/mscthesis/reports
+cd slides/meems_1
+clear
+cd slides
+cd meems1
+nv slides.qmd
+firefox slides.html
+nv slides.qmd
+nv slides.qmd
+clear
+cd Projects/mscthesis/reports/slides/meems1
+make watch
+firefox slides.html
+make watch
+clear
+quarto render slides.qmd
+make watch
+clear
+cd Projects/mscthesis/reports/poster
+ls
+okular Thesis.pdf
+okular main.pdf
+cd .config/hypr/
+nv hyprland.conf
+ipython 
+cd Projects/mscthesis/reports/poster
+ipython
+pip install ipython
+ipython
+cd Projects/mscthesis/reports/poster
+nv main.
+nv main.tex
+exit
+cd Projects/mscthesis/reports/poster
+okular main.pdf
+make watch
+latexmk -f main.tex
+latexmk -f main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+make watch
+latexmk -f -xelatex main.tex
+latexmk -f -xelatex main.tex
+make watch
+exit
+cd Projects/mscthesis/reports/thesis
+make watch
+latexmk -f -xelatex Thesis.tex
+xetex -f Thesis.tex
+lear
+clear
+latexmk -f -xelatex Thesis.tex
+latexmk -f -xelatex Thesis.tex
+latexmk -f -xelatex Thesis.tex
+pdflatex -f Thesis.tex
+pdflatex -f Thesis.tex
+ckear
+clear
+cd Projects/mscthesis/reports/thesis
+nv main.tex
+nv Thesis.tex
+nv Thesis.tex
+paru -Ss zoxide
+paru -S zoxide
+paru -S zoxide
+clear
+nv .zshrc
+clear
+source .zshrc 
+clear
+z Projects/mscthesis/reports/slides
+clear
+cd
+z
+z slides
+clear
+nv .config/zsh/zsh_aliases
+nv .config/zsh/zsh_aliases
+cd
+z 
+nv .config/zsh/zsh_aliases
+clear
+cd
+cd sldies
+source .zshrc 
+cd slides
+cd slides
+z slides
+cd slides
+nv .config/zsh/zsh_aliases
+source .zshrc 
+cd slides
+z slides
+clear
+z projects
+cd
+z Projects/mscthesis/reports/slides
+z projects
+cd Proj
+cd 
+z Projects
+cd
+z projects
+clear
+ssh weygoldt@polarbear.am28.uni-tuebingen.de
+z projects 'z#/home/weygoldt/Projects'
+clear
+fzf
+cd tills_presentation_stuff/2016-04-18-19_22_videos
+;s
+ls
+dolphin .
+rm Upper\ Floors\ -\ HdZog\ -\ Free\ XXX\ HD,\ High\ Quality\ Sex\ Tube-html5ified-dummy.mkv
+ls
+cd
+fzf sex
+fzf
+fzf
+zi
+clear
+ssh weygoldt@polarbear.am28.uni-tuebingen.de
+nv .config/zsh/zsh_aliases
+nv .zshrc
+ssh weygoldt@polarbear.am28.uni-tuebingen.de
+clear
+cd pro
+source .zshrc 
+cd projects
+clear
+cdi
+clear
+nv .config/zsh/zsh_aliases
+clear

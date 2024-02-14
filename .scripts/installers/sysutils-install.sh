@@ -4,6 +4,8 @@ PACKS=(
     exa
     git
     bat
+    zoxide
+    fzf
     ripgrep
     tldr
     man-db

@@ -92,6 +92,7 @@ unset __conda_setup
 #export NIX_PATH=nixpkgs="~/.nix-profile/bin"
 
 eval "$(direnv hook zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 fpath+=~/.zfunc
 autoload -Uz compinit && compinit

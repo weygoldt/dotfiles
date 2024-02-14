@@ -84,6 +84,25 @@ require('lazy').setup({
   -- Nice color previews
   'NvChad/nvim-colorizer.lua',
 
+  -- tmux navigation
+  {
+    "christoomey/vim-tmux-navigator",
+    cmd = {
+      "TmuxNavigateLeft",
+      "TmuxNavigateDown",
+      "TmuxNavigateUp",
+      "TmuxNavigateRight",
+      "TmuxNavigatePrevious",
+    },
+    keys = {
+      { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
+      { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
+      { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
+      { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
+      { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
+    },
+  },
+
   -- Twilight
   {
     'folke/twilight.nvim',
@@ -324,7 +343,6 @@ require('lazy').setup({
 -- oil.nvim setup
 require("oil").setup()
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-
 vim.keymap.set({ 'n', 'v' }, '<leader>]', ':Gen<CR>')
 
 -- Nvim tree setup 
@@ -334,41 +352,36 @@ vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', {
   desc = 'Toggle [E]xplorer',
 })
 
--- Transparent setup
-require("transparent").setup({
-  enable = true,
-})
-
 -- Colorizer setup
 require('colorizer').setup()
+
+-- Tmux Navigator setup
+vim.keymap.set('n', '<C-h>', '<CMD>TmuxNavigateLeft<CR>', { silent = true })
+vim.keymap.set('n', '<C-j>', '<CMD>TmuxNavigateDown<CR>', { silent = true })
+vim.keymap.set('n', '<C-k>', '<CMD>TmuxNavigateUp<CR>', { silent = true })
+vim.keymap.set('n', '<C-l>', '<CMD>TmuxNavigateRight<CR>', { silent = true })
+vim.keymap.set('n', '<C-\\>', '<CMD>TmuxNavigatePrevious<CR>', { silent = true })
 
 -- VimTex
 -- PDF Viewer:
 -- http://manpages.ubuntu.com/manpages/trusty/man5/zathurarc.5.html
 vim.g['vimtex_view_method'] = 'zathura'
 vim.g['vimtex_quickfix_mode'] =0
-
 -- Ignore mappings
 vim.g['vimtex_mappings_enabled'] = 0
-
 -- Auto Indent
 vim.g['vimtex_indent_enabled'] = 0
-
 -- Syntax highlighting
 vim.g['vimtex_syntax_enabled'] = 1
-
 -- Error suppression:
 -- https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt
-
 vim.g['vimtex_log_ignore'] = ({
   'Underfull',
   'Overfull',
   'specifier changed to',
   'Token not allowed in a PDF string',
 })
-
 vim.g['vimtex_context_pdf_viewer'] = 'okular'
-
 -- vim.g['vimtex_complete_enabled'] = 1
 -- vim.g['vimtex_compiler_progname'] = 'nvr'
 -- vim.g['vimtex_complete_close_braces'] = 1
