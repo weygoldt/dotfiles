@@ -1717,3 +1717,29 @@ Terminated
 Terminated
 
 (waybar:178393): Gtk-WARNING **: 18:10:27.747: Failed to set text 'OsTEKKe - Planet - EntzugszKlinique & ScubaPro Remix  ' from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>
+Terminated
+[2024-02-29 20:33:10.553] [error] Hyprland IPC: Couldn't read (5)
+Gdk-Message: 20:33:10.553: Error reading events from display: Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/site-packages/gi/_ossighelper.py", line 92, in signal_notify
+    def signal_notify(source, condition):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 72, in signal_handler
+    logger.debug('Received signal to stop, exiting')
+  File "/usr/lib/python3.11/logging/__init__.py", line 1467, in debug
+    def debug(self, msg, *args, **kwargs):
+
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+  File "/home/weygoldt/.config/hypr/scripts/mediaplayer.py", line 74, in signal_handler
+    sys.stdout.flush()
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stdout>'>

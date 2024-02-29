@@ -78,6 +78,31 @@ require('lazy').setup({
   -- Github copilot
   'github/copilot.vim',
 
+  -- ChatGPT
+  {
+    "jackMort/ChatGPT.nvim",
+      event = "VeryLazy",
+      config = function()
+        require("chatgpt").setup({
+          openai_params = {
+            model = "gpt-4-turbo-preview",
+            frequency_penalty = 0,
+            presence_penalty = 0,
+            max_tokens = 300,
+            temperature = 0,
+            top_p = 1,
+            n = 1,
+          }
+      })
+      end,
+      dependencies = {
+        "MunifTanjim/nui.nvim",
+        "nvim-lua/plenary.nvim",
+        "folke/trouble.nvim",
+        "nvim-telescope/telescope.nvim"
+      }
+  },
+
   -- VimTex
   'lervag/vimtex',
 
@@ -100,18 +125,6 @@ require('lazy').setup({
       { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
       { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
-    },
-  },
-
-  -- Twilight
-  {
-    'folke/twilight.nvim',
-    opts = {
-      dimming = {
-        alpha = 0.25, -- amount of dimming
-        -- we try to get the foreground from the highlight groups or fallback color
-        color = { 'Normal', '#e5e5e5' },
-      },
     },
   },
 
@@ -142,27 +155,6 @@ require('lazy').setup({
     },
   },
  
-  -- Custom Parameters (with defaults)
-  {
-    "David-Kunz/gen.nvim",
-    opts = {
-        model = "codellama:13b-instruct", -- The default model to use.
-        display_mode = "split", -- The display mode. Can be "float" or "split".
-        show_prompt = false, -- Shows the Prompt submitted to Ollama.
-        show_model = false, -- Displays which model you are using at the beginning of your chat session.
-        no_auto_close = false, -- Never closes the window automatically.
-        init = function(options) pcall(io.popen, "ollama serve > /dev/null 2>&1 &") end,
-        -- Function to initialize Ollama
-        command = "curl --silent --no-buffer -X POST http://localhost:11434/api/generate -d $body",
-        -- The command for the Ollama service. You can use placeholders $prompt, $model and $body (shellescaped).
-        -- This can also be a lua function returning a command string, with options as the input parameter.
-        -- The executed command must return a JSON object with { response, context }
-        -- (context property is optional).
-        list_models = '<function>', -- Retrieves a list of model names
-        debug = false -- Prints errors and the command which is run.
-    },
-  }, 
-
   -- Nvim-tree
   'nvim-tree/nvim-tree.lua',
 
@@ -261,7 +253,7 @@ require('lazy').setup({
   },
 
   {
-    'rose-pine/neovim',
+    'weygoldt/rose-pine-neovim',
     name = 'rose-pine',
     priority = 1000,
     config = function()
@@ -354,6 +346,80 @@ vim.keymap.set('n', '<leader>e', ':NvimTreeFindFileToggle<CR>', {
 
 -- Colorizer setup
 require('colorizer').setup()
+
+-- -- Rose pine theme setup
+-- require("rose-pine").setup({
+--     variant = "auto", -- auto, main, moon, or dawn
+--     dark_variant = "main", -- main, moon, or dawn
+--     dim_inactive_windows = false,
+--     extend_background_behind_borders = true,
+--
+--     enable = {
+--         terminal = true,
+--         legacy_highlights = true, -- Improve compatibility for previous versions of Neovim
+--         migrations = true, -- Handle deprecated options automatically
+--     },
+--
+--     styles = {
+--         bold = true,
+--         italic = true,
+--         transparency = false,
+--     },
+--
+--     groups = {
+--         border = "muted",
+--         link = "iris",
+--         -- panel = "surface",
+--         panel = "#000000",
+--
+--         error = "love",
+--         hint = "iris",
+--         info = "foam",
+--         note = "pine",
+--         todo = "rose",
+--         warn = "gold",
+--
+--         git_add = "foam",
+--         git_change = "rose",
+--         git_delete = "love",
+--         git_dirty = "rose",
+--         git_ignore = "muted",
+--         git_merge = "iris",
+--         git_rename = "pine",
+--         git_stage = "iris",
+--         git_text = "rose",
+--         git_untracked = "subtle",
+--
+--         h1 = "iris",
+--         h2 = "foam",
+--         h3 = "rose",
+--         h4 = "gold",
+--         h5 = "pine",
+--         h6 = "foam",
+--     },
+--
+--     highlight_groups = {
+--         -- Comment = { fg = "foam" },
+--         -- VertSplit = { fg = "muted", bg = "muted" },
+--     },
+--
+--     before_highlight = function(group, highlight, palette)
+--         -- Disable all undercurls
+--         -- if highlight.undercurl then
+--         --     highlight.undercurl = false
+--         -- end
+--         --
+--         -- Change palette colour
+--         -- if highlight.fg == palette.pine then
+--         --     highlight.fg = palette.foam
+--         -- end
+--     end,
+-- })
+--
+-- vim.cmd("colorscheme rose-pine")
+-- -- vim.cmd("colorscheme rose-pine-main")
+-- -- vim.cmd("colorscheme rose-pine-moon")
+-- -- vim.cmd("colorscheme rose-pine-dawn")
 
 -- Tmux Navigator setup
 vim.keymap.set('n', '<C-h>', '<CMD>TmuxNavigateLeft<CR>', { silent = true })

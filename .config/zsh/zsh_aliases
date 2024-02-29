@@ -1,4 +1,5 @@
 # VARIABLES --------------------------------------------------------------------
+export OPENAI_API_KEY="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"
 
 phonepath=$HOME/Phone
 scriptspath=$HOME/.scripts
@@ -69,7 +70,7 @@ alias mtrx='cmatrix -abrks'
 # System utilities
 alias update='$scriptspath/updater.sh'
 alias clean='$scriptspath/cleaner.sh'
-alias sync="unison work"
+# alias sync="unison work"
 alias backuphome='$scriptspath/borgbackup_home.sh'
 alias pacman="sudo pacman --color auto"
 
@@ -80,8 +81,7 @@ alias dismountphone='sudo umount $phonepath'
 # Temporary aliases
 alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /mnt/efishdata/2016-colombia/'
 alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /mnt/efishdata/2018-habitat-preference/'
-alias tolab='rsync -avz --delete --progress /home/weygoldt/Projects/mscthesis/ weygoldt@polarbear.am28.uni-tuebingen.de:/home/weygoldt/Projects/mscthesis/'
-alias fromlab='rsync -avz --delete --progress weygoldt@polarbear.am28.uni-tuebingen.de:/home/weygoldt/Projects/mscthesis/ /home/weygoldt/Projects/mscthesis/'
+alias lsync='~/.scripts/synclab.sh'
 
 
 # FUNCTIONS --------------------------------------------------------------------
