@@ -1,5 +1,5 @@
 # VARIABLES --------------------------------------------------------------------
-export OPENAI_API_KEY="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"
+source $HOME/.config/zsh/api_keys
 
 phonepath=$HOME/Phone
 scriptspath=$HOME/.scripts
@@ -50,6 +50,7 @@ alias code='code --password-store=kwallet5 --enable-features=UseOzonePlatform --
 alias lss='exa -ah --icons --group-directories-first' # list all files
 alias lsa='exa -alh --group-directories-first' # list files with all info
 alias lst='exa --tree --icons' # list a directory tree
+alias lsp='exa --tree --icons --ignore-glob="*.pyc|__pycache__"' # list a directory tree without pyc files
 alias cl='clear'
 alias cat='bat --theme="Catppuccin-mocha"' # use bat as cat
 alias feh='feh --scale-down --auto-zoom'
