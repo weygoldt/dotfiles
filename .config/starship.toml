@@ -41,8 +41,7 @@ symbol = " "
 symbol = " "
 
 [git_branch]
-#symbol = " "
-symbol = "🌿 "
+symbol = " "
 
 [golang]
 symbol = " "
@@ -128,8 +127,8 @@ symbol = "📦 "
 symbol = "🪺 "
 
 [python]
-#symbol = " "
-symbol = "🐍 "
+symbol = " "
+# symbol = "🐍 "
 
 [rlang]
 symbol = "ﳒ "

@@ -1,4 +1,5 @@
 # VARIABLES --------------------------------------------------------------------
+# Source my API keys
 source $HOME/.config/zsh/api_keys
 
 phonepath=$HOME/Phone
@@ -22,7 +23,8 @@ alias gittracked='git ls-tree --full-tree -r --name-only HEAD' # list tracked
 alias gitc='git commit -am' # changes and deletions
 alias gitca='git add . && git commit -m' # stage and commit all files
 
-# the only git alias I need for my data science workflow
+# The only git alias I need for my data science workflow
+# do NOT use this if your .gitignore is not set up properly
 gt () {
     git add . && git commit -m "$1" && git pull && git push
 }
@@ -41,7 +43,7 @@ alias uni='cd $unipath'
 alias py='python3'
 
 # Open text editors
-alias nv='nvim' # neovim
+alias v='nvim' # neovim
 alias vim='nvim'
 alias hx='helix'
 alias code='code --password-store=kwallet5 --enable-features=UseOzonePlatform --enable-features=WaylandWindowDecorations --ozone-platform-hint=auto'
@@ -80,18 +82,9 @@ alias mountphone='ifuse $phonepath'
 alias dismountphone='sudo umount $phonepath'
 
 # Temporary aliases
-alias mountfield='sshfs efish@kraken:/home/efish/fielddata/colombia-2016 /mnt/efishdata/2016-colombia/'
-alias mountlab='sshfs efish@kraken:/home/efish/behavior/2018_habitat_preference/ /mnt/efishdata/2018-habitat-preference/'
 alias lsync='~/.scripts/synclab.sh'
 
-
 # FUNCTIONS --------------------------------------------------------------------
-
-# Activates a python virtual environment created with venv.
-aenv () {
-    source "$1"/bin/activate
-}
-alias denv='deactivate'
 
 # Backup a directory with rsync. Syntax is backup <source> <backupdir>.
 backup () {
@@ -140,5 +133,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
-# A good morning todo list

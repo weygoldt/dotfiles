@@ -34,10 +34,10 @@ set completion-fg               "#ebbcba"
 set completion-highlight-fg     "#26233a"
 set completion-highlight-bg     "#ebbcba"
 
-#set recolor-lightcolor          "#191724"
-set recolor-lightcolor          "#000000"
+set recolor-lightcolor          "#191724"
+# set recolor-lightcolor          "#000000"
 set recolor-darkcolor           "#e0def4"
 
-set recolor                     "false"
-set recolor-keephue             "false"
+set recolor                     "true"
+set recolor-keephue             "true"
 
