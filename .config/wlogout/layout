@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "~/.config/hypr/scripts/lockscreen",
+    "action" : "hyprlock",
     "text" : "Lock",
     "keybind" : "l"
     "circular": true
