@@ -36,4 +36,3 @@ elif [[ $answer =~ ^[Nn][Oo]$ ]]; then
 else
     echo "Invalid response. Exiting."
 fi
-

@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # create btrbk snapshot if btrbk is installed
 if hash btrbk  2>/dev/null; then
     echo $'\e[1;32mCreating btrbk snapshot ...\e[0m'
@@ -19,7 +18,6 @@ if hash timeshift  2>/dev/null; then
     sudo timeshift --create --comments "Snapshot created by updater.sh"
   fi
 fi
-
 
 echo $'\e[1;32mRefreshing mirrors ...\e[0m'
 sudo systemctl start reflector.service
