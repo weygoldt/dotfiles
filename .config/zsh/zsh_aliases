@@ -1,4 +1,4 @@
-source $HOME/.config/zsh/custom_aliases
+source $HOME/.config/zsh/api_keys
 
 # VARIABLES --------------------------------------------------------------------
 

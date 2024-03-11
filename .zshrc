@@ -73,6 +73,7 @@ eval "$(starship init zsh)"
 export VIRTUAL_ENV_DISABLE_PROMPT=tr
 
 eval "$(direnv hook zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 fpath+=~/.zfunc
 autoload -Uz compinit && compinit
